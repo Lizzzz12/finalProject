@@ -1,62 +1,66 @@
 # src/scrapers/selenium_scraper.py
 
+import time
+import os
+from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.service import Service as ChromeService
+from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
-from datetime import datetime, timezone
-import time
 
-from src.data.models import ProductData
-from src.data.database import create_table, save_product
-from src.utils.logger import logger
+def fetch_dynamic(
+    url: str,
+    headless: bool = True,
+    wait_time: int = 3,
+    do_scroll: bool = False
+) -> str:
+    opts = Options()
+    if headless:
+        opts.add_argument("--headless")
+    opts.add_argument("--disable-gpu")
+    opts.add_argument("--no-sandbox")
 
-def scrape_ebay_search(query="laptop", max_items=5):
-    logger.info(f"Starting eBay scrape for query: {query}")
+    service = Service(ChromeDriverManager().install())
+    driver = webdriver.Chrome(service=service, options=opts)
+    try:
+        driver.get(url)
+        time.sleep(wait_time)
+        if do_scroll:
+            driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+            time.sleep(wait_time)
+        return driver.page_source
+    finally:
+        driver.quit()
 
-    options = Options()
-    options.headless = True
-    options.add_argument("--window-size=1920,1080")
+def parse_product_page_dynamic(html: str) -> dict:
+    soup = BeautifulSoup(html, "lxml")
+    title_tag = soup.select_one("#productTitle")
+    name = title_tag.get_text(strip=True) if title_tag else None
 
-    driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
+    price_tag = (
+        soup.select_one("#priceblock_ourprice")
+        or soup.select_one("#priceblock_dealprice")
+        or soup.select_one("#price_inside_buybox")
+        or soup.select_one(".a-price .a-offscreen")
+    )
+    price = price_tag.get_text(strip=True) if price_tag else None
 
-    url = f"https://www.ebay.com/sch/i.html?_nkw={query}"
-    driver.get(url)
-
-    time.sleep(3)  # allow JS to load
-
-    items = driver.find_elements(By.CSS_SELECTOR, ".s-item")
-    logger.info(f"Found {len(items)} items")
-
-    results = []
-
-    for item in items[:max_items]:
-        try:
-            title_tag = item.find_element(By.CSS_SELECTOR, ".s-item__title")
-            price_tag = item.find_element(By.CSS_SELECTOR, ".s-item__price")
-            link_tag = item.find_element(By.CSS_SELECTOR, ".s-item__link")
-
-            title = title_tag.text.strip()
-            price = price_tag.text.strip().replace("US", "").replace("$", "").strip()
-            url = link_tag.get_attribute("href")
-
-            results.append(ProductData(
-                title=title,
-                price=price,
-                url=url,
-                source="eBay",
-                timestamp=datetime.now(timezone.utc)
-            ))
-
-        except Exception as e:
-            logger.warning(f"Skipping item due to error: {e}")
-
-    driver.quit()
-    return results
+    return {"site": "dynamic", "name": name, "price": price}
 
 if __name__ == "__main__":
-    create_table()
-    products = scrape_ebay_search(query="headphones", max_items=5)
-    for product in products:
-        save_product(product)
+    base = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../"))
+
+    # Offline test against your saved HTML
+    debug_file = os.path.join(base, "amazon_debug.html")
+    if os.path.exists(debug_file):
+        html = open(debug_file, encoding="utf-8").read()
+        print("\n=== Offline dynamic parse ===")
+        print(parse_product_page_dynamic(html))
+    else:
+        print(f"❌ {debug_file} not found")
+
+    # **Live** fetch test (optional—may get blocked by Amazon)
+    url = "https://www.amazon.com/dp/B08N5WRWNW"
+    print("\n=== Live dynamic fetch ===")
+    html_live = fetch_dynamic(url, headless=True, wait_time=5)
+    print(parse_product_page_dynamic(html_live))
