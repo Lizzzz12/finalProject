@@ -1,77 +1,72 @@
 # src/scrapers/static_scraper.py
 
+import time
 import requests
 from bs4 import BeautifulSoup
-import random
-from datetime import datetime, timezone
-from src.utils.logger import logger
-from src.data.models import ProductData
-from src.data.database import create_table, save_product
+from fake_useragent import UserAgent
 
-HEADERS_LIST = [
-    {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-                      "(KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36",
-        "Accept-Language": "en-US,en;q=0.9",
+def fetch_static(url: str, timeout: int = 10, max_retries: int = 3) -> str:
+    """
+    Download the raw HTML of `url`.
+    - Rotate user-agent each try.
+    - Retry up to `max_retries` on network errors.
+    Returns the page HTML as a string.
+    """
+    ua = UserAgent()
+    for attempt in range(1, max_retries + 1):
+        try:
+            headers = {"User-Agent": ua.random}
+            resp = requests.get(url, headers=headers, timeout=timeout)
+            resp.raise_for_status()
+            return resp.text
+        except Exception as e:
+            print(f"[fetch_static] attempt {attempt} failed: {e}")
+            time.sleep(1 * attempt)  # simple backoff
+    raise RuntimeError(f"fetch_static: all {max_retries} attempts failed for {url}")
+
+def parse_product_page_amazon(html: str) -> dict:
+    """
+    Given an Amazon product page HTML, extract:
+      - name: product title
+      - price: current price as string (e.g. "$19.99")
+    TODO: adjust the CSS selectors if Amazon changes its markup.
+    """
+    soup = BeautifulSoup(html, "lxml")
+
+    # 1) Find the product title
+    title_tag = soup.select_one("#productTitle")
+    name = title_tag.get_text(strip=True) if title_tag else None
+
+    # 2) Find the price
+    price_tag = soup.select_one(".a-price .a-offscreen")
+    price = price_tag.get_text(strip=True) if price_tag else None
+
+    return {
+        "name": name,
+        "price": price,
     }
-]
 
-def get_amazon_price(url):
-    headers = random.choice(HEADERS_LIST)
-    try:
-        response = requests.get(url, headers=headers, timeout=10)
-        if response.status_code != 200:
-            logger.warning(f"Failed request for {url}: {response.status_code}")
-            return None
+def parse_product_page_ebay(html: str) -> dict:
+    """
+    Given an eBay product page HTML, extract name & price.
+    TODO: replace selectors with the ones you discover via browser devtools.
+    """
+    soup = BeautifulSoup(html, "lxml")
 
-        soup = BeautifulSoup(response.content, 'html.parser')
+    name_tag = soup.select_one("#itemTitle")
+    name = name_tag.get_text(strip=True).replace("Details about  \xa0", "") if name_tag else None
 
-        # Dump raw HTML for inspection
-        with open("amazon_debug.html", "w", encoding="utf-8") as f:
-            f.write(soup.prettify())
+    price_tag = soup.select_one("span#prcIsum, span#mm-saleDscPrc")
+    price = price_tag.get_text(strip=True) if price_tag else None
 
-        # Extract title
-        title_tag = soup.find(id='productTitle')
-        title = title_tag.get_text(strip=True) if title_tag else "N/A"
+    return {
+        "name": name,
+        "price": price,
+    }
 
-        # Try to extract combined price (whole + fraction)
-        whole = soup.find('span', {'class': 'a-price-whole'})
-        fraction = soup.find('span', {'class': 'a-price-fraction'})
-        if whole and fraction:
-            whole_clean = whole.get_text(strip=True).replace('.', '')
-            fraction_clean = fraction.get_text(strip=True)
-            price_text = f"{whole_clean}.{fraction_clean}"
-        else:
-            # Fallback options
-            price = (
-                soup.find('span', {'class': 'a-offscreen'}) or
-                soup.find('span', {'id': 'priceblock_ourprice'}) or
-                soup.find('span', {'id': 'priceblock_dealprice'}) or
-                soup.find('span', {'class': 'a-price'})
-            )
-            price_text = price.get_text(strip=True).replace("..", ".") if price else "N/A"
-
-        return {
-            'title': title,
-            'price': price_text,
-            'url': url
-        }
-
-    except Exception as e:
-        logger.error(f"Error scraping Amazon URL {url}: {e}")
-        return None
-
+# Example usage (you can remove or move this into a test module later):
 if __name__ == "__main__":
-    test_url = "https://www.amazon.com/dp/B0BVZ7LS9N"  # Replace with any valid Amazon product URL
-    create_table()
-    result = get_amazon_price(test_url)
-    if result:
-        logger.info(f"Scraped: {result}")
-        product = ProductData(
-            title=result['title'],
-            price=result['price'],
-            url=result['url'],
-            source="Amazon",
-            timestamp=datetime.now(timezone.utc)
-        )
-        save_product(product)
+    url = "https://www.amazon.com/dp/B08N5WRWNW"
+    html = fetch_static(url)
+    data = parse_product_page_amazon(html)
+    print("Amazon product:", data)
