@@ -1,0 +1,6 @@
+.venv/
+.idea/
+__pycache__/
+*.py[cod]
+*.log
+data_output/products.jl

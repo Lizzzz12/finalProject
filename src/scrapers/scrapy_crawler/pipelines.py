@@ -1,11 +1,14 @@
-# src/scrapers/scrapy_crawler/pipelines.py
+# pipelines.py
+import json
 
-from src.data.database import create_table, save_product
-from src.utils.logger import logger
+class JsonWriterPipeline:
+    def open_spider(self, spider):
+        self.file = open("data_output/products.jl", "w", encoding="utf-8")
 
-def save_product_to_db(product):
-    try:
-        create_table()
-        save_product(product)
-    except Exception as e:
-        logger.error(f"Failed to save product: {e}")
+    def close_spider(self, spider):
+        self.file.close()
+
+    def process_item(self, item, spider):
+        line = json.dumps(dict(item), ensure_ascii=False) + "\n"
+        self.file.write(line)
+        return item
