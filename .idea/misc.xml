@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Black">
+<<<<<<< HEAD
     <option name="sdkName" value="Python 3.12 (MessyDS)" />
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.12 (MessyDS)" project-jdk-type="Python SDK" />
+=======
+    <option name="sdkName" value="Python 3.12 (modernwebappscraper)" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.12 (modernwebappscraper)" project-jdk-type="Python SDK" />
+>>>>>>> f0ba75326657d2188e7194689ed6a139e5d23b19
 </project>

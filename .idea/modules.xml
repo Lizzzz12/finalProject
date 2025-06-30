@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/final-project.iml" filepath="$PROJECT_DIR$/.idea/final-project.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/modernwebappscraper.iml" filepath="$PROJECT_DIR$/.idea/modernwebappscraper.iml" />
+>>>>>>> f0ba75326657d2188e7194689ed6a139e5d23b19
     </modules>
   </component>
 </project>

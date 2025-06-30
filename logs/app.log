@@ -1,0 +1,36 @@
+2025-06-17 20:26:04,084 | INFO | Logger is working!
+2025-06-17 20:28:27,244 | INFO | Logger is working!
+2025-06-18 14:12:01,605 | INFO | Database table ensured.
+2025-06-18 14:20:56,048 | INFO | Database table ensured.
+2025-06-18 14:20:58,400 | INFO | Product saved: SOAR&EAGLE Y2K 3Pack Polarized sunglasses Wrap Around Men's Women's sunglasses Fashion Sport Shades Sun Glasses
+2025-06-18 14:24:10,724 | INFO | Database table ensured.
+2025-06-18 14:24:13,390 | INFO | Product saved: SOAR&EAGLE Y2K 3Pack Polarized sunglasses Wrap Around Men's Women's sunglasses Fashion Sport Shades Sun Glasses
+2025-06-18 14:26:40,713 | INFO | Database table ensured.
+2025-06-18 14:26:43,407 | INFO | Product saved: SOAR&EAGLE Y2K 3Pack Polarized sunglasses Wrap Around Men's Women's sunglasses Fashion Sport Shades Sun Glasses
+2025-06-18 14:28:42,866 | INFO | Database table ensured.
+2025-06-18 14:28:45,510 | INFO | Product saved: SOAR&EAGLE Y2K 3Pack Polarized sunglasses Wrap Around Men's Women's sunglasses Fashion Sport Shades Sun Glasses
+2025-06-18 14:33:24,301 | INFO | Database table ensured.
+2025-06-18 14:33:27,064 | INFO | Product saved: SOAR&EAGLE Y2K 3Pack Polarized sunglasses Wrap Around Men's Women's sunglasses Fashion Sport Shades Sun Glasses
+2025-06-18 14:36:37,253 | INFO | Database table ensured.
+2025-06-18 14:36:39,966 | INFO | Product saved: SOAR&EAGLE Y2K 3Pack Polarized sunglasses Wrap Around Men's Women's sunglasses Fashion Sport Shades Sun Glasses
+2025-06-18 14:38:59,539 | INFO | Database table ensured.
+2025-06-18 14:39:02,111 | INFO | Product saved: SOAR&EAGLE Y2K 3Pack Polarized sunglasses Wrap Around Men's Women's sunglasses Fashion Sport Shades Sun Glasses
+2025-06-18 14:43:42,781 | INFO | Database table ensured.
+2025-06-18 14:43:45,293 | INFO | Product saved: SOAR&EAGLE Y2K 3Pack Polarized sunglasses Wrap Around Men's Women's sunglasses Fashion Sport Shades Sun Glasses
+2025-06-18 14:44:30,490 | INFO | Database table ensured.
+2025-06-18 14:44:33,146 | INFO | Scraped: {'title': "SOAR&EAGLE Y2K 3Pack Polarized sunglasses Wrap Around Men's Women's sunglasses Fashion Sport Shades Sun Glasses", 'price': '14.', 'url': 'https://www.amazon.com/dp/B0BVZ7LS9N'}
+2025-06-18 14:44:33,146 | INFO | Product saved: SOAR&EAGLE Y2K 3Pack Polarized sunglasses Wrap Around Men's Women's sunglasses Fashion Sport Shades Sun Glasses
+2025-06-18 14:46:20,507 | INFO | Database table ensured.
+2025-06-18 14:46:23,221 | INFO | Scraped: {'title': "SOAR&EAGLE Y2K 3Pack Polarized sunglasses Wrap Around Men's Women's sunglasses Fashion Sport Shades Sun Glasses", 'price': '14..99', 'url': 'https://www.amazon.com/dp/B0BVZ7LS9N'}
+2025-06-18 14:46:23,221 | INFO | Product saved: SOAR&EAGLE Y2K 3Pack Polarized sunglasses Wrap Around Men's Women's sunglasses Fashion Sport Shades Sun Glasses
+2025-06-18 14:47:33,779 | INFO | Database table ensured.
+2025-06-18 14:47:36,587 | INFO | Scraped: {'title': "SOAR&EAGLE Y2K 3Pack Polarized sunglasses Wrap Around Men's Women's sunglasses Fashion Sport Shades Sun Glasses", 'price': '14.99', 'url': 'https://www.amazon.com/dp/B0BVZ7LS9N'}
+2025-06-18 14:47:36,603 | INFO | Product saved: SOAR&EAGLE Y2K 3Pack Polarized sunglasses Wrap Around Men's Women's sunglasses Fashion Sport Shades Sun Glasses
+2025-06-18 15:04:20,454 | INFO | Database table ensured.
+2025-06-18 15:04:20,454 | INFO | Starting eBay scrape for query: headphones
+2025-06-18 15:04:35,440 | INFO | Found 62 items
+2025-06-18 15:04:38,487 | INFO | Product saved: 
+2025-06-18 15:04:38,495 | INFO | Product saved: 
+2025-06-18 15:04:38,503 | INFO | Product saved: Sony WH-CH720N Wireless Noise Cancelling Headphone, Black
+2025-06-18 15:04:38,511 | INFO | Product saved: Genuine Samsung Type-C Earphones Headphones EHS64 For Galaxy S23 Ultra S22+ A90
+2025-06-18 15:04:38,512 | INFO | Product saved: JBL Endurance Peak 3, Dust and water proof True Wireless active earbuds

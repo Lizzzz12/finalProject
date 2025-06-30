@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import sqlite3
 import os
 
@@ -13,3 +14,16 @@ def create_tables():
     ''')
     conn.commit()
     conn.close()
+=======
+# src/data/models.py
+from dataclasses import dataclass
+from datetime import datetime
+
+@dataclass
+class ProductData:
+    title: str
+    price: str
+    url: str
+    source: str  # e.g., 'Amazon', 'eBay'
+    timestamp: datetime
+>>>>>>> f0ba75326657d2188e7194689ed6a139e5d23b19
