@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: ecommerce_price_tracker
+Version: 0.1
+Requires-Dist: beautifulsoup4
+Requires-Dist: selenium
+Requires-Dist: scrapy
+Requires-Dist: pandas
+Requires-Dist: click
+Dynamic: requires-dist

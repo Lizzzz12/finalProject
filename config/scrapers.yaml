@@ -1,0 +1,19 @@
+amazon:
+  base_url: https://www.amazon.com
+  search_path: /s?k={query}
+  product_path: /dp/{product_id}
+  required_headers:
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+  use_selenium: true
+
+ebay:
+  base_url: https://www.ebay.com
+  search_path: /sch/i.html?_nkw={query}
+  product_path: /itm/{product_id}
+  use_proxy: false
+
+walmart:
+  base_url: https://www.walmart.com
+  search_path: /search?q={query}
+  product_path: /ip/{product_id}
+  use_scrapy: true

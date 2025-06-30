@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Price Monitoring Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1 { color: #333; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        .chart { margin: 20px 0; text-align: center; }
+        .stats { background-color: #f9f9f9; padding: 15px; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <h1>E-Commerce Price Monitoring Report</h1>
+    <p>Generated on: {{ report_date }}</p>
+
+    <div class="stats">
+        <h2>Summary Statistics</h2>
+        <ul>
+            <li>Current Price: ${{ "%.2f"|format(stats.current_price) }}</li>
+            <li>Average Price: ${{ "%.2f"|format(stats.average_price) }}</li>
+            <li>Minimum Price: ${{ "%.2f"|format(stats.min_price) }}</li>
+            <li>Maximum Price: ${{ "%.2f"|format(stats.max_price) }}</li>
+            <li>7-Day Price Change: {{ "%.2f"|format(stats.price_change_7d) }}%</li>
+            <li>30-Day Price Change: {{ "%.2f"|format(stats.price_change_30d) }}%</li>
+        </ul>
+    </div>
+
+    {% if price_chart %}
+    <div class="chart">
+        <h2>Price Trend</h2>
+        <img src="data:image/png;base64,{{ price_chart }}" alt="Price Trend Chart">
+    </div>
+    {% endif %}
+
+    <h2>Recent Prices</h2>
+    <table>
+        <tr>
+            <th>Product Name</th>
+            <th>Price</th>
+            <th>Source</th>
+            <th>Date</th>
+        </tr>
+        {% for product in products %}
+        <tr>
+            <td>{{ product.name }}</td>
+            <td>${{ "%.2f"|format(product.price) }}</td>
+            <td>{{ product.source }}</td>
+            <td>{{ product.timestamp }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

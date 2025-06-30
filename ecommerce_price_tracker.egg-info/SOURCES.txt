@@ -1,0 +1,8 @@
+README.md
+setup.py
+ecommerce_price_tracker.egg-info/PKG-INFO
+ecommerce_price_tracker.egg-info/SOURCES.txt
+ecommerce_price_tracker.egg-info/dependency_links.txt
+ecommerce_price_tracker.egg-info/entry_points.txt
+ecommerce_price_tracker.egg-info/requires.txt
+ecommerce_price_tracker.egg-info/top_level.txt
