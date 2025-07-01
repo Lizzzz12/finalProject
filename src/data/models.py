@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+# -------------------- src/data/models.py --------------------
 import sqlite3
 import os
 
@@ -9,21 +9,9 @@ def create_tables():
     cur.execute('''
         CREATE TABLE IF NOT EXISTS items (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
-            title TEXT
+            title TEXT,
+            price TEXT
         )
     ''')
     conn.commit()
     conn.close()
-=======
-# src/data/models.py
-from dataclasses import dataclass
-from datetime import datetime
-
-@dataclass
-class ProductData:
-    title: str
-    price: str
-    url: str
-    source: str  # e.g., 'Amazon', 'eBay'
-    timestamp: datetime
->>>>>>> f0ba75326657d2188e7194689ed6a139e5d23b19

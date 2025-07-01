@@ -1,16 +1,19 @@
-<<<<<<< HEAD
 import sqlite3
+import os
 
-def insert_item(title):
-    conn = sqlite3.connect("data_output/db.sqlite")
+# Dynamically get the path to the project root
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../'))
+DB_PATH = os.path.join(BASE_DIR, 'data_output', 'db.sqlite')
+
+def insert_item(title, price):
+    conn = sqlite3.connect(DB_PATH)
     cur = conn.cursor()
-    cur.execute("INSERT INTO items (title) VALUES (?)", (title,))
+    cur.execute("INSERT INTO items (title, price) VALUES (?, ?)", (title, price))
     conn.commit()
     conn.close()
 
 def count_items():
-    import sqlite3
-    conn = sqlite3.connect("data_output/db.sqlite")
+    conn = sqlite3.connect(DB_PATH)
     cur = conn.cursor()
     cur.execute("SELECT COUNT(*) FROM items")
     total = cur.fetchone()[0]
@@ -18,47 +21,9 @@ def count_items():
     return total
 
 def get_all_items():
-    conn = sqlite3.connect("data_output/db.sqlite")
+    conn = sqlite3.connect(DB_PATH)
     cur = conn.cursor()
-    cur.execute("SELECT id, title FROM items")
+    cur.execute("SELECT id, title, price FROM items")
     rows = cur.fetchall()
     conn.close()
     return rows
-=======
-# src/data/database.py
-import sqlite3
-from datetime import datetime
-from src.data.models import ProductData
-from src.utils.logger import logger
-
-
-DB_PATH = "data_output/products.db"
-
-def create_table():
-    conn = sqlite3.connect(DB_PATH)
-    cursor = conn.cursor()
-    cursor.execute('''
-        CREATE TABLE IF NOT EXISTS products (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            title TEXT,
-            price TEXT,
-            url TEXT,
-            source TEXT,
-            timestamp TEXT
-        )
-    ''')
-    conn.commit()
-    conn.close()
-    logger.info("Database table ensured.")
-
-def save_product(product: ProductData):
-    conn = sqlite3.connect(DB_PATH)
-    cursor = conn.cursor()
-    cursor.execute('''
-        INSERT INTO products (title, price, url, source, timestamp)
-        VALUES (?, ?, ?, ?, ?)
-    ''', (product.title, product.price, product.url, product.source, product.timestamp.isoformat()))
-    conn.commit()
-    conn.close()
-    logger.info(f"Product saved: {product.title}")
->>>>>>> f0ba75326657d2188e7194689ed6a139e5d23b19

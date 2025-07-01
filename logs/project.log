@@ -18726,3 +18726,3982 @@ Stacktrace:
 2025-06-30 19:15:39,759 - INFO - Newegg Selenium: Total inserted = 50
 2025-06-30 19:15:41,918 - INFO - Cleaning data and generating report...
 2025-06-30 19:15:42,123 - INFO - Final cleaned item count: 372
+2025-06-30 21:50:27,703 - INFO - Creating database tables...
+2025-06-30 21:50:27,717 - INFO - Running static scraper...
+2025-06-30 21:50:27,717 - INFO - Fetching URL: https://books.toscrape.com
+2025-06-30 21:50:29,520 - INFO - Running Selenium eBay scraper...
+2025-06-30 21:50:35,781 - INFO - Fetching eBay page 1: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=1
+2025-06-30 21:50:37,712 - INFO - Fetching eBay page 2: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=2
+2025-06-30 21:50:39,639 - INFO - Fetching eBay page 3: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=3
+2025-06-30 21:50:41,743 - INFO - Fetching eBay page 4: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=4
+2025-06-30 21:50:42,682 - INFO - Fetching eBay page 5: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=5
+2025-06-30 21:50:52,893 - ERROR - Page 5 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff64f9a6f65+76917]
+	GetHandleVerifier [0x0x7ff64f9a6fc0+77008]
+	(No symbol) [0x0x7ff64f759dea]
+	(No symbol) [0x0x7ff64f7b0256]
+	(No symbol) [0x0x7ff64f7b050c]
+	(No symbol) [0x0x7ff64f803887]
+	(No symbol) [0x0x7ff64f7d84af]
+	(No symbol) [0x0x7ff64f80065c]
+	(No symbol) [0x0x7ff64f7d8243]
+	(No symbol) [0x0x7ff64f7a1431]
+	(No symbol) [0x0x7ff64f7a21c3]
+	GetHandleVerifier [0x0x7ff64fc7d29d+3051437]
+	GetHandleVerifier [0x0x7ff64fc778f3+3028483]
+	GetHandleVerifier [0x0x7ff64fc9588d+3151261]
+	GetHandleVerifier [0x0x7ff64f9c182e+185662]
+	GetHandleVerifier [0x0x7ff64f9c96ef+218111]
+	GetHandleVerifier [0x0x7ff64f9afae4+112628]
+	GetHandleVerifier [0x0x7ff64f9afc99+113065]
+	GetHandleVerifier [0x0x7ff64f996c68+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-06-30 21:50:54,458 - INFO - Fetching eBay page 6: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=6
+2025-06-30 21:51:04,800 - ERROR - Page 6 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff64f9a6f65+76917]
+	GetHandleVerifier [0x0x7ff64f9a6fc0+77008]
+	(No symbol) [0x0x7ff64f759dea]
+	(No symbol) [0x0x7ff64f7b0256]
+	(No symbol) [0x0x7ff64f7b050c]
+	(No symbol) [0x0x7ff64f803887]
+	(No symbol) [0x0x7ff64f7d84af]
+	(No symbol) [0x0x7ff64f80065c]
+	(No symbol) [0x0x7ff64f7d8243]
+	(No symbol) [0x0x7ff64f7a1431]
+	(No symbol) [0x0x7ff64f7a21c3]
+	GetHandleVerifier [0x0x7ff64fc7d29d+3051437]
+	GetHandleVerifier [0x0x7ff64fc778f3+3028483]
+	GetHandleVerifier [0x0x7ff64fc9588d+3151261]
+	GetHandleVerifier [0x0x7ff64f9c182e+185662]
+	GetHandleVerifier [0x0x7ff64f9c96ef+218111]
+	GetHandleVerifier [0x0x7ff64f9afae4+112628]
+	GetHandleVerifier [0x0x7ff64f9afc99+113065]
+	GetHandleVerifier [0x0x7ff64f996c68+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-06-30 21:51:05,517 - INFO - Fetching eBay page 7: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=7
+2025-06-30 21:51:15,740 - ERROR - Page 7 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff64f9a6f65+76917]
+	GetHandleVerifier [0x0x7ff64f9a6fc0+77008]
+	(No symbol) [0x0x7ff64f759dea]
+	(No symbol) [0x0x7ff64f7b0256]
+	(No symbol) [0x0x7ff64f7b050c]
+	(No symbol) [0x0x7ff64f803887]
+	(No symbol) [0x0x7ff64f7d84af]
+	(No symbol) [0x0x7ff64f80065c]
+	(No symbol) [0x0x7ff64f7d8243]
+	(No symbol) [0x0x7ff64f7a1431]
+	(No symbol) [0x0x7ff64f7a21c3]
+	GetHandleVerifier [0x0x7ff64fc7d29d+3051437]
+	GetHandleVerifier [0x0x7ff64fc778f3+3028483]
+	GetHandleVerifier [0x0x7ff64fc9588d+3151261]
+	GetHandleVerifier [0x0x7ff64f9c182e+185662]
+	GetHandleVerifier [0x0x7ff64f9c96ef+218111]
+	GetHandleVerifier [0x0x7ff64f9afae4+112628]
+	GetHandleVerifier [0x0x7ff64f9afc99+113065]
+	GetHandleVerifier [0x0x7ff64f996c68+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-06-30 21:51:16,503 - INFO - Fetching eBay page 8: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=8
+2025-06-30 21:51:26,766 - ERROR - Page 8 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff64f9a6f65+76917]
+	GetHandleVerifier [0x0x7ff64f9a6fc0+77008]
+	(No symbol) [0x0x7ff64f759dea]
+	(No symbol) [0x0x7ff64f7b0256]
+	(No symbol) [0x0x7ff64f7b050c]
+	(No symbol) [0x0x7ff64f803887]
+	(No symbol) [0x0x7ff64f7d84af]
+	(No symbol) [0x0x7ff64f80065c]
+	(No symbol) [0x0x7ff64f7d8243]
+	(No symbol) [0x0x7ff64f7a1431]
+	(No symbol) [0x0x7ff64f7a21c3]
+	GetHandleVerifier [0x0x7ff64fc7d29d+3051437]
+	GetHandleVerifier [0x0x7ff64fc778f3+3028483]
+	GetHandleVerifier [0x0x7ff64fc9588d+3151261]
+	GetHandleVerifier [0x0x7ff64f9c182e+185662]
+	GetHandleVerifier [0x0x7ff64f9c96ef+218111]
+	GetHandleVerifier [0x0x7ff64f9afae4+112628]
+	GetHandleVerifier [0x0x7ff64f9afc99+113065]
+	GetHandleVerifier [0x0x7ff64f996c68+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-06-30 21:51:27,545 - INFO - Fetching eBay page 9: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=9
+2025-06-30 21:51:37,783 - ERROR - Page 9 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff64f9a6f65+76917]
+	GetHandleVerifier [0x0x7ff64f9a6fc0+77008]
+	(No symbol) [0x0x7ff64f759dea]
+	(No symbol) [0x0x7ff64f7b0256]
+	(No symbol) [0x0x7ff64f7b050c]
+	(No symbol) [0x0x7ff64f803887]
+	(No symbol) [0x0x7ff64f7d84af]
+	(No symbol) [0x0x7ff64f80065c]
+	(No symbol) [0x0x7ff64f7d8243]
+	(No symbol) [0x0x7ff64f7a1431]
+	(No symbol) [0x0x7ff64f7a21c3]
+	GetHandleVerifier [0x0x7ff64fc7d29d+3051437]
+	GetHandleVerifier [0x0x7ff64fc778f3+3028483]
+	GetHandleVerifier [0x0x7ff64fc9588d+3151261]
+	GetHandleVerifier [0x0x7ff64f9c182e+185662]
+	GetHandleVerifier [0x0x7ff64f9c96ef+218111]
+	GetHandleVerifier [0x0x7ff64f9afae4+112628]
+	GetHandleVerifier [0x0x7ff64f9afc99+113065]
+	GetHandleVerifier [0x0x7ff64f996c68+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-06-30 21:51:38,535 - INFO - Fetching eBay page 10: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=10
+2025-06-30 21:51:48,818 - ERROR - Page 10 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff64f9a6f65+76917]
+	GetHandleVerifier [0x0x7ff64f9a6fc0+77008]
+	(No symbol) [0x0x7ff64f759dea]
+	(No symbol) [0x0x7ff64f7b0256]
+	(No symbol) [0x0x7ff64f7b050c]
+	(No symbol) [0x0x7ff64f803887]
+	(No symbol) [0x0x7ff64f7d84af]
+	(No symbol) [0x0x7ff64f80065c]
+	(No symbol) [0x0x7ff64f7d8243]
+	(No symbol) [0x0x7ff64f7a1431]
+	(No symbol) [0x0x7ff64f7a21c3]
+	GetHandleVerifier [0x0x7ff64fc7d29d+3051437]
+	GetHandleVerifier [0x0x7ff64fc778f3+3028483]
+	GetHandleVerifier [0x0x7ff64fc9588d+3151261]
+	GetHandleVerifier [0x0x7ff64f9c182e+185662]
+	GetHandleVerifier [0x0x7ff64f9c96ef+218111]
+	GetHandleVerifier [0x0x7ff64f9afae4+112628]
+	GetHandleVerifier [0x0x7ff64f9afc99+113065]
+	GetHandleVerifier [0x0x7ff64f996c68+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-06-30 21:51:49,527 - INFO - Fetching eBay page 11: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=11
+2025-06-30 21:51:59,813 - ERROR - Page 11 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff64f9a6f65+76917]
+	GetHandleVerifier [0x0x7ff64f9a6fc0+77008]
+	(No symbol) [0x0x7ff64f759dea]
+	(No symbol) [0x0x7ff64f7b0256]
+	(No symbol) [0x0x7ff64f7b050c]
+	(No symbol) [0x0x7ff64f803887]
+	(No symbol) [0x0x7ff64f7d84af]
+	(No symbol) [0x0x7ff64f80065c]
+	(No symbol) [0x0x7ff64f7d8243]
+	(No symbol) [0x0x7ff64f7a1431]
+	(No symbol) [0x0x7ff64f7a21c3]
+	GetHandleVerifier [0x0x7ff64fc7d29d+3051437]
+	GetHandleVerifier [0x0x7ff64fc778f3+3028483]
+	GetHandleVerifier [0x0x7ff64fc9588d+3151261]
+	GetHandleVerifier [0x0x7ff64f9c182e+185662]
+	GetHandleVerifier [0x0x7ff64f9c96ef+218111]
+	GetHandleVerifier [0x0x7ff64f9afae4+112628]
+	GetHandleVerifier [0x0x7ff64f9afc99+113065]
+	GetHandleVerifier [0x0x7ff64f996c68+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-06-30 21:52:00,598 - INFO - Fetching eBay page 12: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=12
+2025-06-30 21:52:10,891 - ERROR - Page 12 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff64f9a6f65+76917]
+	GetHandleVerifier [0x0x7ff64f9a6fc0+77008]
+	(No symbol) [0x0x7ff64f759dea]
+	(No symbol) [0x0x7ff64f7b0256]
+	(No symbol) [0x0x7ff64f7b050c]
+	(No symbol) [0x0x7ff64f803887]
+	(No symbol) [0x0x7ff64f7d84af]
+	(No symbol) [0x0x7ff64f80065c]
+	(No symbol) [0x0x7ff64f7d8243]
+	(No symbol) [0x0x7ff64f7a1431]
+	(No symbol) [0x0x7ff64f7a21c3]
+	GetHandleVerifier [0x0x7ff64fc7d29d+3051437]
+	GetHandleVerifier [0x0x7ff64fc778f3+3028483]
+	GetHandleVerifier [0x0x7ff64fc9588d+3151261]
+	GetHandleVerifier [0x0x7ff64f9c182e+185662]
+	GetHandleVerifier [0x0x7ff64f9c96ef+218111]
+	GetHandleVerifier [0x0x7ff64f9afae4+112628]
+	GetHandleVerifier [0x0x7ff64f9afc99+113065]
+	GetHandleVerifier [0x0x7ff64f996c68+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-06-30 21:52:11,618 - INFO - Fetching eBay page 13: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=13
+2025-06-30 21:52:21,899 - ERROR - Page 13 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff64f9a6f65+76917]
+	GetHandleVerifier [0x0x7ff64f9a6fc0+77008]
+	(No symbol) [0x0x7ff64f759dea]
+	(No symbol) [0x0x7ff64f7b0256]
+	(No symbol) [0x0x7ff64f7b050c]
+	(No symbol) [0x0x7ff64f803887]
+	(No symbol) [0x0x7ff64f7d84af]
+	(No symbol) [0x0x7ff64f80065c]
+	(No symbol) [0x0x7ff64f7d8243]
+	(No symbol) [0x0x7ff64f7a1431]
+	(No symbol) [0x0x7ff64f7a21c3]
+	GetHandleVerifier [0x0x7ff64fc7d29d+3051437]
+	GetHandleVerifier [0x0x7ff64fc778f3+3028483]
+	GetHandleVerifier [0x0x7ff64fc9588d+3151261]
+	GetHandleVerifier [0x0x7ff64f9c182e+185662]
+	GetHandleVerifier [0x0x7ff64f9c96ef+218111]
+	GetHandleVerifier [0x0x7ff64f9afae4+112628]
+	GetHandleVerifier [0x0x7ff64f9afc99+113065]
+	GetHandleVerifier [0x0x7ff64f996c68+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-06-30 21:52:22,604 - INFO - Fetching eBay page 14: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=14
+2025-06-30 21:52:32,866 - ERROR - Page 14 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff64f9a6f65+76917]
+	GetHandleVerifier [0x0x7ff64f9a6fc0+77008]
+	(No symbol) [0x0x7ff64f759dea]
+	(No symbol) [0x0x7ff64f7b0256]
+	(No symbol) [0x0x7ff64f7b050c]
+	(No symbol) [0x0x7ff64f803887]
+	(No symbol) [0x0x7ff64f7d84af]
+	(No symbol) [0x0x7ff64f80065c]
+	(No symbol) [0x0x7ff64f7d8243]
+	(No symbol) [0x0x7ff64f7a1431]
+	(No symbol) [0x0x7ff64f7a21c3]
+	GetHandleVerifier [0x0x7ff64fc7d29d+3051437]
+	GetHandleVerifier [0x0x7ff64fc778f3+3028483]
+	GetHandleVerifier [0x0x7ff64fc9588d+3151261]
+	GetHandleVerifier [0x0x7ff64f9c182e+185662]
+	GetHandleVerifier [0x0x7ff64f9c96ef+218111]
+	GetHandleVerifier [0x0x7ff64f9afae4+112628]
+	GetHandleVerifier [0x0x7ff64f9afc99+113065]
+	GetHandleVerifier [0x0x7ff64f996c68+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-06-30 21:52:34,039 - INFO - Fetching eBay page 15: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=15
+2025-06-30 21:52:44,345 - ERROR - Page 15 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff64f9a6f65+76917]
+	GetHandleVerifier [0x0x7ff64f9a6fc0+77008]
+	(No symbol) [0x0x7ff64f759dea]
+	(No symbol) [0x0x7ff64f7b0256]
+	(No symbol) [0x0x7ff64f7b050c]
+	(No symbol) [0x0x7ff64f803887]
+	(No symbol) [0x0x7ff64f7d84af]
+	(No symbol) [0x0x7ff64f80065c]
+	(No symbol) [0x0x7ff64f7d8243]
+	(No symbol) [0x0x7ff64f7a1431]
+	(No symbol) [0x0x7ff64f7a21c3]
+	GetHandleVerifier [0x0x7ff64fc7d29d+3051437]
+	GetHandleVerifier [0x0x7ff64fc778f3+3028483]
+	GetHandleVerifier [0x0x7ff64fc9588d+3151261]
+	GetHandleVerifier [0x0x7ff64f9c182e+185662]
+	GetHandleVerifier [0x0x7ff64f9c96ef+218111]
+	GetHandleVerifier [0x0x7ff64f9afae4+112628]
+	GetHandleVerifier [0x0x7ff64f9afc99+113065]
+	GetHandleVerifier [0x0x7ff64f996c68+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-06-30 21:52:45,199 - INFO - Fetching eBay page 16: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=16
+2025-06-30 21:52:55,511 - ERROR - Page 16 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff64f9a6f65+76917]
+	GetHandleVerifier [0x0x7ff64f9a6fc0+77008]
+	(No symbol) [0x0x7ff64f759dea]
+	(No symbol) [0x0x7ff64f7b0256]
+	(No symbol) [0x0x7ff64f7b050c]
+	(No symbol) [0x0x7ff64f803887]
+	(No symbol) [0x0x7ff64f7d84af]
+	(No symbol) [0x0x7ff64f80065c]
+	(No symbol) [0x0x7ff64f7d8243]
+	(No symbol) [0x0x7ff64f7a1431]
+	(No symbol) [0x0x7ff64f7a21c3]
+	GetHandleVerifier [0x0x7ff64fc7d29d+3051437]
+	GetHandleVerifier [0x0x7ff64fc778f3+3028483]
+	GetHandleVerifier [0x0x7ff64fc9588d+3151261]
+	GetHandleVerifier [0x0x7ff64f9c182e+185662]
+	GetHandleVerifier [0x0x7ff64f9c96ef+218111]
+	GetHandleVerifier [0x0x7ff64f9afae4+112628]
+	GetHandleVerifier [0x0x7ff64f9afc99+113065]
+	GetHandleVerifier [0x0x7ff64f996c68+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-06-30 21:52:56,363 - INFO - Fetching eBay page 17: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=17
+2025-06-30 21:53:06,589 - ERROR - Page 17 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff64f9a6f65+76917]
+	GetHandleVerifier [0x0x7ff64f9a6fc0+77008]
+	(No symbol) [0x0x7ff64f759dea]
+	(No symbol) [0x0x7ff64f7b0256]
+	(No symbol) [0x0x7ff64f7b050c]
+	(No symbol) [0x0x7ff64f803887]
+	(No symbol) [0x0x7ff64f7d84af]
+	(No symbol) [0x0x7ff64f80065c]
+	(No symbol) [0x0x7ff64f7d8243]
+	(No symbol) [0x0x7ff64f7a1431]
+	(No symbol) [0x0x7ff64f7a21c3]
+	GetHandleVerifier [0x0x7ff64fc7d29d+3051437]
+	GetHandleVerifier [0x0x7ff64fc778f3+3028483]
+	GetHandleVerifier [0x0x7ff64fc9588d+3151261]
+	GetHandleVerifier [0x0x7ff64f9c182e+185662]
+	GetHandleVerifier [0x0x7ff64f9c96ef+218111]
+	GetHandleVerifier [0x0x7ff64f9afae4+112628]
+	GetHandleVerifier [0x0x7ff64f9afc99+113065]
+	GetHandleVerifier [0x0x7ff64f996c68+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-06-30 21:53:07,674 - INFO - Fetching eBay page 18: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=18
+2025-06-30 21:53:17,916 - ERROR - Page 18 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff64f9a6f65+76917]
+	GetHandleVerifier [0x0x7ff64f9a6fc0+77008]
+	(No symbol) [0x0x7ff64f759dea]
+	(No symbol) [0x0x7ff64f7b0256]
+	(No symbol) [0x0x7ff64f7b050c]
+	(No symbol) [0x0x7ff64f803887]
+	(No symbol) [0x0x7ff64f7d84af]
+	(No symbol) [0x0x7ff64f80065c]
+	(No symbol) [0x0x7ff64f7d8243]
+	(No symbol) [0x0x7ff64f7a1431]
+	(No symbol) [0x0x7ff64f7a21c3]
+	GetHandleVerifier [0x0x7ff64fc7d29d+3051437]
+	GetHandleVerifier [0x0x7ff64fc778f3+3028483]
+	GetHandleVerifier [0x0x7ff64fc9588d+3151261]
+	GetHandleVerifier [0x0x7ff64f9c182e+185662]
+	GetHandleVerifier [0x0x7ff64f9c96ef+218111]
+	GetHandleVerifier [0x0x7ff64f9afae4+112628]
+	GetHandleVerifier [0x0x7ff64f9afc99+113065]
+	GetHandleVerifier [0x0x7ff64f996c68+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-06-30 21:53:18,747 - INFO - Fetching eBay page 19: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=19
+2025-06-30 21:53:29,024 - ERROR - Page 19 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff64f9a6f65+76917]
+	GetHandleVerifier [0x0x7ff64f9a6fc0+77008]
+	(No symbol) [0x0x7ff64f759dea]
+	(No symbol) [0x0x7ff64f7b0256]
+	(No symbol) [0x0x7ff64f7b050c]
+	(No symbol) [0x0x7ff64f803887]
+	(No symbol) [0x0x7ff64f7d84af]
+	(No symbol) [0x0x7ff64f80065c]
+	(No symbol) [0x0x7ff64f7d8243]
+	(No symbol) [0x0x7ff64f7a1431]
+	(No symbol) [0x0x7ff64f7a21c3]
+	GetHandleVerifier [0x0x7ff64fc7d29d+3051437]
+	GetHandleVerifier [0x0x7ff64fc778f3+3028483]
+	GetHandleVerifier [0x0x7ff64fc9588d+3151261]
+	GetHandleVerifier [0x0x7ff64f9c182e+185662]
+	GetHandleVerifier [0x0x7ff64f9c96ef+218111]
+	GetHandleVerifier [0x0x7ff64f9afae4+112628]
+	GetHandleVerifier [0x0x7ff64f9afc99+113065]
+	GetHandleVerifier [0x0x7ff64f996c68+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-06-30 21:53:29,774 - INFO - Fetching eBay page 20: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=20
+2025-06-30 21:53:40,044 - ERROR - Page 20 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff64f9a6f65+76917]
+	GetHandleVerifier [0x0x7ff64f9a6fc0+77008]
+	(No symbol) [0x0x7ff64f759dea]
+	(No symbol) [0x0x7ff64f7b0256]
+	(No symbol) [0x0x7ff64f7b050c]
+	(No symbol) [0x0x7ff64f803887]
+	(No symbol) [0x0x7ff64f7d84af]
+	(No symbol) [0x0x7ff64f80065c]
+	(No symbol) [0x0x7ff64f7d8243]
+	(No symbol) [0x0x7ff64f7a1431]
+	(No symbol) [0x0x7ff64f7a21c3]
+	GetHandleVerifier [0x0x7ff64fc7d29d+3051437]
+	GetHandleVerifier [0x0x7ff64fc778f3+3028483]
+	GetHandleVerifier [0x0x7ff64fc9588d+3151261]
+	GetHandleVerifier [0x0x7ff64f9c182e+185662]
+	GetHandleVerifier [0x0x7ff64f9c96ef+218111]
+	GetHandleVerifier [0x0x7ff64f9afae4+112628]
+	GetHandleVerifier [0x0x7ff64f9afc99+113065]
+	GetHandleVerifier [0x0x7ff64f996c68+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-06-30 21:53:40,764 - INFO - Fetching eBay page 21: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=21
+2025-06-30 21:53:51,035 - ERROR - Page 21 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff64f9a6f65+76917]
+	GetHandleVerifier [0x0x7ff64f9a6fc0+77008]
+	(No symbol) [0x0x7ff64f759dea]
+	(No symbol) [0x0x7ff64f7b0256]
+	(No symbol) [0x0x7ff64f7b050c]
+	(No symbol) [0x0x7ff64f803887]
+	(No symbol) [0x0x7ff64f7d84af]
+	(No symbol) [0x0x7ff64f80065c]
+	(No symbol) [0x0x7ff64f7d8243]
+	(No symbol) [0x0x7ff64f7a1431]
+	(No symbol) [0x0x7ff64f7a21c3]
+	GetHandleVerifier [0x0x7ff64fc7d29d+3051437]
+	GetHandleVerifier [0x0x7ff64fc778f3+3028483]
+	GetHandleVerifier [0x0x7ff64fc9588d+3151261]
+	GetHandleVerifier [0x0x7ff64f9c182e+185662]
+	GetHandleVerifier [0x0x7ff64f9c96ef+218111]
+	GetHandleVerifier [0x0x7ff64f9afae4+112628]
+	GetHandleVerifier [0x0x7ff64f9afc99+113065]
+	GetHandleVerifier [0x0x7ff64f996c68+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-06-30 21:53:51,828 - INFO - Fetching eBay page 22: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=22
+2025-06-30 21:54:02,094 - ERROR - Page 22 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff64f9a6f65+76917]
+	GetHandleVerifier [0x0x7ff64f9a6fc0+77008]
+	(No symbol) [0x0x7ff64f759dea]
+	(No symbol) [0x0x7ff64f7b0256]
+	(No symbol) [0x0x7ff64f7b050c]
+	(No symbol) [0x0x7ff64f803887]
+	(No symbol) [0x0x7ff64f7d84af]
+	(No symbol) [0x0x7ff64f80065c]
+	(No symbol) [0x0x7ff64f7d8243]
+	(No symbol) [0x0x7ff64f7a1431]
+	(No symbol) [0x0x7ff64f7a21c3]
+	GetHandleVerifier [0x0x7ff64fc7d29d+3051437]
+	GetHandleVerifier [0x0x7ff64fc778f3+3028483]
+	GetHandleVerifier [0x0x7ff64fc9588d+3151261]
+	GetHandleVerifier [0x0x7ff64f9c182e+185662]
+	GetHandleVerifier [0x0x7ff64f9c96ef+218111]
+	GetHandleVerifier [0x0x7ff64f9afae4+112628]
+	GetHandleVerifier [0x0x7ff64f9afc99+113065]
+	GetHandleVerifier [0x0x7ff64f996c68+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-06-30 21:54:02,784 - INFO - Fetching eBay page 23: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=23
+2025-06-30 21:54:13,035 - ERROR - Page 23 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff64f9a6f65+76917]
+	GetHandleVerifier [0x0x7ff64f9a6fc0+77008]
+	(No symbol) [0x0x7ff64f759dea]
+	(No symbol) [0x0x7ff64f7b0256]
+	(No symbol) [0x0x7ff64f7b050c]
+	(No symbol) [0x0x7ff64f803887]
+	(No symbol) [0x0x7ff64f7d84af]
+	(No symbol) [0x0x7ff64f80065c]
+	(No symbol) [0x0x7ff64f7d8243]
+	(No symbol) [0x0x7ff64f7a1431]
+	(No symbol) [0x0x7ff64f7a21c3]
+	GetHandleVerifier [0x0x7ff64fc7d29d+3051437]
+	GetHandleVerifier [0x0x7ff64fc778f3+3028483]
+	GetHandleVerifier [0x0x7ff64fc9588d+3151261]
+	GetHandleVerifier [0x0x7ff64f9c182e+185662]
+	GetHandleVerifier [0x0x7ff64f9c96ef+218111]
+	GetHandleVerifier [0x0x7ff64f9afae4+112628]
+	GetHandleVerifier [0x0x7ff64f9afc99+113065]
+	GetHandleVerifier [0x0x7ff64f996c68+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-06-30 21:54:13,886 - INFO - Fetching eBay page 24: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=24
+2025-06-30 21:54:24,208 - ERROR - Page 24 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff64f9a6f65+76917]
+	GetHandleVerifier [0x0x7ff64f9a6fc0+77008]
+	(No symbol) [0x0x7ff64f759dea]
+	(No symbol) [0x0x7ff64f7b0256]
+	(No symbol) [0x0x7ff64f7b050c]
+	(No symbol) [0x0x7ff64f803887]
+	(No symbol) [0x0x7ff64f7d84af]
+	(No symbol) [0x0x7ff64f80065c]
+	(No symbol) [0x0x7ff64f7d8243]
+	(No symbol) [0x0x7ff64f7a1431]
+	(No symbol) [0x0x7ff64f7a21c3]
+	GetHandleVerifier [0x0x7ff64fc7d29d+3051437]
+	GetHandleVerifier [0x0x7ff64fc778f3+3028483]
+	GetHandleVerifier [0x0x7ff64fc9588d+3151261]
+	GetHandleVerifier [0x0x7ff64f9c182e+185662]
+	GetHandleVerifier [0x0x7ff64f9c96ef+218111]
+	GetHandleVerifier [0x0x7ff64f9afae4+112628]
+	GetHandleVerifier [0x0x7ff64f9afc99+113065]
+	GetHandleVerifier [0x0x7ff64f996c68+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-06-30 21:54:25,111 - INFO - Fetching eBay page 25: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=25
+2025-06-30 21:54:35,426 - ERROR - Page 25 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff64f9a6f65+76917]
+	GetHandleVerifier [0x0x7ff64f9a6fc0+77008]
+	(No symbol) [0x0x7ff64f759dea]
+	(No symbol) [0x0x7ff64f7b0256]
+	(No symbol) [0x0x7ff64f7b050c]
+	(No symbol) [0x0x7ff64f803887]
+	(No symbol) [0x0x7ff64f7d84af]
+	(No symbol) [0x0x7ff64f80065c]
+	(No symbol) [0x0x7ff64f7d8243]
+	(No symbol) [0x0x7ff64f7a1431]
+	(No symbol) [0x0x7ff64f7a21c3]
+	GetHandleVerifier [0x0x7ff64fc7d29d+3051437]
+	GetHandleVerifier [0x0x7ff64fc778f3+3028483]
+	GetHandleVerifier [0x0x7ff64fc9588d+3151261]
+	GetHandleVerifier [0x0x7ff64f9c182e+185662]
+	GetHandleVerifier [0x0x7ff64f9c96ef+218111]
+	GetHandleVerifier [0x0x7ff64f9afae4+112628]
+	GetHandleVerifier [0x0x7ff64f9afc99+113065]
+	GetHandleVerifier [0x0x7ff64f996c68+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-06-30 21:54:35,426 - INFO - Total eBay items inserted: 0
+2025-06-30 21:54:37,666 - INFO - Running Amazon scraper...
+2025-06-30 21:54:37,666 - INFO - Fetching Amazon URL: https://www.amazon.com/s?k=laptop
+2025-06-30 21:54:45,657 - ERROR - Amazon scraper failed: database is locked
+2025-06-30 21:54:45,658 - INFO - Running Newegg Selenium scraper...
+2025-06-30 21:54:48,522 - INFO - Fetching Newegg page 1: https://www.newegg.com/p/pl?d=laptop&page=1
+2025-06-30 21:55:37,629 - INFO - Creating database tables...
+2025-06-30 21:55:37,640 - INFO - Running static scraper...
+2025-06-30 21:55:37,640 - INFO - Fetching URL: https://books.toscrape.com
+2025-06-30 21:56:09,300 - INFO - Creating database tables...
+2025-06-30 21:56:09,310 - INFO - Running static scraper...
+2025-06-30 21:56:09,310 - INFO - Fetching URL: https://books.toscrape.com
+2025-06-30 21:56:10,392 - INFO - Running Selenium eBay scraper...
+2025-06-30 21:56:15,243 - INFO - Fetching eBay page 1: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=1
+2025-06-30 21:56:24,529 - INFO - Fetching eBay page 2: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=2
+2025-06-30 21:56:30,105 - INFO - Fetching eBay page 3: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=3
+2025-06-30 21:56:35,373 - INFO - Fetching eBay page 4: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=4
+2025-06-30 21:56:39,456 - INFO - Fetching eBay page 5: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=5
+2025-06-30 21:56:49,735 - ERROR - Page 5 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff67e706f65+76917]
+	GetHandleVerifier [0x0x7ff67e706fc0+77008]
+	(No symbol) [0x0x7ff67e4b9dea]
+	(No symbol) [0x0x7ff67e510256]
+	(No symbol) [0x0x7ff67e51050c]
+	(No symbol) [0x0x7ff67e563887]
+	(No symbol) [0x0x7ff67e5384af]
+	(No symbol) [0x0x7ff67e56065c]
+	(No symbol) [0x0x7ff67e538243]
+	(No symbol) [0x0x7ff67e501431]
+	(No symbol) [0x0x7ff67e5021c3]
+	GetHandleVerifier [0x0x7ff67e9dd29d+3051437]
+	GetHandleVerifier [0x0x7ff67e9d78f3+3028483]
+	GetHandleVerifier [0x0x7ff67e9f588d+3151261]
+	GetHandleVerifier [0x0x7ff67e72182e+185662]
+	GetHandleVerifier [0x0x7ff67e7296ef+218111]
+	GetHandleVerifier [0x0x7ff67e70fae4+112628]
+	GetHandleVerifier [0x0x7ff67e70fc99+113065]
+	GetHandleVerifier [0x0x7ff67e6f6c68+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-06-30 21:56:50,677 - INFO - Fetching eBay page 6: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=6
+2025-06-30 21:57:00,921 - ERROR - Page 6 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff67e706f65+76917]
+	GetHandleVerifier [0x0x7ff67e706fc0+77008]
+	(No symbol) [0x0x7ff67e4b9dea]
+	(No symbol) [0x0x7ff67e510256]
+	(No symbol) [0x0x7ff67e51050c]
+	(No symbol) [0x0x7ff67e563887]
+	(No symbol) [0x0x7ff67e5384af]
+	(No symbol) [0x0x7ff67e56065c]
+	(No symbol) [0x0x7ff67e538243]
+	(No symbol) [0x0x7ff67e501431]
+	(No symbol) [0x0x7ff67e5021c3]
+	GetHandleVerifier [0x0x7ff67e9dd29d+3051437]
+	GetHandleVerifier [0x0x7ff67e9d78f3+3028483]
+	GetHandleVerifier [0x0x7ff67e9f588d+3151261]
+	GetHandleVerifier [0x0x7ff67e72182e+185662]
+	GetHandleVerifier [0x0x7ff67e7296ef+218111]
+	GetHandleVerifier [0x0x7ff67e70fae4+112628]
+	GetHandleVerifier [0x0x7ff67e70fc99+113065]
+	GetHandleVerifier [0x0x7ff67e6f6c68+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-06-30 21:57:01,810 - INFO - Fetching eBay page 7: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=7
+2025-06-30 21:57:12,036 - ERROR - Page 7 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff67e706f65+76917]
+	GetHandleVerifier [0x0x7ff67e706fc0+77008]
+	(No symbol) [0x0x7ff67e4b9dea]
+	(No symbol) [0x0x7ff67e510256]
+	(No symbol) [0x0x7ff67e51050c]
+	(No symbol) [0x0x7ff67e563887]
+	(No symbol) [0x0x7ff67e5384af]
+	(No symbol) [0x0x7ff67e56065c]
+	(No symbol) [0x0x7ff67e538243]
+	(No symbol) [0x0x7ff67e501431]
+	(No symbol) [0x0x7ff67e5021c3]
+	GetHandleVerifier [0x0x7ff67e9dd29d+3051437]
+	GetHandleVerifier [0x0x7ff67e9d78f3+3028483]
+	GetHandleVerifier [0x0x7ff67e9f588d+3151261]
+	GetHandleVerifier [0x0x7ff67e72182e+185662]
+	GetHandleVerifier [0x0x7ff67e7296ef+218111]
+	GetHandleVerifier [0x0x7ff67e70fae4+112628]
+	GetHandleVerifier [0x0x7ff67e70fc99+113065]
+	GetHandleVerifier [0x0x7ff67e6f6c68+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-06-30 21:57:12,661 - INFO - Fetching eBay page 8: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=8
+2025-06-30 21:57:22,956 - ERROR - Page 8 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff67e706f65+76917]
+	GetHandleVerifier [0x0x7ff67e706fc0+77008]
+	(No symbol) [0x0x7ff67e4b9dea]
+	(No symbol) [0x0x7ff67e510256]
+	(No symbol) [0x0x7ff67e51050c]
+	(No symbol) [0x0x7ff67e563887]
+	(No symbol) [0x0x7ff67e5384af]
+	(No symbol) [0x0x7ff67e56065c]
+	(No symbol) [0x0x7ff67e538243]
+	(No symbol) [0x0x7ff67e501431]
+	(No symbol) [0x0x7ff67e5021c3]
+	GetHandleVerifier [0x0x7ff67e9dd29d+3051437]
+	GetHandleVerifier [0x0x7ff67e9d78f3+3028483]
+	GetHandleVerifier [0x0x7ff67e9f588d+3151261]
+	GetHandleVerifier [0x0x7ff67e72182e+185662]
+	GetHandleVerifier [0x0x7ff67e7296ef+218111]
+	GetHandleVerifier [0x0x7ff67e70fae4+112628]
+	GetHandleVerifier [0x0x7ff67e70fc99+113065]
+	GetHandleVerifier [0x0x7ff67e6f6c68+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-06-30 21:57:23,823 - INFO - Fetching eBay page 9: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=9
+2025-06-30 21:57:34,089 - ERROR - Page 9 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff67e706f65+76917]
+	GetHandleVerifier [0x0x7ff67e706fc0+77008]
+	(No symbol) [0x0x7ff67e4b9dea]
+	(No symbol) [0x0x7ff67e510256]
+	(No symbol) [0x0x7ff67e51050c]
+	(No symbol) [0x0x7ff67e563887]
+	(No symbol) [0x0x7ff67e5384af]
+	(No symbol) [0x0x7ff67e56065c]
+	(No symbol) [0x0x7ff67e538243]
+	(No symbol) [0x0x7ff67e501431]
+	(No symbol) [0x0x7ff67e5021c3]
+	GetHandleVerifier [0x0x7ff67e9dd29d+3051437]
+	GetHandleVerifier [0x0x7ff67e9d78f3+3028483]
+	GetHandleVerifier [0x0x7ff67e9f588d+3151261]
+	GetHandleVerifier [0x0x7ff67e72182e+185662]
+	GetHandleVerifier [0x0x7ff67e7296ef+218111]
+	GetHandleVerifier [0x0x7ff67e70fae4+112628]
+	GetHandleVerifier [0x0x7ff67e70fc99+113065]
+	GetHandleVerifier [0x0x7ff67e6f6c68+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-06-30 21:57:34,744 - INFO - Fetching eBay page 10: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=10
+2025-06-30 21:57:44,992 - ERROR - Page 10 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff67e706f65+76917]
+	GetHandleVerifier [0x0x7ff67e706fc0+77008]
+	(No symbol) [0x0x7ff67e4b9dea]
+	(No symbol) [0x0x7ff67e510256]
+	(No symbol) [0x0x7ff67e51050c]
+	(No symbol) [0x0x7ff67e563887]
+	(No symbol) [0x0x7ff67e5384af]
+	(No symbol) [0x0x7ff67e56065c]
+	(No symbol) [0x0x7ff67e538243]
+	(No symbol) [0x0x7ff67e501431]
+	(No symbol) [0x0x7ff67e5021c3]
+	GetHandleVerifier [0x0x7ff67e9dd29d+3051437]
+	GetHandleVerifier [0x0x7ff67e9d78f3+3028483]
+	GetHandleVerifier [0x0x7ff67e9f588d+3151261]
+	GetHandleVerifier [0x0x7ff67e72182e+185662]
+	GetHandleVerifier [0x0x7ff67e7296ef+218111]
+	GetHandleVerifier [0x0x7ff67e70fae4+112628]
+	GetHandleVerifier [0x0x7ff67e70fc99+113065]
+	GetHandleVerifier [0x0x7ff67e6f6c68+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-06-30 21:57:45,582 - INFO - Fetching eBay page 11: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=11
+2025-06-30 21:57:55,843 - ERROR - Page 11 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff67e706f65+76917]
+	GetHandleVerifier [0x0x7ff67e706fc0+77008]
+	(No symbol) [0x0x7ff67e4b9dea]
+	(No symbol) [0x0x7ff67e510256]
+	(No symbol) [0x0x7ff67e51050c]
+	(No symbol) [0x0x7ff67e563887]
+	(No symbol) [0x0x7ff67e5384af]
+	(No symbol) [0x0x7ff67e56065c]
+	(No symbol) [0x0x7ff67e538243]
+	(No symbol) [0x0x7ff67e501431]
+	(No symbol) [0x0x7ff67e5021c3]
+	GetHandleVerifier [0x0x7ff67e9dd29d+3051437]
+	GetHandleVerifier [0x0x7ff67e9d78f3+3028483]
+	GetHandleVerifier [0x0x7ff67e9f588d+3151261]
+	GetHandleVerifier [0x0x7ff67e72182e+185662]
+	GetHandleVerifier [0x0x7ff67e7296ef+218111]
+	GetHandleVerifier [0x0x7ff67e70fae4+112628]
+	GetHandleVerifier [0x0x7ff67e70fc99+113065]
+	GetHandleVerifier [0x0x7ff67e6f6c68+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-06-30 21:57:56,913 - INFO - Fetching eBay page 12: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=12
+2025-06-30 21:58:07,138 - ERROR - Page 12 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff67e706f65+76917]
+	GetHandleVerifier [0x0x7ff67e706fc0+77008]
+	(No symbol) [0x0x7ff67e4b9dea]
+	(No symbol) [0x0x7ff67e510256]
+	(No symbol) [0x0x7ff67e51050c]
+	(No symbol) [0x0x7ff67e563887]
+	(No symbol) [0x0x7ff67e5384af]
+	(No symbol) [0x0x7ff67e56065c]
+	(No symbol) [0x0x7ff67e538243]
+	(No symbol) [0x0x7ff67e501431]
+	(No symbol) [0x0x7ff67e5021c3]
+	GetHandleVerifier [0x0x7ff67e9dd29d+3051437]
+	GetHandleVerifier [0x0x7ff67e9d78f3+3028483]
+	GetHandleVerifier [0x0x7ff67e9f588d+3151261]
+	GetHandleVerifier [0x0x7ff67e72182e+185662]
+	GetHandleVerifier [0x0x7ff67e7296ef+218111]
+	GetHandleVerifier [0x0x7ff67e70fae4+112628]
+	GetHandleVerifier [0x0x7ff67e70fc99+113065]
+	GetHandleVerifier [0x0x7ff67e6f6c68+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-06-30 21:58:07,763 - INFO - Fetching eBay page 13: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=13
+2025-06-30 21:58:18,009 - ERROR - Page 13 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff67e706f65+76917]
+	GetHandleVerifier [0x0x7ff67e706fc0+77008]
+	(No symbol) [0x0x7ff67e4b9dea]
+	(No symbol) [0x0x7ff67e510256]
+	(No symbol) [0x0x7ff67e51050c]
+	(No symbol) [0x0x7ff67e563887]
+	(No symbol) [0x0x7ff67e5384af]
+	(No symbol) [0x0x7ff67e56065c]
+	(No symbol) [0x0x7ff67e538243]
+	(No symbol) [0x0x7ff67e501431]
+	(No symbol) [0x0x7ff67e5021c3]
+	GetHandleVerifier [0x0x7ff67e9dd29d+3051437]
+	GetHandleVerifier [0x0x7ff67e9d78f3+3028483]
+	GetHandleVerifier [0x0x7ff67e9f588d+3151261]
+	GetHandleVerifier [0x0x7ff67e72182e+185662]
+	GetHandleVerifier [0x0x7ff67e7296ef+218111]
+	GetHandleVerifier [0x0x7ff67e70fae4+112628]
+	GetHandleVerifier [0x0x7ff67e70fc99+113065]
+	GetHandleVerifier [0x0x7ff67e6f6c68+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-06-30 21:58:18,676 - INFO - Fetching eBay page 14: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=14
+2025-06-30 21:58:28,936 - ERROR - Page 14 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff67e706f65+76917]
+	GetHandleVerifier [0x0x7ff67e706fc0+77008]
+	(No symbol) [0x0x7ff67e4b9dea]
+	(No symbol) [0x0x7ff67e510256]
+	(No symbol) [0x0x7ff67e51050c]
+	(No symbol) [0x0x7ff67e563887]
+	(No symbol) [0x0x7ff67e5384af]
+	(No symbol) [0x0x7ff67e56065c]
+	(No symbol) [0x0x7ff67e538243]
+	(No symbol) [0x0x7ff67e501431]
+	(No symbol) [0x0x7ff67e5021c3]
+	GetHandleVerifier [0x0x7ff67e9dd29d+3051437]
+	GetHandleVerifier [0x0x7ff67e9d78f3+3028483]
+	GetHandleVerifier [0x0x7ff67e9f588d+3151261]
+	GetHandleVerifier [0x0x7ff67e72182e+185662]
+	GetHandleVerifier [0x0x7ff67e7296ef+218111]
+	GetHandleVerifier [0x0x7ff67e70fae4+112628]
+	GetHandleVerifier [0x0x7ff67e70fc99+113065]
+	GetHandleVerifier [0x0x7ff67e6f6c68+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-06-30 21:58:29,627 - INFO - Fetching eBay page 15: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=15
+2025-06-30 21:58:39,887 - ERROR - Page 15 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff67e706f65+76917]
+	GetHandleVerifier [0x0x7ff67e706fc0+77008]
+	(No symbol) [0x0x7ff67e4b9dea]
+	(No symbol) [0x0x7ff67e510256]
+	(No symbol) [0x0x7ff67e51050c]
+	(No symbol) [0x0x7ff67e563887]
+	(No symbol) [0x0x7ff67e5384af]
+	(No symbol) [0x0x7ff67e56065c]
+	(No symbol) [0x0x7ff67e538243]
+	(No symbol) [0x0x7ff67e501431]
+	(No symbol) [0x0x7ff67e5021c3]
+	GetHandleVerifier [0x0x7ff67e9dd29d+3051437]
+	GetHandleVerifier [0x0x7ff67e9d78f3+3028483]
+	GetHandleVerifier [0x0x7ff67e9f588d+3151261]
+	GetHandleVerifier [0x0x7ff67e72182e+185662]
+	GetHandleVerifier [0x0x7ff67e7296ef+218111]
+	GetHandleVerifier [0x0x7ff67e70fae4+112628]
+	GetHandleVerifier [0x0x7ff67e70fc99+113065]
+	GetHandleVerifier [0x0x7ff67e6f6c68+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-06-30 21:58:40,537 - INFO - Fetching eBay page 16: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=16
+2025-06-30 21:58:50,811 - ERROR - Page 16 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff67e706f65+76917]
+	GetHandleVerifier [0x0x7ff67e706fc0+77008]
+	(No symbol) [0x0x7ff67e4b9dea]
+	(No symbol) [0x0x7ff67e510256]
+	(No symbol) [0x0x7ff67e51050c]
+	(No symbol) [0x0x7ff67e563887]
+	(No symbol) [0x0x7ff67e5384af]
+	(No symbol) [0x0x7ff67e56065c]
+	(No symbol) [0x0x7ff67e538243]
+	(No symbol) [0x0x7ff67e501431]
+	(No symbol) [0x0x7ff67e5021c3]
+	GetHandleVerifier [0x0x7ff67e9dd29d+3051437]
+	GetHandleVerifier [0x0x7ff67e9d78f3+3028483]
+	GetHandleVerifier [0x0x7ff67e9f588d+3151261]
+	GetHandleVerifier [0x0x7ff67e72182e+185662]
+	GetHandleVerifier [0x0x7ff67e7296ef+218111]
+	GetHandleVerifier [0x0x7ff67e70fae4+112628]
+	GetHandleVerifier [0x0x7ff67e70fc99+113065]
+	GetHandleVerifier [0x0x7ff67e6f6c68+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-06-30 21:58:51,521 - INFO - Fetching eBay page 17: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=17
+2025-06-30 21:59:01,778 - ERROR - Page 17 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff67e706f65+76917]
+	GetHandleVerifier [0x0x7ff67e706fc0+77008]
+	(No symbol) [0x0x7ff67e4b9dea]
+	(No symbol) [0x0x7ff67e510256]
+	(No symbol) [0x0x7ff67e51050c]
+	(No symbol) [0x0x7ff67e563887]
+	(No symbol) [0x0x7ff67e5384af]
+	(No symbol) [0x0x7ff67e56065c]
+	(No symbol) [0x0x7ff67e538243]
+	(No symbol) [0x0x7ff67e501431]
+	(No symbol) [0x0x7ff67e5021c3]
+	GetHandleVerifier [0x0x7ff67e9dd29d+3051437]
+	GetHandleVerifier [0x0x7ff67e9d78f3+3028483]
+	GetHandleVerifier [0x0x7ff67e9f588d+3151261]
+	GetHandleVerifier [0x0x7ff67e72182e+185662]
+	GetHandleVerifier [0x0x7ff67e7296ef+218111]
+	GetHandleVerifier [0x0x7ff67e70fae4+112628]
+	GetHandleVerifier [0x0x7ff67e70fc99+113065]
+	GetHandleVerifier [0x0x7ff67e6f6c68+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-06-30 21:59:02,592 - INFO - Fetching eBay page 18: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=18
+2025-06-30 21:59:12,853 - ERROR - Page 18 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff67e706f65+76917]
+	GetHandleVerifier [0x0x7ff67e706fc0+77008]
+	(No symbol) [0x0x7ff67e4b9dea]
+	(No symbol) [0x0x7ff67e510256]
+	(No symbol) [0x0x7ff67e51050c]
+	(No symbol) [0x0x7ff67e563887]
+	(No symbol) [0x0x7ff67e5384af]
+	(No symbol) [0x0x7ff67e56065c]
+	(No symbol) [0x0x7ff67e538243]
+	(No symbol) [0x0x7ff67e501431]
+	(No symbol) [0x0x7ff67e5021c3]
+	GetHandleVerifier [0x0x7ff67e9dd29d+3051437]
+	GetHandleVerifier [0x0x7ff67e9d78f3+3028483]
+	GetHandleVerifier [0x0x7ff67e9f588d+3151261]
+	GetHandleVerifier [0x0x7ff67e72182e+185662]
+	GetHandleVerifier [0x0x7ff67e7296ef+218111]
+	GetHandleVerifier [0x0x7ff67e70fae4+112628]
+	GetHandleVerifier [0x0x7ff67e70fc99+113065]
+	GetHandleVerifier [0x0x7ff67e6f6c68+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-06-30 21:59:13,743 - INFO - Fetching eBay page 19: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=19
+2025-06-30 21:59:24,013 - ERROR - Page 19 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff67e706f65+76917]
+	GetHandleVerifier [0x0x7ff67e706fc0+77008]
+	(No symbol) [0x0x7ff67e4b9dea]
+	(No symbol) [0x0x7ff67e510256]
+	(No symbol) [0x0x7ff67e51050c]
+	(No symbol) [0x0x7ff67e563887]
+	(No symbol) [0x0x7ff67e5384af]
+	(No symbol) [0x0x7ff67e56065c]
+	(No symbol) [0x0x7ff67e538243]
+	(No symbol) [0x0x7ff67e501431]
+	(No symbol) [0x0x7ff67e5021c3]
+	GetHandleVerifier [0x0x7ff67e9dd29d+3051437]
+	GetHandleVerifier [0x0x7ff67e9d78f3+3028483]
+	GetHandleVerifier [0x0x7ff67e9f588d+3151261]
+	GetHandleVerifier [0x0x7ff67e72182e+185662]
+	GetHandleVerifier [0x0x7ff67e7296ef+218111]
+	GetHandleVerifier [0x0x7ff67e70fae4+112628]
+	GetHandleVerifier [0x0x7ff67e70fc99+113065]
+	GetHandleVerifier [0x0x7ff67e6f6c68+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-06-30 21:59:25,005 - INFO - Fetching eBay page 20: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=20
+2025-06-30 21:59:35,239 - ERROR - Page 20 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff67e706f65+76917]
+	GetHandleVerifier [0x0x7ff67e706fc0+77008]
+	(No symbol) [0x0x7ff67e4b9dea]
+	(No symbol) [0x0x7ff67e510256]
+	(No symbol) [0x0x7ff67e51050c]
+	(No symbol) [0x0x7ff67e563887]
+	(No symbol) [0x0x7ff67e5384af]
+	(No symbol) [0x0x7ff67e56065c]
+	(No symbol) [0x0x7ff67e538243]
+	(No symbol) [0x0x7ff67e501431]
+	(No symbol) [0x0x7ff67e5021c3]
+	GetHandleVerifier [0x0x7ff67e9dd29d+3051437]
+	GetHandleVerifier [0x0x7ff67e9d78f3+3028483]
+	GetHandleVerifier [0x0x7ff67e9f588d+3151261]
+	GetHandleVerifier [0x0x7ff67e72182e+185662]
+	GetHandleVerifier [0x0x7ff67e7296ef+218111]
+	GetHandleVerifier [0x0x7ff67e70fae4+112628]
+	GetHandleVerifier [0x0x7ff67e70fc99+113065]
+	GetHandleVerifier [0x0x7ff67e6f6c68+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-06-30 21:59:36,202 - INFO - Fetching eBay page 21: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=21
+2025-06-30 21:59:46,559 - ERROR - Page 21 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff67e706f65+76917]
+	GetHandleVerifier [0x0x7ff67e706fc0+77008]
+	(No symbol) [0x0x7ff67e4b9dea]
+	(No symbol) [0x0x7ff67e510256]
+	(No symbol) [0x0x7ff67e51050c]
+	(No symbol) [0x0x7ff67e563887]
+	(No symbol) [0x0x7ff67e5384af]
+	(No symbol) [0x0x7ff67e56065c]
+	(No symbol) [0x0x7ff67e538243]
+	(No symbol) [0x0x7ff67e501431]
+	(No symbol) [0x0x7ff67e5021c3]
+	GetHandleVerifier [0x0x7ff67e9dd29d+3051437]
+	GetHandleVerifier [0x0x7ff67e9d78f3+3028483]
+	GetHandleVerifier [0x0x7ff67e9f588d+3151261]
+	GetHandleVerifier [0x0x7ff67e72182e+185662]
+	GetHandleVerifier [0x0x7ff67e7296ef+218111]
+	GetHandleVerifier [0x0x7ff67e70fae4+112628]
+	GetHandleVerifier [0x0x7ff67e70fc99+113065]
+	GetHandleVerifier [0x0x7ff67e6f6c68+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-06-30 21:59:47,503 - INFO - Fetching eBay page 22: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=22
+2025-06-30 21:59:57,758 - ERROR - Page 22 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff67e706f65+76917]
+	GetHandleVerifier [0x0x7ff67e706fc0+77008]
+	(No symbol) [0x0x7ff67e4b9dea]
+	(No symbol) [0x0x7ff67e510256]
+	(No symbol) [0x0x7ff67e51050c]
+	(No symbol) [0x0x7ff67e563887]
+	(No symbol) [0x0x7ff67e5384af]
+	(No symbol) [0x0x7ff67e56065c]
+	(No symbol) [0x0x7ff67e538243]
+	(No symbol) [0x0x7ff67e501431]
+	(No symbol) [0x0x7ff67e5021c3]
+	GetHandleVerifier [0x0x7ff67e9dd29d+3051437]
+	GetHandleVerifier [0x0x7ff67e9d78f3+3028483]
+	GetHandleVerifier [0x0x7ff67e9f588d+3151261]
+	GetHandleVerifier [0x0x7ff67e72182e+185662]
+	GetHandleVerifier [0x0x7ff67e7296ef+218111]
+	GetHandleVerifier [0x0x7ff67e70fae4+112628]
+	GetHandleVerifier [0x0x7ff67e70fc99+113065]
+	GetHandleVerifier [0x0x7ff67e6f6c68+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-06-30 21:59:58,602 - INFO - Fetching eBay page 23: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=23
+2025-06-30 22:00:08,864 - ERROR - Page 23 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff67e706f65+76917]
+	GetHandleVerifier [0x0x7ff67e706fc0+77008]
+	(No symbol) [0x0x7ff67e4b9dea]
+	(No symbol) [0x0x7ff67e510256]
+	(No symbol) [0x0x7ff67e51050c]
+	(No symbol) [0x0x7ff67e563887]
+	(No symbol) [0x0x7ff67e5384af]
+	(No symbol) [0x0x7ff67e56065c]
+	(No symbol) [0x0x7ff67e538243]
+	(No symbol) [0x0x7ff67e501431]
+	(No symbol) [0x0x7ff67e5021c3]
+	GetHandleVerifier [0x0x7ff67e9dd29d+3051437]
+	GetHandleVerifier [0x0x7ff67e9d78f3+3028483]
+	GetHandleVerifier [0x0x7ff67e9f588d+3151261]
+	GetHandleVerifier [0x0x7ff67e72182e+185662]
+	GetHandleVerifier [0x0x7ff67e7296ef+218111]
+	GetHandleVerifier [0x0x7ff67e70fae4+112628]
+	GetHandleVerifier [0x0x7ff67e70fc99+113065]
+	GetHandleVerifier [0x0x7ff67e6f6c68+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-06-30 22:00:09,771 - INFO - Fetching eBay page 24: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=24
+2025-06-30 22:00:20,138 - ERROR - Page 24 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff67e706f65+76917]
+	GetHandleVerifier [0x0x7ff67e706fc0+77008]
+	(No symbol) [0x0x7ff67e4b9dea]
+	(No symbol) [0x0x7ff67e510256]
+	(No symbol) [0x0x7ff67e51050c]
+	(No symbol) [0x0x7ff67e563887]
+	(No symbol) [0x0x7ff67e5384af]
+	(No symbol) [0x0x7ff67e56065c]
+	(No symbol) [0x0x7ff67e538243]
+	(No symbol) [0x0x7ff67e501431]
+	(No symbol) [0x0x7ff67e5021c3]
+	GetHandleVerifier [0x0x7ff67e9dd29d+3051437]
+	GetHandleVerifier [0x0x7ff67e9d78f3+3028483]
+	GetHandleVerifier [0x0x7ff67e9f588d+3151261]
+	GetHandleVerifier [0x0x7ff67e72182e+185662]
+	GetHandleVerifier [0x0x7ff67e7296ef+218111]
+	GetHandleVerifier [0x0x7ff67e70fae4+112628]
+	GetHandleVerifier [0x0x7ff67e70fc99+113065]
+	GetHandleVerifier [0x0x7ff67e6f6c68+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-06-30 22:00:20,976 - INFO - Fetching eBay page 25: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=25
+2025-06-30 22:00:31,257 - ERROR - Page 25 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff67e706f65+76917]
+	GetHandleVerifier [0x0x7ff67e706fc0+77008]
+	(No symbol) [0x0x7ff67e4b9dea]
+	(No symbol) [0x0x7ff67e510256]
+	(No symbol) [0x0x7ff67e51050c]
+	(No symbol) [0x0x7ff67e563887]
+	(No symbol) [0x0x7ff67e5384af]
+	(No symbol) [0x0x7ff67e56065c]
+	(No symbol) [0x0x7ff67e538243]
+	(No symbol) [0x0x7ff67e501431]
+	(No symbol) [0x0x7ff67e5021c3]
+	GetHandleVerifier [0x0x7ff67e9dd29d+3051437]
+	GetHandleVerifier [0x0x7ff67e9d78f3+3028483]
+	GetHandleVerifier [0x0x7ff67e9f588d+3151261]
+	GetHandleVerifier [0x0x7ff67e72182e+185662]
+	GetHandleVerifier [0x0x7ff67e7296ef+218111]
+	GetHandleVerifier [0x0x7ff67e70fae4+112628]
+	GetHandleVerifier [0x0x7ff67e70fc99+113065]
+	GetHandleVerifier [0x0x7ff67e6f6c68+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-06-30 22:00:31,258 - INFO - Total eBay items inserted: 240
+2025-06-30 22:00:33,550 - INFO - Running Amazon scraper...
+2025-06-30 22:00:33,551 - INFO - Fetching Amazon URL: https://www.amazon.com/s?k=laptop
+2025-06-30 22:00:36,073 - INFO - Amazon inserted 16 titles
+2025-06-30 22:00:36,074 - INFO - Running Newegg Selenium scraper...
+2025-06-30 22:00:38,733 - INFO - Fetching Newegg page 1: https://www.newegg.com/p/pl?d=laptop&page=1
+2025-06-30 22:00:39,297 - INFO - Fetching Newegg page 2: https://www.newegg.com/p/pl?d=laptop&page=2
+2025-06-30 22:00:39,705 - INFO - Fetching Newegg page 3: https://www.newegg.com/p/pl?d=laptop&page=3
+2025-06-30 22:00:40,212 - INFO - Fetching Newegg page 4: https://www.newegg.com/p/pl?d=laptop&page=4
+2025-06-30 22:00:40,790 - INFO - Fetching Newegg page 5: https://www.newegg.com/p/pl?d=laptop&page=5
+2025-06-30 22:00:41,204 - INFO - Fetching Newegg page 6: https://www.newegg.com/p/pl?d=laptop&page=6
+2025-06-30 22:00:41,629 - INFO - Fetching Newegg page 7: https://www.newegg.com/p/pl?d=laptop&page=7
+2025-06-30 22:00:42,024 - INFO - Fetching Newegg page 8: https://www.newegg.com/p/pl?d=laptop&page=8
+2025-06-30 22:00:42,661 - INFO - Fetching Newegg page 9: https://www.newegg.com/p/pl?d=laptop&page=9
+2025-06-30 22:00:43,084 - INFO - Fetching Newegg page 10: https://www.newegg.com/p/pl?d=laptop&page=10
+2025-06-30 22:00:43,569 - INFO - Fetching Newegg page 11: https://www.newegg.com/p/pl?d=laptop&page=11
+2025-06-30 22:00:44,076 - INFO - Fetching Newegg page 12: https://www.newegg.com/p/pl?d=laptop&page=12
+2025-06-30 22:00:44,489 - INFO - Fetching Newegg page 13: https://www.newegg.com/p/pl?d=laptop&page=13
+2025-06-30 22:00:44,923 - INFO - Fetching Newegg page 14: https://www.newegg.com/p/pl?d=laptop&page=14
+2025-06-30 22:00:45,403 - INFO - Fetching Newegg page 15: https://www.newegg.com/p/pl?d=laptop&page=15
+2025-06-30 22:00:45,805 - INFO - Fetching Newegg page 16: https://www.newegg.com/p/pl?d=laptop&page=16
+2025-06-30 22:00:46,166 - INFO - Fetching Newegg page 17: https://www.newegg.com/p/pl?d=laptop&page=17
+2025-06-30 22:00:46,555 - INFO - Fetching Newegg page 18: https://www.newegg.com/p/pl?d=laptop&page=18
+2025-06-30 22:00:46,933 - INFO - Fetching Newegg page 19: https://www.newegg.com/p/pl?d=laptop&page=19
+2025-06-30 22:00:47,301 - INFO - Fetching Newegg page 20: https://www.newegg.com/p/pl?d=laptop&page=20
+2025-06-30 22:00:47,332 - INFO - Newegg Selenium: Total inserted = 20
+2025-06-30 22:00:49,455 - INFO - Cleaning data and generating report...
+2025-06-30 22:00:49,520 - INFO - Final cleaned item count: 391
+2025-07-01 17:46:13,894 - INFO - Creating database tables...
+2025-07-01 17:46:13,910 - INFO - Running static scraper...
+2025-07-01 17:46:13,910 - INFO - Fetching URL: https://books.toscrape.com
+2025-07-01 17:46:34,129 - INFO - Creating database tables...
+2025-07-01 17:46:34,139 - INFO - Running static scraper...
+2025-07-01 17:46:34,139 - INFO - Fetching URL: https://books.toscrape.com
+2025-07-01 17:47:45,004 - INFO - Creating database tables...
+2025-07-01 17:47:45,014 - INFO - Running static scraper...
+2025-07-01 17:47:45,014 - INFO - Fetching URL: https://books.toscrape.com
+2025-07-01 17:50:20,059 - INFO - Creating database tables...
+2025-07-01 17:50:20,069 - INFO - Running static scraper...
+2025-07-01 17:50:20,069 - INFO - Fetching URL: https://books.toscrape.com
+2025-07-01 17:50:31,397 - INFO - Creating database tables...
+2025-07-01 17:50:31,400 - INFO - Running static scraper...
+2025-07-01 17:50:31,400 - INFO - Fetching URL: https://books.toscrape.com
+2025-07-01 17:52:50,552 - INFO - Creating database tables...
+2025-07-01 17:52:50,562 - INFO - Running static scraper...
+2025-07-01 17:52:50,562 - INFO - Fetching URL: https://books.toscrape.com
+2025-07-01 17:53:00,940 - INFO - Creating database tables...
+2025-07-01 17:53:00,942 - INFO - Running static scraper...
+2025-07-01 17:53:00,942 - INFO - Fetching URL: https://books.toscrape.com
+2025-07-01 18:00:19,203 - INFO - Creating database tables...
+2025-07-01 18:00:19,211 - INFO - Running static scraper...
+2025-07-01 18:00:19,212 - INFO - Fetching URL: https://books.toscrape.com
+2025-07-01 18:01:18,273 - INFO - Creating database tables...
+2025-07-01 18:01:18,281 - INFO - Running static scraper...
+2025-07-01 18:01:18,282 - INFO - Fetching URL: https://books.toscrape.com
+2025-07-01 18:01:19,393 - INFO - Running Selenium eBay scraper...
+2025-07-01 18:01:32,773 - INFO - Fetching eBay page 1: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=1
+2025-07-01 18:01:35,573 - INFO - Fetching eBay page 2: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=2
+2025-07-01 18:01:36,441 - INFO - Fetching eBay page 3: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=3
+2025-07-01 18:01:45,904 - INFO - Fetching eBay page 4: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=4
+2025-07-01 18:01:50,503 - INFO - Fetching eBay page 5: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=5
+2025-07-01 18:02:00,564 - ERROR - Page 5 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7f5646f95+76917]
+	GetHandleVerifier [0x0x7ff7f5646ff0+77008]
+	(No symbol) [0x0x7ff7f53f9dea]
+	(No symbol) [0x0x7ff7f5450256]
+	(No symbol) [0x0x7ff7f545050c]
+	(No symbol) [0x0x7ff7f54a3887]
+	(No symbol) [0x0x7ff7f54784af]
+	(No symbol) [0x0x7ff7f54a065c]
+	(No symbol) [0x0x7ff7f5478243]
+	(No symbol) [0x0x7ff7f5441431]
+	(No symbol) [0x0x7ff7f54421c3]
+	GetHandleVerifier [0x0x7ff7f591d2cd+3051437]
+	GetHandleVerifier [0x0x7ff7f5917923+3028483]
+	GetHandleVerifier [0x0x7ff7f59358bd+3151261]
+	GetHandleVerifier [0x0x7ff7f566185e+185662]
+	GetHandleVerifier [0x0x7ff7f566971f+218111]
+	GetHandleVerifier [0x0x7ff7f564fb14+112628]
+	GetHandleVerifier [0x0x7ff7f564fcc9+113065]
+	GetHandleVerifier [0x0x7ff7f5636c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:02:02,449 - INFO - Fetching eBay page 6: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=6
+2025-07-01 18:02:12,454 - ERROR - Page 6 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7f5646f95+76917]
+	GetHandleVerifier [0x0x7ff7f5646ff0+77008]
+	(No symbol) [0x0x7ff7f53f9dea]
+	(No symbol) [0x0x7ff7f5450256]
+	(No symbol) [0x0x7ff7f545050c]
+	(No symbol) [0x0x7ff7f54a3887]
+	(No symbol) [0x0x7ff7f54784af]
+	(No symbol) [0x0x7ff7f54a065c]
+	(No symbol) [0x0x7ff7f5478243]
+	(No symbol) [0x0x7ff7f5441431]
+	(No symbol) [0x0x7ff7f54421c3]
+	GetHandleVerifier [0x0x7ff7f591d2cd+3051437]
+	GetHandleVerifier [0x0x7ff7f5917923+3028483]
+	GetHandleVerifier [0x0x7ff7f59358bd+3151261]
+	GetHandleVerifier [0x0x7ff7f566185e+185662]
+	GetHandleVerifier [0x0x7ff7f566971f+218111]
+	GetHandleVerifier [0x0x7ff7f564fb14+112628]
+	GetHandleVerifier [0x0x7ff7f564fcc9+113065]
+	GetHandleVerifier [0x0x7ff7f5636c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:02:13,288 - INFO - Fetching eBay page 7: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=7
+2025-07-01 18:02:23,701 - ERROR - Page 7 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7f5646f95+76917]
+	GetHandleVerifier [0x0x7ff7f5646ff0+77008]
+	(No symbol) [0x0x7ff7f53f9dea]
+	(No symbol) [0x0x7ff7f5450256]
+	(No symbol) [0x0x7ff7f545050c]
+	(No symbol) [0x0x7ff7f54a3887]
+	(No symbol) [0x0x7ff7f54784af]
+	(No symbol) [0x0x7ff7f54a065c]
+	(No symbol) [0x0x7ff7f5478243]
+	(No symbol) [0x0x7ff7f5441431]
+	(No symbol) [0x0x7ff7f54421c3]
+	GetHandleVerifier [0x0x7ff7f591d2cd+3051437]
+	GetHandleVerifier [0x0x7ff7f5917923+3028483]
+	GetHandleVerifier [0x0x7ff7f59358bd+3151261]
+	GetHandleVerifier [0x0x7ff7f566185e+185662]
+	GetHandleVerifier [0x0x7ff7f566971f+218111]
+	GetHandleVerifier [0x0x7ff7f564fb14+112628]
+	GetHandleVerifier [0x0x7ff7f564fcc9+113065]
+	GetHandleVerifier [0x0x7ff7f5636c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:02:24,567 - INFO - Fetching eBay page 8: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=8
+2025-07-01 18:02:34,574 - ERROR - Page 8 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7f5646f95+76917]
+	GetHandleVerifier [0x0x7ff7f5646ff0+77008]
+	(No symbol) [0x0x7ff7f53f9dea]
+	(No symbol) [0x0x7ff7f5450256]
+	(No symbol) [0x0x7ff7f545050c]
+	(No symbol) [0x0x7ff7f54a3887]
+	(No symbol) [0x0x7ff7f54784af]
+	(No symbol) [0x0x7ff7f54a065c]
+	(No symbol) [0x0x7ff7f5478243]
+	(No symbol) [0x0x7ff7f5441431]
+	(No symbol) [0x0x7ff7f54421c3]
+	GetHandleVerifier [0x0x7ff7f591d2cd+3051437]
+	GetHandleVerifier [0x0x7ff7f5917923+3028483]
+	GetHandleVerifier [0x0x7ff7f59358bd+3151261]
+	GetHandleVerifier [0x0x7ff7f566185e+185662]
+	GetHandleVerifier [0x0x7ff7f566971f+218111]
+	GetHandleVerifier [0x0x7ff7f564fb14+112628]
+	GetHandleVerifier [0x0x7ff7f564fcc9+113065]
+	GetHandleVerifier [0x0x7ff7f5636c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:02:35,488 - INFO - Fetching eBay page 9: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=9
+2025-07-01 18:02:45,936 - ERROR - Page 9 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7f5646f95+76917]
+	GetHandleVerifier [0x0x7ff7f5646ff0+77008]
+	(No symbol) [0x0x7ff7f53f9dea]
+	(No symbol) [0x0x7ff7f5450256]
+	(No symbol) [0x0x7ff7f545050c]
+	(No symbol) [0x0x7ff7f54a3887]
+	(No symbol) [0x0x7ff7f54784af]
+	(No symbol) [0x0x7ff7f54a065c]
+	(No symbol) [0x0x7ff7f5478243]
+	(No symbol) [0x0x7ff7f5441431]
+	(No symbol) [0x0x7ff7f54421c3]
+	GetHandleVerifier [0x0x7ff7f591d2cd+3051437]
+	GetHandleVerifier [0x0x7ff7f5917923+3028483]
+	GetHandleVerifier [0x0x7ff7f59358bd+3151261]
+	GetHandleVerifier [0x0x7ff7f566185e+185662]
+	GetHandleVerifier [0x0x7ff7f566971f+218111]
+	GetHandleVerifier [0x0x7ff7f564fb14+112628]
+	GetHandleVerifier [0x0x7ff7f564fcc9+113065]
+	GetHandleVerifier [0x0x7ff7f5636c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:02:46,954 - INFO - Fetching eBay page 10: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=10
+2025-07-01 18:02:57,024 - ERROR - Page 10 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7f5646f95+76917]
+	GetHandleVerifier [0x0x7ff7f5646ff0+77008]
+	(No symbol) [0x0x7ff7f53f9dea]
+	(No symbol) [0x0x7ff7f5450256]
+	(No symbol) [0x0x7ff7f545050c]
+	(No symbol) [0x0x7ff7f54a3887]
+	(No symbol) [0x0x7ff7f54784af]
+	(No symbol) [0x0x7ff7f54a065c]
+	(No symbol) [0x0x7ff7f5478243]
+	(No symbol) [0x0x7ff7f5441431]
+	(No symbol) [0x0x7ff7f54421c3]
+	GetHandleVerifier [0x0x7ff7f591d2cd+3051437]
+	GetHandleVerifier [0x0x7ff7f5917923+3028483]
+	GetHandleVerifier [0x0x7ff7f59358bd+3151261]
+	GetHandleVerifier [0x0x7ff7f566185e+185662]
+	GetHandleVerifier [0x0x7ff7f566971f+218111]
+	GetHandleVerifier [0x0x7ff7f564fb14+112628]
+	GetHandleVerifier [0x0x7ff7f564fcc9+113065]
+	GetHandleVerifier [0x0x7ff7f5636c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:02:57,946 - INFO - Fetching eBay page 11: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=11
+2025-07-01 18:03:08,118 - ERROR - Page 11 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7f5646f95+76917]
+	GetHandleVerifier [0x0x7ff7f5646ff0+77008]
+	(No symbol) [0x0x7ff7f53f9dea]
+	(No symbol) [0x0x7ff7f5450256]
+	(No symbol) [0x0x7ff7f545050c]
+	(No symbol) [0x0x7ff7f54a3887]
+	(No symbol) [0x0x7ff7f54784af]
+	(No symbol) [0x0x7ff7f54a065c]
+	(No symbol) [0x0x7ff7f5478243]
+	(No symbol) [0x0x7ff7f5441431]
+	(No symbol) [0x0x7ff7f54421c3]
+	GetHandleVerifier [0x0x7ff7f591d2cd+3051437]
+	GetHandleVerifier [0x0x7ff7f5917923+3028483]
+	GetHandleVerifier [0x0x7ff7f59358bd+3151261]
+	GetHandleVerifier [0x0x7ff7f566185e+185662]
+	GetHandleVerifier [0x0x7ff7f566971f+218111]
+	GetHandleVerifier [0x0x7ff7f564fb14+112628]
+	GetHandleVerifier [0x0x7ff7f564fcc9+113065]
+	GetHandleVerifier [0x0x7ff7f5636c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:03:09,305 - INFO - Fetching eBay page 12: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=12
+2025-07-01 18:03:19,792 - ERROR - Page 12 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7f5646f95+76917]
+	GetHandleVerifier [0x0x7ff7f5646ff0+77008]
+	(No symbol) [0x0x7ff7f53f9dea]
+	(No symbol) [0x0x7ff7f5450256]
+	(No symbol) [0x0x7ff7f545050c]
+	(No symbol) [0x0x7ff7f54a3887]
+	(No symbol) [0x0x7ff7f54784af]
+	(No symbol) [0x0x7ff7f54a065c]
+	(No symbol) [0x0x7ff7f5478243]
+	(No symbol) [0x0x7ff7f5441431]
+	(No symbol) [0x0x7ff7f54421c3]
+	GetHandleVerifier [0x0x7ff7f591d2cd+3051437]
+	GetHandleVerifier [0x0x7ff7f5917923+3028483]
+	GetHandleVerifier [0x0x7ff7f59358bd+3151261]
+	GetHandleVerifier [0x0x7ff7f566185e+185662]
+	GetHandleVerifier [0x0x7ff7f566971f+218111]
+	GetHandleVerifier [0x0x7ff7f564fb14+112628]
+	GetHandleVerifier [0x0x7ff7f564fcc9+113065]
+	GetHandleVerifier [0x0x7ff7f5636c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:03:20,762 - INFO - Fetching eBay page 13: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=13
+2025-07-01 18:03:30,774 - ERROR - Page 13 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7f5646f95+76917]
+	GetHandleVerifier [0x0x7ff7f5646ff0+77008]
+	(No symbol) [0x0x7ff7f53f9dea]
+	(No symbol) [0x0x7ff7f5450256]
+	(No symbol) [0x0x7ff7f545050c]
+	(No symbol) [0x0x7ff7f54a3887]
+	(No symbol) [0x0x7ff7f54784af]
+	(No symbol) [0x0x7ff7f54a065c]
+	(No symbol) [0x0x7ff7f5478243]
+	(No symbol) [0x0x7ff7f5441431]
+	(No symbol) [0x0x7ff7f54421c3]
+	GetHandleVerifier [0x0x7ff7f591d2cd+3051437]
+	GetHandleVerifier [0x0x7ff7f5917923+3028483]
+	GetHandleVerifier [0x0x7ff7f59358bd+3151261]
+	GetHandleVerifier [0x0x7ff7f566185e+185662]
+	GetHandleVerifier [0x0x7ff7f566971f+218111]
+	GetHandleVerifier [0x0x7ff7f564fb14+112628]
+	GetHandleVerifier [0x0x7ff7f564fcc9+113065]
+	GetHandleVerifier [0x0x7ff7f5636c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:03:31,686 - INFO - Fetching eBay page 14: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=14
+2025-07-01 18:03:41,695 - ERROR - Page 14 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7f5646f95+76917]
+	GetHandleVerifier [0x0x7ff7f5646ff0+77008]
+	(No symbol) [0x0x7ff7f53f9dea]
+	(No symbol) [0x0x7ff7f5450256]
+	(No symbol) [0x0x7ff7f545050c]
+	(No symbol) [0x0x7ff7f54a3887]
+	(No symbol) [0x0x7ff7f54784af]
+	(No symbol) [0x0x7ff7f54a065c]
+	(No symbol) [0x0x7ff7f5478243]
+	(No symbol) [0x0x7ff7f5441431]
+	(No symbol) [0x0x7ff7f54421c3]
+	GetHandleVerifier [0x0x7ff7f591d2cd+3051437]
+	GetHandleVerifier [0x0x7ff7f5917923+3028483]
+	GetHandleVerifier [0x0x7ff7f59358bd+3151261]
+	GetHandleVerifier [0x0x7ff7f566185e+185662]
+	GetHandleVerifier [0x0x7ff7f566971f+218111]
+	GetHandleVerifier [0x0x7ff7f564fb14+112628]
+	GetHandleVerifier [0x0x7ff7f564fcc9+113065]
+	GetHandleVerifier [0x0x7ff7f5636c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:03:42,599 - INFO - Fetching eBay page 15: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=15
+2025-07-01 18:03:53,059 - ERROR - Page 15 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7f5646f95+76917]
+	GetHandleVerifier [0x0x7ff7f5646ff0+77008]
+	(No symbol) [0x0x7ff7f53f9dea]
+	(No symbol) [0x0x7ff7f5450256]
+	(No symbol) [0x0x7ff7f545050c]
+	(No symbol) [0x0x7ff7f54a3887]
+	(No symbol) [0x0x7ff7f54784af]
+	(No symbol) [0x0x7ff7f54a065c]
+	(No symbol) [0x0x7ff7f5478243]
+	(No symbol) [0x0x7ff7f5441431]
+	(No symbol) [0x0x7ff7f54421c3]
+	GetHandleVerifier [0x0x7ff7f591d2cd+3051437]
+	GetHandleVerifier [0x0x7ff7f5917923+3028483]
+	GetHandleVerifier [0x0x7ff7f59358bd+3151261]
+	GetHandleVerifier [0x0x7ff7f566185e+185662]
+	GetHandleVerifier [0x0x7ff7f566971f+218111]
+	GetHandleVerifier [0x0x7ff7f564fb14+112628]
+	GetHandleVerifier [0x0x7ff7f564fcc9+113065]
+	GetHandleVerifier [0x0x7ff7f5636c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:03:54,003 - INFO - Fetching eBay page 16: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=16
+2025-07-01 18:04:04,404 - ERROR - Page 16 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7f5646f95+76917]
+	GetHandleVerifier [0x0x7ff7f5646ff0+77008]
+	(No symbol) [0x0x7ff7f53f9dea]
+	(No symbol) [0x0x7ff7f5450256]
+	(No symbol) [0x0x7ff7f545050c]
+	(No symbol) [0x0x7ff7f54a3887]
+	(No symbol) [0x0x7ff7f54784af]
+	(No symbol) [0x0x7ff7f54a065c]
+	(No symbol) [0x0x7ff7f5478243]
+	(No symbol) [0x0x7ff7f5441431]
+	(No symbol) [0x0x7ff7f54421c3]
+	GetHandleVerifier [0x0x7ff7f591d2cd+3051437]
+	GetHandleVerifier [0x0x7ff7f5917923+3028483]
+	GetHandleVerifier [0x0x7ff7f59358bd+3151261]
+	GetHandleVerifier [0x0x7ff7f566185e+185662]
+	GetHandleVerifier [0x0x7ff7f566971f+218111]
+	GetHandleVerifier [0x0x7ff7f564fb14+112628]
+	GetHandleVerifier [0x0x7ff7f564fcc9+113065]
+	GetHandleVerifier [0x0x7ff7f5636c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:04:05,237 - INFO - Fetching eBay page 17: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=17
+2025-07-01 18:04:15,736 - ERROR - Page 17 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7f5646f95+76917]
+	GetHandleVerifier [0x0x7ff7f5646ff0+77008]
+	(No symbol) [0x0x7ff7f53f9dea]
+	(No symbol) [0x0x7ff7f5450256]
+	(No symbol) [0x0x7ff7f545050c]
+	(No symbol) [0x0x7ff7f54a3887]
+	(No symbol) [0x0x7ff7f54784af]
+	(No symbol) [0x0x7ff7f54a065c]
+	(No symbol) [0x0x7ff7f5478243]
+	(No symbol) [0x0x7ff7f5441431]
+	(No symbol) [0x0x7ff7f54421c3]
+	GetHandleVerifier [0x0x7ff7f591d2cd+3051437]
+	GetHandleVerifier [0x0x7ff7f5917923+3028483]
+	GetHandleVerifier [0x0x7ff7f59358bd+3151261]
+	GetHandleVerifier [0x0x7ff7f566185e+185662]
+	GetHandleVerifier [0x0x7ff7f566971f+218111]
+	GetHandleVerifier [0x0x7ff7f564fb14+112628]
+	GetHandleVerifier [0x0x7ff7f564fcc9+113065]
+	GetHandleVerifier [0x0x7ff7f5636c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:04:16,805 - INFO - Fetching eBay page 18: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=18
+2025-07-01 18:04:27,280 - ERROR - Page 18 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7f5646f95+76917]
+	GetHandleVerifier [0x0x7ff7f5646ff0+77008]
+	(No symbol) [0x0x7ff7f53f9dea]
+	(No symbol) [0x0x7ff7f5450256]
+	(No symbol) [0x0x7ff7f545050c]
+	(No symbol) [0x0x7ff7f54a3887]
+	(No symbol) [0x0x7ff7f54784af]
+	(No symbol) [0x0x7ff7f54a065c]
+	(No symbol) [0x0x7ff7f5478243]
+	(No symbol) [0x0x7ff7f5441431]
+	(No symbol) [0x0x7ff7f54421c3]
+	GetHandleVerifier [0x0x7ff7f591d2cd+3051437]
+	GetHandleVerifier [0x0x7ff7f5917923+3028483]
+	GetHandleVerifier [0x0x7ff7f59358bd+3151261]
+	GetHandleVerifier [0x0x7ff7f566185e+185662]
+	GetHandleVerifier [0x0x7ff7f566971f+218111]
+	GetHandleVerifier [0x0x7ff7f564fb14+112628]
+	GetHandleVerifier [0x0x7ff7f564fcc9+113065]
+	GetHandleVerifier [0x0x7ff7f5636c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:04:28,199 - INFO - Fetching eBay page 19: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=19
+2025-07-01 18:04:38,670 - ERROR - Page 19 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7f5646f95+76917]
+	GetHandleVerifier [0x0x7ff7f5646ff0+77008]
+	(No symbol) [0x0x7ff7f53f9dea]
+	(No symbol) [0x0x7ff7f5450256]
+	(No symbol) [0x0x7ff7f545050c]
+	(No symbol) [0x0x7ff7f54a3887]
+	(No symbol) [0x0x7ff7f54784af]
+	(No symbol) [0x0x7ff7f54a065c]
+	(No symbol) [0x0x7ff7f5478243]
+	(No symbol) [0x0x7ff7f5441431]
+	(No symbol) [0x0x7ff7f54421c3]
+	GetHandleVerifier [0x0x7ff7f591d2cd+3051437]
+	GetHandleVerifier [0x0x7ff7f5917923+3028483]
+	GetHandleVerifier [0x0x7ff7f59358bd+3151261]
+	GetHandleVerifier [0x0x7ff7f566185e+185662]
+	GetHandleVerifier [0x0x7ff7f566971f+218111]
+	GetHandleVerifier [0x0x7ff7f564fb14+112628]
+	GetHandleVerifier [0x0x7ff7f564fcc9+113065]
+	GetHandleVerifier [0x0x7ff7f5636c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:04:39,572 - INFO - Fetching eBay page 20: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=20
+2025-07-01 18:04:50,044 - ERROR - Page 20 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7f5646f95+76917]
+	GetHandleVerifier [0x0x7ff7f5646ff0+77008]
+	(No symbol) [0x0x7ff7f53f9dea]
+	(No symbol) [0x0x7ff7f5450256]
+	(No symbol) [0x0x7ff7f545050c]
+	(No symbol) [0x0x7ff7f54a3887]
+	(No symbol) [0x0x7ff7f54784af]
+	(No symbol) [0x0x7ff7f54a065c]
+	(No symbol) [0x0x7ff7f5478243]
+	(No symbol) [0x0x7ff7f5441431]
+	(No symbol) [0x0x7ff7f54421c3]
+	GetHandleVerifier [0x0x7ff7f591d2cd+3051437]
+	GetHandleVerifier [0x0x7ff7f5917923+3028483]
+	GetHandleVerifier [0x0x7ff7f59358bd+3151261]
+	GetHandleVerifier [0x0x7ff7f566185e+185662]
+	GetHandleVerifier [0x0x7ff7f566971f+218111]
+	GetHandleVerifier [0x0x7ff7f564fb14+112628]
+	GetHandleVerifier [0x0x7ff7f564fcc9+113065]
+	GetHandleVerifier [0x0x7ff7f5636c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:04:50,928 - INFO - Fetching eBay page 21: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=21
+2025-07-01 18:05:01,447 - ERROR - Page 21 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7f5646f95+76917]
+	GetHandleVerifier [0x0x7ff7f5646ff0+77008]
+	(No symbol) [0x0x7ff7f53f9dea]
+	(No symbol) [0x0x7ff7f5450256]
+	(No symbol) [0x0x7ff7f545050c]
+	(No symbol) [0x0x7ff7f54a3887]
+	(No symbol) [0x0x7ff7f54784af]
+	(No symbol) [0x0x7ff7f54a065c]
+	(No symbol) [0x0x7ff7f5478243]
+	(No symbol) [0x0x7ff7f5441431]
+	(No symbol) [0x0x7ff7f54421c3]
+	GetHandleVerifier [0x0x7ff7f591d2cd+3051437]
+	GetHandleVerifier [0x0x7ff7f5917923+3028483]
+	GetHandleVerifier [0x0x7ff7f59358bd+3151261]
+	GetHandleVerifier [0x0x7ff7f566185e+185662]
+	GetHandleVerifier [0x0x7ff7f566971f+218111]
+	GetHandleVerifier [0x0x7ff7f564fb14+112628]
+	GetHandleVerifier [0x0x7ff7f564fcc9+113065]
+	GetHandleVerifier [0x0x7ff7f5636c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:05:02,278 - INFO - Fetching eBay page 22: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=22
+2025-07-01 18:05:12,751 - ERROR - Page 22 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7f5646f95+76917]
+	GetHandleVerifier [0x0x7ff7f5646ff0+77008]
+	(No symbol) [0x0x7ff7f53f9dea]
+	(No symbol) [0x0x7ff7f5450256]
+	(No symbol) [0x0x7ff7f545050c]
+	(No symbol) [0x0x7ff7f54a3887]
+	(No symbol) [0x0x7ff7f54784af]
+	(No symbol) [0x0x7ff7f54a065c]
+	(No symbol) [0x0x7ff7f5478243]
+	(No symbol) [0x0x7ff7f5441431]
+	(No symbol) [0x0x7ff7f54421c3]
+	GetHandleVerifier [0x0x7ff7f591d2cd+3051437]
+	GetHandleVerifier [0x0x7ff7f5917923+3028483]
+	GetHandleVerifier [0x0x7ff7f59358bd+3151261]
+	GetHandleVerifier [0x0x7ff7f566185e+185662]
+	GetHandleVerifier [0x0x7ff7f566971f+218111]
+	GetHandleVerifier [0x0x7ff7f564fb14+112628]
+	GetHandleVerifier [0x0x7ff7f564fcc9+113065]
+	GetHandleVerifier [0x0x7ff7f5636c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:05:13,459 - INFO - Fetching eBay page 23: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=23
+2025-07-01 18:05:23,941 - ERROR - Page 23 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7f5646f95+76917]
+	GetHandleVerifier [0x0x7ff7f5646ff0+77008]
+	(No symbol) [0x0x7ff7f53f9dea]
+	(No symbol) [0x0x7ff7f5450256]
+	(No symbol) [0x0x7ff7f545050c]
+	(No symbol) [0x0x7ff7f54a3887]
+	(No symbol) [0x0x7ff7f54784af]
+	(No symbol) [0x0x7ff7f54a065c]
+	(No symbol) [0x0x7ff7f5478243]
+	(No symbol) [0x0x7ff7f5441431]
+	(No symbol) [0x0x7ff7f54421c3]
+	GetHandleVerifier [0x0x7ff7f591d2cd+3051437]
+	GetHandleVerifier [0x0x7ff7f5917923+3028483]
+	GetHandleVerifier [0x0x7ff7f59358bd+3151261]
+	GetHandleVerifier [0x0x7ff7f566185e+185662]
+	GetHandleVerifier [0x0x7ff7f566971f+218111]
+	GetHandleVerifier [0x0x7ff7f564fb14+112628]
+	GetHandleVerifier [0x0x7ff7f564fcc9+113065]
+	GetHandleVerifier [0x0x7ff7f5636c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:05:24,700 - INFO - Fetching eBay page 24: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=24
+2025-07-01 18:05:35,147 - ERROR - Page 24 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7f5646f95+76917]
+	GetHandleVerifier [0x0x7ff7f5646ff0+77008]
+	(No symbol) [0x0x7ff7f53f9dea]
+	(No symbol) [0x0x7ff7f5450256]
+	(No symbol) [0x0x7ff7f545050c]
+	(No symbol) [0x0x7ff7f54a3887]
+	(No symbol) [0x0x7ff7f54784af]
+	(No symbol) [0x0x7ff7f54a065c]
+	(No symbol) [0x0x7ff7f5478243]
+	(No symbol) [0x0x7ff7f5441431]
+	(No symbol) [0x0x7ff7f54421c3]
+	GetHandleVerifier [0x0x7ff7f591d2cd+3051437]
+	GetHandleVerifier [0x0x7ff7f5917923+3028483]
+	GetHandleVerifier [0x0x7ff7f59358bd+3151261]
+	GetHandleVerifier [0x0x7ff7f566185e+185662]
+	GetHandleVerifier [0x0x7ff7f566971f+218111]
+	GetHandleVerifier [0x0x7ff7f564fb14+112628]
+	GetHandleVerifier [0x0x7ff7f564fcc9+113065]
+	GetHandleVerifier [0x0x7ff7f5636c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:05:36,226 - INFO - Fetching eBay page 25: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=25
+2025-07-01 18:05:46,728 - ERROR - Page 25 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7f5646f95+76917]
+	GetHandleVerifier [0x0x7ff7f5646ff0+77008]
+	(No symbol) [0x0x7ff7f53f9dea]
+	(No symbol) [0x0x7ff7f5450256]
+	(No symbol) [0x0x7ff7f545050c]
+	(No symbol) [0x0x7ff7f54a3887]
+	(No symbol) [0x0x7ff7f54784af]
+	(No symbol) [0x0x7ff7f54a065c]
+	(No symbol) [0x0x7ff7f5478243]
+	(No symbol) [0x0x7ff7f5441431]
+	(No symbol) [0x0x7ff7f54421c3]
+	GetHandleVerifier [0x0x7ff7f591d2cd+3051437]
+	GetHandleVerifier [0x0x7ff7f5917923+3028483]
+	GetHandleVerifier [0x0x7ff7f59358bd+3151261]
+	GetHandleVerifier [0x0x7ff7f566185e+185662]
+	GetHandleVerifier [0x0x7ff7f566971f+218111]
+	GetHandleVerifier [0x0x7ff7f564fb14+112628]
+	GetHandleVerifier [0x0x7ff7f564fcc9+113065]
+	GetHandleVerifier [0x0x7ff7f5636c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:05:46,728 - INFO - Total eBay items inserted: 0
+2025-07-01 18:05:49,149 - INFO - Running Amazon scraper...
+2025-07-01 18:05:49,149 - INFO - Fetching Amazon URL: https://www.amazon.com/s?k=laptop
+2025-07-01 18:05:52,011 - INFO - Amazon inserted 0 titles
+2025-07-01 18:05:52,013 - INFO - Running Newegg Selenium scraper...
+2025-07-01 18:05:55,257 - INFO - Fetching Newegg page 1: https://www.newegg.com/p/pl?d=laptop&page=1
+2025-07-01 18:05:55,877 - INFO - Fetching Newegg page 2: https://www.newegg.com/p/pl?d=laptop&page=2
+2025-07-01 18:05:56,394 - INFO - Fetching Newegg page 3: https://www.newegg.com/p/pl?d=laptop&page=3
+2025-07-01 18:05:56,923 - INFO - Fetching Newegg page 4: https://www.newegg.com/p/pl?d=laptop&page=4
+2025-07-01 18:05:57,426 - INFO - Fetching Newegg page 5: https://www.newegg.com/p/pl?d=laptop&page=5
+2025-07-01 18:05:58,004 - INFO - Fetching Newegg page 6: https://www.newegg.com/p/pl?d=laptop&page=6
+2025-07-01 18:05:58,697 - INFO - Fetching Newegg page 7: https://www.newegg.com/p/pl?d=laptop&page=7
+2025-07-01 18:05:59,121 - INFO - Fetching Newegg page 8: https://www.newegg.com/p/pl?d=laptop&page=8
+2025-07-01 18:05:59,569 - INFO - Fetching Newegg page 9: https://www.newegg.com/p/pl?d=laptop&page=9
+2025-07-01 18:06:00,039 - INFO - Fetching Newegg page 10: https://www.newegg.com/p/pl?d=laptop&page=10
+2025-07-01 18:06:00,443 - INFO - Fetching Newegg page 11: https://www.newegg.com/p/pl?d=laptop&page=11
+2025-07-01 18:06:00,954 - INFO - Fetching Newegg page 12: https://www.newegg.com/p/pl?d=laptop&page=12
+2025-07-01 18:06:01,340 - INFO - Fetching Newegg page 13: https://www.newegg.com/p/pl?d=laptop&page=13
+2025-07-01 18:06:01,837 - INFO - Fetching Newegg page 14: https://www.newegg.com/p/pl?d=laptop&page=14
+2025-07-01 18:06:02,236 - INFO - Fetching Newegg page 15: https://www.newegg.com/p/pl?d=laptop&page=15
+2025-07-01 18:06:02,738 - INFO - Fetching Newegg page 16: https://www.newegg.com/p/pl?d=laptop&page=16
+2025-07-01 18:06:03,139 - INFO - Fetching Newegg page 17: https://www.newegg.com/p/pl?d=laptop&page=17
+2025-07-01 18:06:03,653 - INFO - Fetching Newegg page 18: https://www.newegg.com/p/pl?d=laptop&page=18
+2025-07-01 18:06:04,102 - INFO - Fetching Newegg page 19: https://www.newegg.com/p/pl?d=laptop&page=19
+2025-07-01 18:06:04,576 - INFO - Fetching Newegg page 20: https://www.newegg.com/p/pl?d=laptop&page=20
+2025-07-01 18:06:04,631 - INFO - Newegg Selenium: Total inserted = 0
+2025-07-01 18:06:06,865 - INFO - Cleaning data and generating report...
+2025-07-01 18:06:06,940 - INFO - Final cleaned item count: 397
+2025-07-01 18:12:35,344 - INFO - Creating database tables...
+2025-07-01 18:12:35,358 - INFO - Running static scraper...
+2025-07-01 18:12:35,358 - INFO - Fetching URL: https://www.walmart.com/brand/laroche-posay/10046134?athAsset=eyJhdGhjcGlkIjoiNGE3NGZmN2UtZDY5Yi00NmFlLTgxYjUtZWZhMDViNDIwMDMwIiwiYWV3ciI6IkNUUiJ9&athena=true
+2025-07-01 18:12:36,318 - INFO - Running Selenium eBay scraper...
+2025-07-01 18:12:42,731 - INFO - Fetching eBay page 1: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=1
+2025-07-01 18:12:55,496 - INFO - Fetching eBay page 2: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=2
+2025-07-01 18:13:05,303 - INFO - Fetching eBay page 3: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=3
+2025-07-01 18:13:17,590 - INFO - Fetching eBay page 4: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=4
+2025-07-01 18:13:26,549 - INFO - Fetching eBay page 5: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=5
+2025-07-01 18:13:36,587 - ERROR - Page 5 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d7df6f95+76917]
+	GetHandleVerifier [0x0x7ff7d7df6ff0+77008]
+	(No symbol) [0x0x7ff7d7ba9dea]
+	(No symbol) [0x0x7ff7d7c00256]
+	(No symbol) [0x0x7ff7d7c0050c]
+	(No symbol) [0x0x7ff7d7c53887]
+	(No symbol) [0x0x7ff7d7c284af]
+	(No symbol) [0x0x7ff7d7c5065c]
+	(No symbol) [0x0x7ff7d7c28243]
+	(No symbol) [0x0x7ff7d7bf1431]
+	(No symbol) [0x0x7ff7d7bf21c3]
+	GetHandleVerifier [0x0x7ff7d80cd2cd+3051437]
+	GetHandleVerifier [0x0x7ff7d80c7923+3028483]
+	GetHandleVerifier [0x0x7ff7d80e58bd+3151261]
+	GetHandleVerifier [0x0x7ff7d7e1185e+185662]
+	GetHandleVerifier [0x0x7ff7d7e1971f+218111]
+	GetHandleVerifier [0x0x7ff7d7dffb14+112628]
+	GetHandleVerifier [0x0x7ff7d7dffcc9+113065]
+	GetHandleVerifier [0x0x7ff7d7de6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:13:38,335 - INFO - Fetching eBay page 6: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=6
+2025-07-01 18:13:48,541 - ERROR - Page 6 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d7df6f95+76917]
+	GetHandleVerifier [0x0x7ff7d7df6ff0+77008]
+	(No symbol) [0x0x7ff7d7ba9dea]
+	(No symbol) [0x0x7ff7d7c00256]
+	(No symbol) [0x0x7ff7d7c0050c]
+	(No symbol) [0x0x7ff7d7c53887]
+	(No symbol) [0x0x7ff7d7c284af]
+	(No symbol) [0x0x7ff7d7c5065c]
+	(No symbol) [0x0x7ff7d7c28243]
+	(No symbol) [0x0x7ff7d7bf1431]
+	(No symbol) [0x0x7ff7d7bf21c3]
+	GetHandleVerifier [0x0x7ff7d80cd2cd+3051437]
+	GetHandleVerifier [0x0x7ff7d80c7923+3028483]
+	GetHandleVerifier [0x0x7ff7d80e58bd+3151261]
+	GetHandleVerifier [0x0x7ff7d7e1185e+185662]
+	GetHandleVerifier [0x0x7ff7d7e1971f+218111]
+	GetHandleVerifier [0x0x7ff7d7dffb14+112628]
+	GetHandleVerifier [0x0x7ff7d7dffcc9+113065]
+	GetHandleVerifier [0x0x7ff7d7de6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:13:49,370 - INFO - Fetching eBay page 7: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=7
+2025-07-01 18:13:59,390 - ERROR - Page 7 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d7df6f95+76917]
+	GetHandleVerifier [0x0x7ff7d7df6ff0+77008]
+	(No symbol) [0x0x7ff7d7ba9dea]
+	(No symbol) [0x0x7ff7d7c00256]
+	(No symbol) [0x0x7ff7d7c0050c]
+	(No symbol) [0x0x7ff7d7c53887]
+	(No symbol) [0x0x7ff7d7c284af]
+	(No symbol) [0x0x7ff7d7c5065c]
+	(No symbol) [0x0x7ff7d7c28243]
+	(No symbol) [0x0x7ff7d7bf1431]
+	(No symbol) [0x0x7ff7d7bf21c3]
+	GetHandleVerifier [0x0x7ff7d80cd2cd+3051437]
+	GetHandleVerifier [0x0x7ff7d80c7923+3028483]
+	GetHandleVerifier [0x0x7ff7d80e58bd+3151261]
+	GetHandleVerifier [0x0x7ff7d7e1185e+185662]
+	GetHandleVerifier [0x0x7ff7d7e1971f+218111]
+	GetHandleVerifier [0x0x7ff7d7dffb14+112628]
+	GetHandleVerifier [0x0x7ff7d7dffcc9+113065]
+	GetHandleVerifier [0x0x7ff7d7de6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:14:00,202 - INFO - Fetching eBay page 8: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=8
+2025-07-01 18:14:10,708 - ERROR - Page 8 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d7df6f95+76917]
+	GetHandleVerifier [0x0x7ff7d7df6ff0+77008]
+	(No symbol) [0x0x7ff7d7ba9dea]
+	(No symbol) [0x0x7ff7d7c00256]
+	(No symbol) [0x0x7ff7d7c0050c]
+	(No symbol) [0x0x7ff7d7c53887]
+	(No symbol) [0x0x7ff7d7c284af]
+	(No symbol) [0x0x7ff7d7c5065c]
+	(No symbol) [0x0x7ff7d7c28243]
+	(No symbol) [0x0x7ff7d7bf1431]
+	(No symbol) [0x0x7ff7d7bf21c3]
+	GetHandleVerifier [0x0x7ff7d80cd2cd+3051437]
+	GetHandleVerifier [0x0x7ff7d80c7923+3028483]
+	GetHandleVerifier [0x0x7ff7d80e58bd+3151261]
+	GetHandleVerifier [0x0x7ff7d7e1185e+185662]
+	GetHandleVerifier [0x0x7ff7d7e1971f+218111]
+	GetHandleVerifier [0x0x7ff7d7dffb14+112628]
+	GetHandleVerifier [0x0x7ff7d7dffcc9+113065]
+	GetHandleVerifier [0x0x7ff7d7de6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:14:11,516 - INFO - Fetching eBay page 9: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=9
+2025-07-01 18:14:21,973 - ERROR - Page 9 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d7df6f95+76917]
+	GetHandleVerifier [0x0x7ff7d7df6ff0+77008]
+	(No symbol) [0x0x7ff7d7ba9dea]
+	(No symbol) [0x0x7ff7d7c00256]
+	(No symbol) [0x0x7ff7d7c0050c]
+	(No symbol) [0x0x7ff7d7c53887]
+	(No symbol) [0x0x7ff7d7c284af]
+	(No symbol) [0x0x7ff7d7c5065c]
+	(No symbol) [0x0x7ff7d7c28243]
+	(No symbol) [0x0x7ff7d7bf1431]
+	(No symbol) [0x0x7ff7d7bf21c3]
+	GetHandleVerifier [0x0x7ff7d80cd2cd+3051437]
+	GetHandleVerifier [0x0x7ff7d80c7923+3028483]
+	GetHandleVerifier [0x0x7ff7d80e58bd+3151261]
+	GetHandleVerifier [0x0x7ff7d7e1185e+185662]
+	GetHandleVerifier [0x0x7ff7d7e1971f+218111]
+	GetHandleVerifier [0x0x7ff7d7dffb14+112628]
+	GetHandleVerifier [0x0x7ff7d7dffcc9+113065]
+	GetHandleVerifier [0x0x7ff7d7de6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:14:22,899 - INFO - Fetching eBay page 10: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=10
+2025-07-01 18:14:33,028 - ERROR - Page 10 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d7df6f95+76917]
+	GetHandleVerifier [0x0x7ff7d7df6ff0+77008]
+	(No symbol) [0x0x7ff7d7ba9dea]
+	(No symbol) [0x0x7ff7d7c00256]
+	(No symbol) [0x0x7ff7d7c0050c]
+	(No symbol) [0x0x7ff7d7c53887]
+	(No symbol) [0x0x7ff7d7c284af]
+	(No symbol) [0x0x7ff7d7c5065c]
+	(No symbol) [0x0x7ff7d7c28243]
+	(No symbol) [0x0x7ff7d7bf1431]
+	(No symbol) [0x0x7ff7d7bf21c3]
+	GetHandleVerifier [0x0x7ff7d80cd2cd+3051437]
+	GetHandleVerifier [0x0x7ff7d80c7923+3028483]
+	GetHandleVerifier [0x0x7ff7d80e58bd+3151261]
+	GetHandleVerifier [0x0x7ff7d7e1185e+185662]
+	GetHandleVerifier [0x0x7ff7d7e1971f+218111]
+	GetHandleVerifier [0x0x7ff7d7dffb14+112628]
+	GetHandleVerifier [0x0x7ff7d7dffcc9+113065]
+	GetHandleVerifier [0x0x7ff7d7de6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:14:34,012 - INFO - Fetching eBay page 11: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=11
+2025-07-01 18:14:44,058 - ERROR - Page 11 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d7df6f95+76917]
+	GetHandleVerifier [0x0x7ff7d7df6ff0+77008]
+	(No symbol) [0x0x7ff7d7ba9dea]
+	(No symbol) [0x0x7ff7d7c00256]
+	(No symbol) [0x0x7ff7d7c0050c]
+	(No symbol) [0x0x7ff7d7c53887]
+	(No symbol) [0x0x7ff7d7c284af]
+	(No symbol) [0x0x7ff7d7c5065c]
+	(No symbol) [0x0x7ff7d7c28243]
+	(No symbol) [0x0x7ff7d7bf1431]
+	(No symbol) [0x0x7ff7d7bf21c3]
+	GetHandleVerifier [0x0x7ff7d80cd2cd+3051437]
+	GetHandleVerifier [0x0x7ff7d80c7923+3028483]
+	GetHandleVerifier [0x0x7ff7d80e58bd+3151261]
+	GetHandleVerifier [0x0x7ff7d7e1185e+185662]
+	GetHandleVerifier [0x0x7ff7d7e1971f+218111]
+	GetHandleVerifier [0x0x7ff7d7dffb14+112628]
+	GetHandleVerifier [0x0x7ff7d7dffcc9+113065]
+	GetHandleVerifier [0x0x7ff7d7de6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:14:44,967 - INFO - Fetching eBay page 12: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=12
+2025-07-01 18:14:55,435 - ERROR - Page 12 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d7df6f95+76917]
+	GetHandleVerifier [0x0x7ff7d7df6ff0+77008]
+	(No symbol) [0x0x7ff7d7ba9dea]
+	(No symbol) [0x0x7ff7d7c00256]
+	(No symbol) [0x0x7ff7d7c0050c]
+	(No symbol) [0x0x7ff7d7c53887]
+	(No symbol) [0x0x7ff7d7c284af]
+	(No symbol) [0x0x7ff7d7c5065c]
+	(No symbol) [0x0x7ff7d7c28243]
+	(No symbol) [0x0x7ff7d7bf1431]
+	(No symbol) [0x0x7ff7d7bf21c3]
+	GetHandleVerifier [0x0x7ff7d80cd2cd+3051437]
+	GetHandleVerifier [0x0x7ff7d80c7923+3028483]
+	GetHandleVerifier [0x0x7ff7d80e58bd+3151261]
+	GetHandleVerifier [0x0x7ff7d7e1185e+185662]
+	GetHandleVerifier [0x0x7ff7d7e1971f+218111]
+	GetHandleVerifier [0x0x7ff7d7dffb14+112628]
+	GetHandleVerifier [0x0x7ff7d7dffcc9+113065]
+	GetHandleVerifier [0x0x7ff7d7de6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:14:56,218 - INFO - Fetching eBay page 13: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=13
+2025-07-01 18:15:06,685 - ERROR - Page 13 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d7df6f95+76917]
+	GetHandleVerifier [0x0x7ff7d7df6ff0+77008]
+	(No symbol) [0x0x7ff7d7ba9dea]
+	(No symbol) [0x0x7ff7d7c00256]
+	(No symbol) [0x0x7ff7d7c0050c]
+	(No symbol) [0x0x7ff7d7c53887]
+	(No symbol) [0x0x7ff7d7c284af]
+	(No symbol) [0x0x7ff7d7c5065c]
+	(No symbol) [0x0x7ff7d7c28243]
+	(No symbol) [0x0x7ff7d7bf1431]
+	(No symbol) [0x0x7ff7d7bf21c3]
+	GetHandleVerifier [0x0x7ff7d80cd2cd+3051437]
+	GetHandleVerifier [0x0x7ff7d80c7923+3028483]
+	GetHandleVerifier [0x0x7ff7d80e58bd+3151261]
+	GetHandleVerifier [0x0x7ff7d7e1185e+185662]
+	GetHandleVerifier [0x0x7ff7d7e1971f+218111]
+	GetHandleVerifier [0x0x7ff7d7dffb14+112628]
+	GetHandleVerifier [0x0x7ff7d7dffcc9+113065]
+	GetHandleVerifier [0x0x7ff7d7de6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:15:07,504 - INFO - Fetching eBay page 14: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=14
+2025-07-01 18:15:18,014 - ERROR - Page 14 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d7df6f95+76917]
+	GetHandleVerifier [0x0x7ff7d7df6ff0+77008]
+	(No symbol) [0x0x7ff7d7ba9dea]
+	(No symbol) [0x0x7ff7d7c00256]
+	(No symbol) [0x0x7ff7d7c0050c]
+	(No symbol) [0x0x7ff7d7c53887]
+	(No symbol) [0x0x7ff7d7c284af]
+	(No symbol) [0x0x7ff7d7c5065c]
+	(No symbol) [0x0x7ff7d7c28243]
+	(No symbol) [0x0x7ff7d7bf1431]
+	(No symbol) [0x0x7ff7d7bf21c3]
+	GetHandleVerifier [0x0x7ff7d80cd2cd+3051437]
+	GetHandleVerifier [0x0x7ff7d80c7923+3028483]
+	GetHandleVerifier [0x0x7ff7d80e58bd+3151261]
+	GetHandleVerifier [0x0x7ff7d7e1185e+185662]
+	GetHandleVerifier [0x0x7ff7d7e1971f+218111]
+	GetHandleVerifier [0x0x7ff7d7dffb14+112628]
+	GetHandleVerifier [0x0x7ff7d7dffcc9+113065]
+	GetHandleVerifier [0x0x7ff7d7de6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:15:19,004 - INFO - Fetching eBay page 15: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=15
+2025-07-01 18:15:29,027 - ERROR - Page 15 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d7df6f95+76917]
+	GetHandleVerifier [0x0x7ff7d7df6ff0+77008]
+	(No symbol) [0x0x7ff7d7ba9dea]
+	(No symbol) [0x0x7ff7d7c00256]
+	(No symbol) [0x0x7ff7d7c0050c]
+	(No symbol) [0x0x7ff7d7c53887]
+	(No symbol) [0x0x7ff7d7c284af]
+	(No symbol) [0x0x7ff7d7c5065c]
+	(No symbol) [0x0x7ff7d7c28243]
+	(No symbol) [0x0x7ff7d7bf1431]
+	(No symbol) [0x0x7ff7d7bf21c3]
+	GetHandleVerifier [0x0x7ff7d80cd2cd+3051437]
+	GetHandleVerifier [0x0x7ff7d80c7923+3028483]
+	GetHandleVerifier [0x0x7ff7d80e58bd+3151261]
+	GetHandleVerifier [0x0x7ff7d7e1185e+185662]
+	GetHandleVerifier [0x0x7ff7d7e1971f+218111]
+	GetHandleVerifier [0x0x7ff7d7dffb14+112628]
+	GetHandleVerifier [0x0x7ff7d7dffcc9+113065]
+	GetHandleVerifier [0x0x7ff7d7de6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:15:30,000 - INFO - Fetching eBay page 16: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=16
+2025-07-01 18:15:40,486 - ERROR - Page 16 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d7df6f95+76917]
+	GetHandleVerifier [0x0x7ff7d7df6ff0+77008]
+	(No symbol) [0x0x7ff7d7ba9dea]
+	(No symbol) [0x0x7ff7d7c00256]
+	(No symbol) [0x0x7ff7d7c0050c]
+	(No symbol) [0x0x7ff7d7c53887]
+	(No symbol) [0x0x7ff7d7c284af]
+	(No symbol) [0x0x7ff7d7c5065c]
+	(No symbol) [0x0x7ff7d7c28243]
+	(No symbol) [0x0x7ff7d7bf1431]
+	(No symbol) [0x0x7ff7d7bf21c3]
+	GetHandleVerifier [0x0x7ff7d80cd2cd+3051437]
+	GetHandleVerifier [0x0x7ff7d80c7923+3028483]
+	GetHandleVerifier [0x0x7ff7d80e58bd+3151261]
+	GetHandleVerifier [0x0x7ff7d7e1185e+185662]
+	GetHandleVerifier [0x0x7ff7d7e1971f+218111]
+	GetHandleVerifier [0x0x7ff7d7dffb14+112628]
+	GetHandleVerifier [0x0x7ff7d7dffcc9+113065]
+	GetHandleVerifier [0x0x7ff7d7de6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:15:41,564 - INFO - Fetching eBay page 17: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=17
+2025-07-01 18:15:51,567 - ERROR - Page 17 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d7df6f95+76917]
+	GetHandleVerifier [0x0x7ff7d7df6ff0+77008]
+	(No symbol) [0x0x7ff7d7ba9dea]
+	(No symbol) [0x0x7ff7d7c00256]
+	(No symbol) [0x0x7ff7d7c0050c]
+	(No symbol) [0x0x7ff7d7c53887]
+	(No symbol) [0x0x7ff7d7c284af]
+	(No symbol) [0x0x7ff7d7c5065c]
+	(No symbol) [0x0x7ff7d7c28243]
+	(No symbol) [0x0x7ff7d7bf1431]
+	(No symbol) [0x0x7ff7d7bf21c3]
+	GetHandleVerifier [0x0x7ff7d80cd2cd+3051437]
+	GetHandleVerifier [0x0x7ff7d80c7923+3028483]
+	GetHandleVerifier [0x0x7ff7d80e58bd+3151261]
+	GetHandleVerifier [0x0x7ff7d7e1185e+185662]
+	GetHandleVerifier [0x0x7ff7d7e1971f+218111]
+	GetHandleVerifier [0x0x7ff7d7dffb14+112628]
+	GetHandleVerifier [0x0x7ff7d7dffcc9+113065]
+	GetHandleVerifier [0x0x7ff7d7de6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:15:52,494 - INFO - Fetching eBay page 18: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=18
+2025-07-01 18:16:02,969 - ERROR - Page 18 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d7df6f95+76917]
+	GetHandleVerifier [0x0x7ff7d7df6ff0+77008]
+	(No symbol) [0x0x7ff7d7ba9dea]
+	(No symbol) [0x0x7ff7d7c00256]
+	(No symbol) [0x0x7ff7d7c0050c]
+	(No symbol) [0x0x7ff7d7c53887]
+	(No symbol) [0x0x7ff7d7c284af]
+	(No symbol) [0x0x7ff7d7c5065c]
+	(No symbol) [0x0x7ff7d7c28243]
+	(No symbol) [0x0x7ff7d7bf1431]
+	(No symbol) [0x0x7ff7d7bf21c3]
+	GetHandleVerifier [0x0x7ff7d80cd2cd+3051437]
+	GetHandleVerifier [0x0x7ff7d80c7923+3028483]
+	GetHandleVerifier [0x0x7ff7d80e58bd+3151261]
+	GetHandleVerifier [0x0x7ff7d7e1185e+185662]
+	GetHandleVerifier [0x0x7ff7d7e1971f+218111]
+	GetHandleVerifier [0x0x7ff7d7dffb14+112628]
+	GetHandleVerifier [0x0x7ff7d7dffcc9+113065]
+	GetHandleVerifier [0x0x7ff7d7de6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:16:03,806 - INFO - Fetching eBay page 19: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=19
+2025-07-01 18:16:13,827 - ERROR - Page 19 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d7df6f95+76917]
+	GetHandleVerifier [0x0x7ff7d7df6ff0+77008]
+	(No symbol) [0x0x7ff7d7ba9dea]
+	(No symbol) [0x0x7ff7d7c00256]
+	(No symbol) [0x0x7ff7d7c0050c]
+	(No symbol) [0x0x7ff7d7c53887]
+	(No symbol) [0x0x7ff7d7c284af]
+	(No symbol) [0x0x7ff7d7c5065c]
+	(No symbol) [0x0x7ff7d7c28243]
+	(No symbol) [0x0x7ff7d7bf1431]
+	(No symbol) [0x0x7ff7d7bf21c3]
+	GetHandleVerifier [0x0x7ff7d80cd2cd+3051437]
+	GetHandleVerifier [0x0x7ff7d80c7923+3028483]
+	GetHandleVerifier [0x0x7ff7d80e58bd+3151261]
+	GetHandleVerifier [0x0x7ff7d7e1185e+185662]
+	GetHandleVerifier [0x0x7ff7d7e1971f+218111]
+	GetHandleVerifier [0x0x7ff7d7dffb14+112628]
+	GetHandleVerifier [0x0x7ff7d7dffcc9+113065]
+	GetHandleVerifier [0x0x7ff7d7de6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:16:14,638 - INFO - Fetching eBay page 20: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=20
+2025-07-01 18:16:25,158 - ERROR - Page 20 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d7df6f95+76917]
+	GetHandleVerifier [0x0x7ff7d7df6ff0+77008]
+	(No symbol) [0x0x7ff7d7ba9dea]
+	(No symbol) [0x0x7ff7d7c00256]
+	(No symbol) [0x0x7ff7d7c0050c]
+	(No symbol) [0x0x7ff7d7c53887]
+	(No symbol) [0x0x7ff7d7c284af]
+	(No symbol) [0x0x7ff7d7c5065c]
+	(No symbol) [0x0x7ff7d7c28243]
+	(No symbol) [0x0x7ff7d7bf1431]
+	(No symbol) [0x0x7ff7d7bf21c3]
+	GetHandleVerifier [0x0x7ff7d80cd2cd+3051437]
+	GetHandleVerifier [0x0x7ff7d80c7923+3028483]
+	GetHandleVerifier [0x0x7ff7d80e58bd+3151261]
+	GetHandleVerifier [0x0x7ff7d7e1185e+185662]
+	GetHandleVerifier [0x0x7ff7d7e1971f+218111]
+	GetHandleVerifier [0x0x7ff7d7dffb14+112628]
+	GetHandleVerifier [0x0x7ff7d7dffcc9+113065]
+	GetHandleVerifier [0x0x7ff7d7de6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:16:26,013 - INFO - Fetching eBay page 21: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=21
+2025-07-01 18:16:36,526 - ERROR - Page 21 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d7df6f95+76917]
+	GetHandleVerifier [0x0x7ff7d7df6ff0+77008]
+	(No symbol) [0x0x7ff7d7ba9dea]
+	(No symbol) [0x0x7ff7d7c00256]
+	(No symbol) [0x0x7ff7d7c0050c]
+	(No symbol) [0x0x7ff7d7c53887]
+	(No symbol) [0x0x7ff7d7c284af]
+	(No symbol) [0x0x7ff7d7c5065c]
+	(No symbol) [0x0x7ff7d7c28243]
+	(No symbol) [0x0x7ff7d7bf1431]
+	(No symbol) [0x0x7ff7d7bf21c3]
+	GetHandleVerifier [0x0x7ff7d80cd2cd+3051437]
+	GetHandleVerifier [0x0x7ff7d80c7923+3028483]
+	GetHandleVerifier [0x0x7ff7d80e58bd+3151261]
+	GetHandleVerifier [0x0x7ff7d7e1185e+185662]
+	GetHandleVerifier [0x0x7ff7d7e1971f+218111]
+	GetHandleVerifier [0x0x7ff7d7dffb14+112628]
+	GetHandleVerifier [0x0x7ff7d7dffcc9+113065]
+	GetHandleVerifier [0x0x7ff7d7de6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:16:37,373 - INFO - Fetching eBay page 22: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=22
+2025-07-01 18:16:47,865 - ERROR - Page 22 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d7df6f95+76917]
+	GetHandleVerifier [0x0x7ff7d7df6ff0+77008]
+	(No symbol) [0x0x7ff7d7ba9dea]
+	(No symbol) [0x0x7ff7d7c00256]
+	(No symbol) [0x0x7ff7d7c0050c]
+	(No symbol) [0x0x7ff7d7c53887]
+	(No symbol) [0x0x7ff7d7c284af]
+	(No symbol) [0x0x7ff7d7c5065c]
+	(No symbol) [0x0x7ff7d7c28243]
+	(No symbol) [0x0x7ff7d7bf1431]
+	(No symbol) [0x0x7ff7d7bf21c3]
+	GetHandleVerifier [0x0x7ff7d80cd2cd+3051437]
+	GetHandleVerifier [0x0x7ff7d80c7923+3028483]
+	GetHandleVerifier [0x0x7ff7d80e58bd+3151261]
+	GetHandleVerifier [0x0x7ff7d7e1185e+185662]
+	GetHandleVerifier [0x0x7ff7d7e1971f+218111]
+	GetHandleVerifier [0x0x7ff7d7dffb14+112628]
+	GetHandleVerifier [0x0x7ff7d7dffcc9+113065]
+	GetHandleVerifier [0x0x7ff7d7de6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:16:48,831 - INFO - Fetching eBay page 23: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=23
+2025-07-01 18:16:59,290 - ERROR - Page 23 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d7df6f95+76917]
+	GetHandleVerifier [0x0x7ff7d7df6ff0+77008]
+	(No symbol) [0x0x7ff7d7ba9dea]
+	(No symbol) [0x0x7ff7d7c00256]
+	(No symbol) [0x0x7ff7d7c0050c]
+	(No symbol) [0x0x7ff7d7c53887]
+	(No symbol) [0x0x7ff7d7c284af]
+	(No symbol) [0x0x7ff7d7c5065c]
+	(No symbol) [0x0x7ff7d7c28243]
+	(No symbol) [0x0x7ff7d7bf1431]
+	(No symbol) [0x0x7ff7d7bf21c3]
+	GetHandleVerifier [0x0x7ff7d80cd2cd+3051437]
+	GetHandleVerifier [0x0x7ff7d80c7923+3028483]
+	GetHandleVerifier [0x0x7ff7d80e58bd+3151261]
+	GetHandleVerifier [0x0x7ff7d7e1185e+185662]
+	GetHandleVerifier [0x0x7ff7d7e1971f+218111]
+	GetHandleVerifier [0x0x7ff7d7dffb14+112628]
+	GetHandleVerifier [0x0x7ff7d7dffcc9+113065]
+	GetHandleVerifier [0x0x7ff7d7de6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:17:00,309 - INFO - Fetching eBay page 24: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=24
+2025-07-01 18:17:10,817 - ERROR - Page 24 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d7df6f95+76917]
+	GetHandleVerifier [0x0x7ff7d7df6ff0+77008]
+	(No symbol) [0x0x7ff7d7ba9dea]
+	(No symbol) [0x0x7ff7d7c00256]
+	(No symbol) [0x0x7ff7d7c0050c]
+	(No symbol) [0x0x7ff7d7c53887]
+	(No symbol) [0x0x7ff7d7c284af]
+	(No symbol) [0x0x7ff7d7c5065c]
+	(No symbol) [0x0x7ff7d7c28243]
+	(No symbol) [0x0x7ff7d7bf1431]
+	(No symbol) [0x0x7ff7d7bf21c3]
+	GetHandleVerifier [0x0x7ff7d80cd2cd+3051437]
+	GetHandleVerifier [0x0x7ff7d80c7923+3028483]
+	GetHandleVerifier [0x0x7ff7d80e58bd+3151261]
+	GetHandleVerifier [0x0x7ff7d7e1185e+185662]
+	GetHandleVerifier [0x0x7ff7d7e1971f+218111]
+	GetHandleVerifier [0x0x7ff7d7dffb14+112628]
+	GetHandleVerifier [0x0x7ff7d7dffcc9+113065]
+	GetHandleVerifier [0x0x7ff7d7de6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:17:11,769 - INFO - Fetching eBay page 25: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=25
+2025-07-01 18:17:21,853 - ERROR - Page 25 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7d7df6f95+76917]
+	GetHandleVerifier [0x0x7ff7d7df6ff0+77008]
+	(No symbol) [0x0x7ff7d7ba9dea]
+	(No symbol) [0x0x7ff7d7c00256]
+	(No symbol) [0x0x7ff7d7c0050c]
+	(No symbol) [0x0x7ff7d7c53887]
+	(No symbol) [0x0x7ff7d7c284af]
+	(No symbol) [0x0x7ff7d7c5065c]
+	(No symbol) [0x0x7ff7d7c28243]
+	(No symbol) [0x0x7ff7d7bf1431]
+	(No symbol) [0x0x7ff7d7bf21c3]
+	GetHandleVerifier [0x0x7ff7d80cd2cd+3051437]
+	GetHandleVerifier [0x0x7ff7d80c7923+3028483]
+	GetHandleVerifier [0x0x7ff7d80e58bd+3151261]
+	GetHandleVerifier [0x0x7ff7d7e1185e+185662]
+	GetHandleVerifier [0x0x7ff7d7e1971f+218111]
+	GetHandleVerifier [0x0x7ff7d7dffb14+112628]
+	GetHandleVerifier [0x0x7ff7d7dffcc9+113065]
+	GetHandleVerifier [0x0x7ff7d7de6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:17:21,858 - INFO - Total eBay items inserted: 240
+2025-07-01 18:17:24,611 - INFO - Running Amazon scraper...
+2025-07-01 18:17:24,616 - INFO - Fetching Amazon URL: https://www.amazon.com/s?k=laptop
+2025-07-01 18:17:31,128 - INFO - Amazon inserted 0 titles
+2025-07-01 18:17:31,131 - INFO - Running Newegg Selenium scraper...
+2025-07-01 18:17:34,546 - INFO - Fetching Newegg page 1: https://www.newegg.com/p/pl?d=laptop&page=1
+2025-07-01 18:17:35,008 - INFO - Fetching Newegg page 2: https://www.newegg.com/p/pl?d=laptop&page=2
+2025-07-01 18:17:35,551 - INFO - Fetching Newegg page 3: https://www.newegg.com/p/pl?d=laptop&page=3
+2025-07-01 18:17:36,072 - INFO - Fetching Newegg page 4: https://www.newegg.com/p/pl?d=laptop&page=4
+2025-07-01 18:17:36,476 - INFO - Fetching Newegg page 5: https://www.newegg.com/p/pl?d=laptop&page=5
+2025-07-01 18:17:37,085 - INFO - Fetching Newegg page 6: https://www.newegg.com/p/pl?d=laptop&page=6
+2025-07-01 18:17:37,463 - INFO - Fetching Newegg page 7: https://www.newegg.com/p/pl?d=laptop&page=7
+2025-07-01 18:17:38,116 - INFO - Fetching Newegg page 8: https://www.newegg.com/p/pl?d=laptop&page=8
+2025-07-01 18:17:38,571 - INFO - Fetching Newegg page 9: https://www.newegg.com/p/pl?d=laptop&page=9
+2025-07-01 18:17:39,075 - INFO - Fetching Newegg page 10: https://www.newegg.com/p/pl?d=laptop&page=10
+2025-07-01 18:17:39,440 - INFO - Fetching Newegg page 11: https://www.newegg.com/p/pl?d=laptop&page=11
+2025-07-01 18:17:39,826 - INFO - Fetching Newegg page 12: https://www.newegg.com/p/pl?d=laptop&page=12
+2025-07-01 18:17:40,277 - INFO - Fetching Newegg page 13: https://www.newegg.com/p/pl?d=laptop&page=13
+2025-07-01 18:17:40,706 - INFO - Fetching Newegg page 14: https://www.newegg.com/p/pl?d=laptop&page=14
+2025-07-01 18:17:41,193 - INFO - Fetching Newegg page 15: https://www.newegg.com/p/pl?d=laptop&page=15
+2025-07-01 18:17:41,627 - INFO - Fetching Newegg page 16: https://www.newegg.com/p/pl?d=laptop&page=16
+2025-07-01 18:17:42,075 - INFO - Fetching Newegg page 17: https://www.newegg.com/p/pl?d=laptop&page=17
+2025-07-01 18:17:42,520 - INFO - Fetching Newegg page 18: https://www.newegg.com/p/pl?d=laptop&page=18
+2025-07-01 18:17:43,003 - INFO - Fetching Newegg page 19: https://www.newegg.com/p/pl?d=laptop&page=19
+2025-07-01 18:17:43,374 - INFO - Fetching Newegg page 20: https://www.newegg.com/p/pl?d=laptop&page=20
+2025-07-01 18:17:43,411 - INFO - Newegg Selenium: Total inserted = 0
+2025-07-01 18:17:45,633 - INFO - Cleaning data and generating report...
+2025-07-01 18:17:45,720 - INFO - Final cleaned item count: 447
+2025-07-01 18:51:19,980 - INFO - Creating database tables...
+2025-07-01 18:51:19,993 - INFO - Running Amazon scraper...
+2025-07-01 18:51:19,993 - INFO - Fetching Amazon URL: https://www.amazon.com/s?k=laptop
+2025-07-01 18:51:22,713 - INFO - Amazon inserted 0 titles
+2025-07-01 18:51:22,718 - INFO - Running eBay scraper...
+2025-07-01 18:51:29,568 - INFO - Fetching eBay page 1: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=1
+2025-07-01 18:51:32,459 - INFO - Fetching eBay page 2: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=2
+2025-07-01 18:51:35,752 - INFO - Fetching eBay page 3: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=3
+2025-07-01 18:51:38,971 - INFO - Fetching eBay page 4: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=4
+2025-07-01 18:51:40,622 - INFO - Fetching eBay page 5: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=5
+2025-07-01 18:51:51,082 - ERROR - Page 5 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7786e6f95+76917]
+	GetHandleVerifier [0x0x7ff7786e6ff0+77008]
+	(No symbol) [0x0x7ff778499dea]
+	(No symbol) [0x0x7ff7784f0256]
+	(No symbol) [0x0x7ff7784f050c]
+	(No symbol) [0x0x7ff778543887]
+	(No symbol) [0x0x7ff7785184af]
+	(No symbol) [0x0x7ff77854065c]
+	(No symbol) [0x0x7ff778518243]
+	(No symbol) [0x0x7ff7784e1431]
+	(No symbol) [0x0x7ff7784e21c3]
+	GetHandleVerifier [0x0x7ff7789bd2cd+3051437]
+	GetHandleVerifier [0x0x7ff7789b7923+3028483]
+	GetHandleVerifier [0x0x7ff7789d58bd+3151261]
+	GetHandleVerifier [0x0x7ff77870185e+185662]
+	GetHandleVerifier [0x0x7ff77870971f+218111]
+	GetHandleVerifier [0x0x7ff7786efb14+112628]
+	GetHandleVerifier [0x0x7ff7786efcc9+113065]
+	GetHandleVerifier [0x0x7ff7786d6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:51:52,183 - INFO - Fetching eBay page 6: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=6
+2025-07-01 18:52:02,576 - ERROR - Page 6 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7786e6f95+76917]
+	GetHandleVerifier [0x0x7ff7786e6ff0+77008]
+	(No symbol) [0x0x7ff778499dea]
+	(No symbol) [0x0x7ff7784f0256]
+	(No symbol) [0x0x7ff7784f050c]
+	(No symbol) [0x0x7ff778543887]
+	(No symbol) [0x0x7ff7785184af]
+	(No symbol) [0x0x7ff77854065c]
+	(No symbol) [0x0x7ff778518243]
+	(No symbol) [0x0x7ff7784e1431]
+	(No symbol) [0x0x7ff7784e21c3]
+	GetHandleVerifier [0x0x7ff7789bd2cd+3051437]
+	GetHandleVerifier [0x0x7ff7789b7923+3028483]
+	GetHandleVerifier [0x0x7ff7789d58bd+3151261]
+	GetHandleVerifier [0x0x7ff77870185e+185662]
+	GetHandleVerifier [0x0x7ff77870971f+218111]
+	GetHandleVerifier [0x0x7ff7786efb14+112628]
+	GetHandleVerifier [0x0x7ff7786efcc9+113065]
+	GetHandleVerifier [0x0x7ff7786d6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:52:03,391 - INFO - Fetching eBay page 7: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=7
+2025-07-01 18:52:13,856 - ERROR - Page 7 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7786e6f95+76917]
+	GetHandleVerifier [0x0x7ff7786e6ff0+77008]
+	(No symbol) [0x0x7ff778499dea]
+	(No symbol) [0x0x7ff7784f0256]
+	(No symbol) [0x0x7ff7784f050c]
+	(No symbol) [0x0x7ff778543887]
+	(No symbol) [0x0x7ff7785184af]
+	(No symbol) [0x0x7ff77854065c]
+	(No symbol) [0x0x7ff778518243]
+	(No symbol) [0x0x7ff7784e1431]
+	(No symbol) [0x0x7ff7784e21c3]
+	GetHandleVerifier [0x0x7ff7789bd2cd+3051437]
+	GetHandleVerifier [0x0x7ff7789b7923+3028483]
+	GetHandleVerifier [0x0x7ff7789d58bd+3151261]
+	GetHandleVerifier [0x0x7ff77870185e+185662]
+	GetHandleVerifier [0x0x7ff77870971f+218111]
+	GetHandleVerifier [0x0x7ff7786efb14+112628]
+	GetHandleVerifier [0x0x7ff7786efcc9+113065]
+	GetHandleVerifier [0x0x7ff7786d6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:52:14,731 - INFO - Fetching eBay page 8: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=8
+2025-07-01 18:52:25,220 - ERROR - Page 8 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7786e6f95+76917]
+	GetHandleVerifier [0x0x7ff7786e6ff0+77008]
+	(No symbol) [0x0x7ff778499dea]
+	(No symbol) [0x0x7ff7784f0256]
+	(No symbol) [0x0x7ff7784f050c]
+	(No symbol) [0x0x7ff778543887]
+	(No symbol) [0x0x7ff7785184af]
+	(No symbol) [0x0x7ff77854065c]
+	(No symbol) [0x0x7ff778518243]
+	(No symbol) [0x0x7ff7784e1431]
+	(No symbol) [0x0x7ff7784e21c3]
+	GetHandleVerifier [0x0x7ff7789bd2cd+3051437]
+	GetHandleVerifier [0x0x7ff7789b7923+3028483]
+	GetHandleVerifier [0x0x7ff7789d58bd+3151261]
+	GetHandleVerifier [0x0x7ff77870185e+185662]
+	GetHandleVerifier [0x0x7ff77870971f+218111]
+	GetHandleVerifier [0x0x7ff7786efb14+112628]
+	GetHandleVerifier [0x0x7ff7786efcc9+113065]
+	GetHandleVerifier [0x0x7ff7786d6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:52:26,135 - INFO - Fetching eBay page 9: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=9
+2025-07-01 18:52:36,640 - ERROR - Page 9 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7786e6f95+76917]
+	GetHandleVerifier [0x0x7ff7786e6ff0+77008]
+	(No symbol) [0x0x7ff778499dea]
+	(No symbol) [0x0x7ff7784f0256]
+	(No symbol) [0x0x7ff7784f050c]
+	(No symbol) [0x0x7ff778543887]
+	(No symbol) [0x0x7ff7785184af]
+	(No symbol) [0x0x7ff77854065c]
+	(No symbol) [0x0x7ff778518243]
+	(No symbol) [0x0x7ff7784e1431]
+	(No symbol) [0x0x7ff7784e21c3]
+	GetHandleVerifier [0x0x7ff7789bd2cd+3051437]
+	GetHandleVerifier [0x0x7ff7789b7923+3028483]
+	GetHandleVerifier [0x0x7ff7789d58bd+3151261]
+	GetHandleVerifier [0x0x7ff77870185e+185662]
+	GetHandleVerifier [0x0x7ff77870971f+218111]
+	GetHandleVerifier [0x0x7ff7786efb14+112628]
+	GetHandleVerifier [0x0x7ff7786efcc9+113065]
+	GetHandleVerifier [0x0x7ff7786d6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:52:37,543 - INFO - Fetching eBay page 10: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=10
+2025-07-01 18:52:47,991 - ERROR - Page 10 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7786e6f95+76917]
+	GetHandleVerifier [0x0x7ff7786e6ff0+77008]
+	(No symbol) [0x0x7ff778499dea]
+	(No symbol) [0x0x7ff7784f0256]
+	(No symbol) [0x0x7ff7784f050c]
+	(No symbol) [0x0x7ff778543887]
+	(No symbol) [0x0x7ff7785184af]
+	(No symbol) [0x0x7ff77854065c]
+	(No symbol) [0x0x7ff778518243]
+	(No symbol) [0x0x7ff7784e1431]
+	(No symbol) [0x0x7ff7784e21c3]
+	GetHandleVerifier [0x0x7ff7789bd2cd+3051437]
+	GetHandleVerifier [0x0x7ff7789b7923+3028483]
+	GetHandleVerifier [0x0x7ff7789d58bd+3151261]
+	GetHandleVerifier [0x0x7ff77870185e+185662]
+	GetHandleVerifier [0x0x7ff77870971f+218111]
+	GetHandleVerifier [0x0x7ff7786efb14+112628]
+	GetHandleVerifier [0x0x7ff7786efcc9+113065]
+	GetHandleVerifier [0x0x7ff7786d6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:52:48,859 - INFO - Fetching eBay page 11: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=11
+2025-07-01 18:52:59,300 - ERROR - Page 11 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7786e6f95+76917]
+	GetHandleVerifier [0x0x7ff7786e6ff0+77008]
+	(No symbol) [0x0x7ff778499dea]
+	(No symbol) [0x0x7ff7784f0256]
+	(No symbol) [0x0x7ff7784f050c]
+	(No symbol) [0x0x7ff778543887]
+	(No symbol) [0x0x7ff7785184af]
+	(No symbol) [0x0x7ff77854065c]
+	(No symbol) [0x0x7ff778518243]
+	(No symbol) [0x0x7ff7784e1431]
+	(No symbol) [0x0x7ff7784e21c3]
+	GetHandleVerifier [0x0x7ff7789bd2cd+3051437]
+	GetHandleVerifier [0x0x7ff7789b7923+3028483]
+	GetHandleVerifier [0x0x7ff7789d58bd+3151261]
+	GetHandleVerifier [0x0x7ff77870185e+185662]
+	GetHandleVerifier [0x0x7ff77870971f+218111]
+	GetHandleVerifier [0x0x7ff7786efb14+112628]
+	GetHandleVerifier [0x0x7ff7786efcc9+113065]
+	GetHandleVerifier [0x0x7ff7786d6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:53:00,152 - INFO - Fetching eBay page 12: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=12
+2025-07-01 18:53:10,580 - ERROR - Page 12 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7786e6f95+76917]
+	GetHandleVerifier [0x0x7ff7786e6ff0+77008]
+	(No symbol) [0x0x7ff778499dea]
+	(No symbol) [0x0x7ff7784f0256]
+	(No symbol) [0x0x7ff7784f050c]
+	(No symbol) [0x0x7ff778543887]
+	(No symbol) [0x0x7ff7785184af]
+	(No symbol) [0x0x7ff77854065c]
+	(No symbol) [0x0x7ff778518243]
+	(No symbol) [0x0x7ff7784e1431]
+	(No symbol) [0x0x7ff7784e21c3]
+	GetHandleVerifier [0x0x7ff7789bd2cd+3051437]
+	GetHandleVerifier [0x0x7ff7789b7923+3028483]
+	GetHandleVerifier [0x0x7ff7789d58bd+3151261]
+	GetHandleVerifier [0x0x7ff77870185e+185662]
+	GetHandleVerifier [0x0x7ff77870971f+218111]
+	GetHandleVerifier [0x0x7ff7786efb14+112628]
+	GetHandleVerifier [0x0x7ff7786efcc9+113065]
+	GetHandleVerifier [0x0x7ff7786d6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:53:11,384 - INFO - Fetching eBay page 13: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=13
+2025-07-01 18:53:21,866 - ERROR - Page 13 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7786e6f95+76917]
+	GetHandleVerifier [0x0x7ff7786e6ff0+77008]
+	(No symbol) [0x0x7ff778499dea]
+	(No symbol) [0x0x7ff7784f0256]
+	(No symbol) [0x0x7ff7784f050c]
+	(No symbol) [0x0x7ff778543887]
+	(No symbol) [0x0x7ff7785184af]
+	(No symbol) [0x0x7ff77854065c]
+	(No symbol) [0x0x7ff778518243]
+	(No symbol) [0x0x7ff7784e1431]
+	(No symbol) [0x0x7ff7784e21c3]
+	GetHandleVerifier [0x0x7ff7789bd2cd+3051437]
+	GetHandleVerifier [0x0x7ff7789b7923+3028483]
+	GetHandleVerifier [0x0x7ff7789d58bd+3151261]
+	GetHandleVerifier [0x0x7ff77870185e+185662]
+	GetHandleVerifier [0x0x7ff77870971f+218111]
+	GetHandleVerifier [0x0x7ff7786efb14+112628]
+	GetHandleVerifier [0x0x7ff7786efcc9+113065]
+	GetHandleVerifier [0x0x7ff7786d6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:53:22,618 - INFO - Fetching eBay page 14: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=14
+2025-07-01 18:53:33,102 - ERROR - Page 14 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7786e6f95+76917]
+	GetHandleVerifier [0x0x7ff7786e6ff0+77008]
+	(No symbol) [0x0x7ff778499dea]
+	(No symbol) [0x0x7ff7784f0256]
+	(No symbol) [0x0x7ff7784f050c]
+	(No symbol) [0x0x7ff778543887]
+	(No symbol) [0x0x7ff7785184af]
+	(No symbol) [0x0x7ff77854065c]
+	(No symbol) [0x0x7ff778518243]
+	(No symbol) [0x0x7ff7784e1431]
+	(No symbol) [0x0x7ff7784e21c3]
+	GetHandleVerifier [0x0x7ff7789bd2cd+3051437]
+	GetHandleVerifier [0x0x7ff7789b7923+3028483]
+	GetHandleVerifier [0x0x7ff7789d58bd+3151261]
+	GetHandleVerifier [0x0x7ff77870185e+185662]
+	GetHandleVerifier [0x0x7ff77870971f+218111]
+	GetHandleVerifier [0x0x7ff7786efb14+112628]
+	GetHandleVerifier [0x0x7ff7786efcc9+113065]
+	GetHandleVerifier [0x0x7ff7786d6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:53:33,853 - INFO - Fetching eBay page 15: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=15
+2025-07-01 18:53:44,329 - ERROR - Page 15 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7786e6f95+76917]
+	GetHandleVerifier [0x0x7ff7786e6ff0+77008]
+	(No symbol) [0x0x7ff778499dea]
+	(No symbol) [0x0x7ff7784f0256]
+	(No symbol) [0x0x7ff7784f050c]
+	(No symbol) [0x0x7ff778543887]
+	(No symbol) [0x0x7ff7785184af]
+	(No symbol) [0x0x7ff77854065c]
+	(No symbol) [0x0x7ff778518243]
+	(No symbol) [0x0x7ff7784e1431]
+	(No symbol) [0x0x7ff7784e21c3]
+	GetHandleVerifier [0x0x7ff7789bd2cd+3051437]
+	GetHandleVerifier [0x0x7ff7789b7923+3028483]
+	GetHandleVerifier [0x0x7ff7789d58bd+3151261]
+	GetHandleVerifier [0x0x7ff77870185e+185662]
+	GetHandleVerifier [0x0x7ff77870971f+218111]
+	GetHandleVerifier [0x0x7ff7786efb14+112628]
+	GetHandleVerifier [0x0x7ff7786efcc9+113065]
+	GetHandleVerifier [0x0x7ff7786d6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:53:45,094 - INFO - Fetching eBay page 16: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=16
+2025-07-01 18:53:55,557 - ERROR - Page 16 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7786e6f95+76917]
+	GetHandleVerifier [0x0x7ff7786e6ff0+77008]
+	(No symbol) [0x0x7ff778499dea]
+	(No symbol) [0x0x7ff7784f0256]
+	(No symbol) [0x0x7ff7784f050c]
+	(No symbol) [0x0x7ff778543887]
+	(No symbol) [0x0x7ff7785184af]
+	(No symbol) [0x0x7ff77854065c]
+	(No symbol) [0x0x7ff778518243]
+	(No symbol) [0x0x7ff7784e1431]
+	(No symbol) [0x0x7ff7784e21c3]
+	GetHandleVerifier [0x0x7ff7789bd2cd+3051437]
+	GetHandleVerifier [0x0x7ff7789b7923+3028483]
+	GetHandleVerifier [0x0x7ff7789d58bd+3151261]
+	GetHandleVerifier [0x0x7ff77870185e+185662]
+	GetHandleVerifier [0x0x7ff77870971f+218111]
+	GetHandleVerifier [0x0x7ff7786efb14+112628]
+	GetHandleVerifier [0x0x7ff7786efcc9+113065]
+	GetHandleVerifier [0x0x7ff7786d6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:53:56,356 - INFO - Fetching eBay page 17: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=17
+2025-07-01 18:54:06,801 - ERROR - Page 17 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7786e6f95+76917]
+	GetHandleVerifier [0x0x7ff7786e6ff0+77008]
+	(No symbol) [0x0x7ff778499dea]
+	(No symbol) [0x0x7ff7784f0256]
+	(No symbol) [0x0x7ff7784f050c]
+	(No symbol) [0x0x7ff778543887]
+	(No symbol) [0x0x7ff7785184af]
+	(No symbol) [0x0x7ff77854065c]
+	(No symbol) [0x0x7ff778518243]
+	(No symbol) [0x0x7ff7784e1431]
+	(No symbol) [0x0x7ff7784e21c3]
+	GetHandleVerifier [0x0x7ff7789bd2cd+3051437]
+	GetHandleVerifier [0x0x7ff7789b7923+3028483]
+	GetHandleVerifier [0x0x7ff7789d58bd+3151261]
+	GetHandleVerifier [0x0x7ff77870185e+185662]
+	GetHandleVerifier [0x0x7ff77870971f+218111]
+	GetHandleVerifier [0x0x7ff7786efb14+112628]
+	GetHandleVerifier [0x0x7ff7786efcc9+113065]
+	GetHandleVerifier [0x0x7ff7786d6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:54:07,734 - INFO - Fetching eBay page 18: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=18
+2025-07-01 18:54:18,200 - ERROR - Page 18 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7786e6f95+76917]
+	GetHandleVerifier [0x0x7ff7786e6ff0+77008]
+	(No symbol) [0x0x7ff778499dea]
+	(No symbol) [0x0x7ff7784f0256]
+	(No symbol) [0x0x7ff7784f050c]
+	(No symbol) [0x0x7ff778543887]
+	(No symbol) [0x0x7ff7785184af]
+	(No symbol) [0x0x7ff77854065c]
+	(No symbol) [0x0x7ff778518243]
+	(No symbol) [0x0x7ff7784e1431]
+	(No symbol) [0x0x7ff7784e21c3]
+	GetHandleVerifier [0x0x7ff7789bd2cd+3051437]
+	GetHandleVerifier [0x0x7ff7789b7923+3028483]
+	GetHandleVerifier [0x0x7ff7789d58bd+3151261]
+	GetHandleVerifier [0x0x7ff77870185e+185662]
+	GetHandleVerifier [0x0x7ff77870971f+218111]
+	GetHandleVerifier [0x0x7ff7786efb14+112628]
+	GetHandleVerifier [0x0x7ff7786efcc9+113065]
+	GetHandleVerifier [0x0x7ff7786d6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:54:19,043 - INFO - Fetching eBay page 19: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=19
+2025-07-01 18:54:29,475 - ERROR - Page 19 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7786e6f95+76917]
+	GetHandleVerifier [0x0x7ff7786e6ff0+77008]
+	(No symbol) [0x0x7ff778499dea]
+	(No symbol) [0x0x7ff7784f0256]
+	(No symbol) [0x0x7ff7784f050c]
+	(No symbol) [0x0x7ff778543887]
+	(No symbol) [0x0x7ff7785184af]
+	(No symbol) [0x0x7ff77854065c]
+	(No symbol) [0x0x7ff778518243]
+	(No symbol) [0x0x7ff7784e1431]
+	(No symbol) [0x0x7ff7784e21c3]
+	GetHandleVerifier [0x0x7ff7789bd2cd+3051437]
+	GetHandleVerifier [0x0x7ff7789b7923+3028483]
+	GetHandleVerifier [0x0x7ff7789d58bd+3151261]
+	GetHandleVerifier [0x0x7ff77870185e+185662]
+	GetHandleVerifier [0x0x7ff77870971f+218111]
+	GetHandleVerifier [0x0x7ff7786efb14+112628]
+	GetHandleVerifier [0x0x7ff7786efcc9+113065]
+	GetHandleVerifier [0x0x7ff7786d6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:54:30,302 - INFO - Fetching eBay page 20: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=20
+2025-07-01 18:54:40,754 - ERROR - Page 20 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7786e6f95+76917]
+	GetHandleVerifier [0x0x7ff7786e6ff0+77008]
+	(No symbol) [0x0x7ff778499dea]
+	(No symbol) [0x0x7ff7784f0256]
+	(No symbol) [0x0x7ff7784f050c]
+	(No symbol) [0x0x7ff778543887]
+	(No symbol) [0x0x7ff7785184af]
+	(No symbol) [0x0x7ff77854065c]
+	(No symbol) [0x0x7ff778518243]
+	(No symbol) [0x0x7ff7784e1431]
+	(No symbol) [0x0x7ff7784e21c3]
+	GetHandleVerifier [0x0x7ff7789bd2cd+3051437]
+	GetHandleVerifier [0x0x7ff7789b7923+3028483]
+	GetHandleVerifier [0x0x7ff7789d58bd+3151261]
+	GetHandleVerifier [0x0x7ff77870185e+185662]
+	GetHandleVerifier [0x0x7ff77870971f+218111]
+	GetHandleVerifier [0x0x7ff7786efb14+112628]
+	GetHandleVerifier [0x0x7ff7786efcc9+113065]
+	GetHandleVerifier [0x0x7ff7786d6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:54:42,141 - INFO - Fetching eBay page 21: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=21
+2025-07-01 18:54:52,260 - ERROR - Page 21 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7786e6f95+76917]
+	GetHandleVerifier [0x0x7ff7786e6ff0+77008]
+	(No symbol) [0x0x7ff778499dea]
+	(No symbol) [0x0x7ff7784f0256]
+	(No symbol) [0x0x7ff7784f050c]
+	(No symbol) [0x0x7ff778543887]
+	(No symbol) [0x0x7ff7785184af]
+	(No symbol) [0x0x7ff77854065c]
+	(No symbol) [0x0x7ff778518243]
+	(No symbol) [0x0x7ff7784e1431]
+	(No symbol) [0x0x7ff7784e21c3]
+	GetHandleVerifier [0x0x7ff7789bd2cd+3051437]
+	GetHandleVerifier [0x0x7ff7789b7923+3028483]
+	GetHandleVerifier [0x0x7ff7789d58bd+3151261]
+	GetHandleVerifier [0x0x7ff77870185e+185662]
+	GetHandleVerifier [0x0x7ff77870971f+218111]
+	GetHandleVerifier [0x0x7ff7786efb14+112628]
+	GetHandleVerifier [0x0x7ff7786efcc9+113065]
+	GetHandleVerifier [0x0x7ff7786d6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:54:53,068 - INFO - Fetching eBay page 22: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=22
+2025-07-01 18:55:03,562 - ERROR - Page 22 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7786e6f95+76917]
+	GetHandleVerifier [0x0x7ff7786e6ff0+77008]
+	(No symbol) [0x0x7ff778499dea]
+	(No symbol) [0x0x7ff7784f0256]
+	(No symbol) [0x0x7ff7784f050c]
+	(No symbol) [0x0x7ff778543887]
+	(No symbol) [0x0x7ff7785184af]
+	(No symbol) [0x0x7ff77854065c]
+	(No symbol) [0x0x7ff778518243]
+	(No symbol) [0x0x7ff7784e1431]
+	(No symbol) [0x0x7ff7784e21c3]
+	GetHandleVerifier [0x0x7ff7789bd2cd+3051437]
+	GetHandleVerifier [0x0x7ff7789b7923+3028483]
+	GetHandleVerifier [0x0x7ff7789d58bd+3151261]
+	GetHandleVerifier [0x0x7ff77870185e+185662]
+	GetHandleVerifier [0x0x7ff77870971f+218111]
+	GetHandleVerifier [0x0x7ff7786efb14+112628]
+	GetHandleVerifier [0x0x7ff7786efcc9+113065]
+	GetHandleVerifier [0x0x7ff7786d6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:55:04,292 - INFO - Fetching eBay page 23: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=23
+2025-07-01 18:55:14,761 - ERROR - Page 23 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7786e6f95+76917]
+	GetHandleVerifier [0x0x7ff7786e6ff0+77008]
+	(No symbol) [0x0x7ff778499dea]
+	(No symbol) [0x0x7ff7784f0256]
+	(No symbol) [0x0x7ff7784f050c]
+	(No symbol) [0x0x7ff778543887]
+	(No symbol) [0x0x7ff7785184af]
+	(No symbol) [0x0x7ff77854065c]
+	(No symbol) [0x0x7ff778518243]
+	(No symbol) [0x0x7ff7784e1431]
+	(No symbol) [0x0x7ff7784e21c3]
+	GetHandleVerifier [0x0x7ff7789bd2cd+3051437]
+	GetHandleVerifier [0x0x7ff7789b7923+3028483]
+	GetHandleVerifier [0x0x7ff7789d58bd+3151261]
+	GetHandleVerifier [0x0x7ff77870185e+185662]
+	GetHandleVerifier [0x0x7ff77870971f+218111]
+	GetHandleVerifier [0x0x7ff7786efb14+112628]
+	GetHandleVerifier [0x0x7ff7786efcc9+113065]
+	GetHandleVerifier [0x0x7ff7786d6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:55:15,676 - INFO - Fetching eBay page 24: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=24
+2025-07-01 18:55:26,089 - ERROR - Page 24 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7786e6f95+76917]
+	GetHandleVerifier [0x0x7ff7786e6ff0+77008]
+	(No symbol) [0x0x7ff778499dea]
+	(No symbol) [0x0x7ff7784f0256]
+	(No symbol) [0x0x7ff7784f050c]
+	(No symbol) [0x0x7ff778543887]
+	(No symbol) [0x0x7ff7785184af]
+	(No symbol) [0x0x7ff77854065c]
+	(No symbol) [0x0x7ff778518243]
+	(No symbol) [0x0x7ff7784e1431]
+	(No symbol) [0x0x7ff7784e21c3]
+	GetHandleVerifier [0x0x7ff7789bd2cd+3051437]
+	GetHandleVerifier [0x0x7ff7789b7923+3028483]
+	GetHandleVerifier [0x0x7ff7789d58bd+3151261]
+	GetHandleVerifier [0x0x7ff77870185e+185662]
+	GetHandleVerifier [0x0x7ff77870971f+218111]
+	GetHandleVerifier [0x0x7ff7786efb14+112628]
+	GetHandleVerifier [0x0x7ff7786efcc9+113065]
+	GetHandleVerifier [0x0x7ff7786d6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:55:26,772 - INFO - Fetching eBay page 25: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=25
+2025-07-01 18:55:37,259 - ERROR - Page 25 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7786e6f95+76917]
+	GetHandleVerifier [0x0x7ff7786e6ff0+77008]
+	(No symbol) [0x0x7ff778499dea]
+	(No symbol) [0x0x7ff7784f0256]
+	(No symbol) [0x0x7ff7784f050c]
+	(No symbol) [0x0x7ff778543887]
+	(No symbol) [0x0x7ff7785184af]
+	(No symbol) [0x0x7ff77854065c]
+	(No symbol) [0x0x7ff778518243]
+	(No symbol) [0x0x7ff7784e1431]
+	(No symbol) [0x0x7ff7784e21c3]
+	GetHandleVerifier [0x0x7ff7789bd2cd+3051437]
+	GetHandleVerifier [0x0x7ff7789b7923+3028483]
+	GetHandleVerifier [0x0x7ff7789d58bd+3151261]
+	GetHandleVerifier [0x0x7ff77870185e+185662]
+	GetHandleVerifier [0x0x7ff77870971f+218111]
+	GetHandleVerifier [0x0x7ff7786efb14+112628]
+	GetHandleVerifier [0x0x7ff7786efcc9+113065]
+	GetHandleVerifier [0x0x7ff7786d6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 18:55:37,259 - INFO - Total eBay items inserted: 0
+2025-07-01 18:55:39,658 - INFO - Running Newegg scraper...
+2025-07-01 18:55:42,981 - INFO - Fetching Newegg page 1: https://www.newegg.com/p/pl?d=laptop&page=1
+2025-07-01 18:55:43,480 - INFO - Fetching Newegg page 2: https://www.newegg.com/p/pl?d=laptop&page=2
+2025-07-01 18:55:43,912 - INFO - Fetching Newegg page 3: https://www.newegg.com/p/pl?d=laptop&page=3
+2025-07-01 18:55:44,450 - INFO - Fetching Newegg page 4: https://www.newegg.com/p/pl?d=laptop&page=4
+2025-07-01 18:55:44,873 - INFO - Fetching Newegg page 5: https://www.newegg.com/p/pl?d=laptop&page=5
+2025-07-01 18:55:45,380 - INFO - Fetching Newegg page 6: https://www.newegg.com/p/pl?d=laptop&page=6
+2025-07-01 18:55:45,749 - INFO - Fetching Newegg page 7: https://www.newegg.com/p/pl?d=laptop&page=7
+2025-07-01 18:55:46,132 - INFO - Fetching Newegg page 8: https://www.newegg.com/p/pl?d=laptop&page=8
+2025-07-01 18:55:46,513 - INFO - Fetching Newegg page 9: https://www.newegg.com/p/pl?d=laptop&page=9
+2025-07-01 18:55:47,011 - INFO - Fetching Newegg page 10: https://www.newegg.com/p/pl?d=laptop&page=10
+2025-07-01 18:55:47,433 - INFO - Fetching Newegg page 11: https://www.newegg.com/p/pl?d=laptop&page=11
+2025-07-01 18:55:47,901 - INFO - Fetching Newegg page 12: https://www.newegg.com/p/pl?d=laptop&page=12
+2025-07-01 18:55:48,364 - INFO - Fetching Newegg page 13: https://www.newegg.com/p/pl?d=laptop&page=13
+2025-07-01 18:55:48,770 - INFO - Fetching Newegg page 14: https://www.newegg.com/p/pl?d=laptop&page=14
+2025-07-01 18:55:49,177 - INFO - Fetching Newegg page 15: https://www.newegg.com/p/pl?d=laptop&page=15
+2025-07-01 18:55:49,547 - INFO - Fetching Newegg page 16: https://www.newegg.com/p/pl?d=laptop&page=16
+2025-07-01 18:55:49,922 - INFO - Fetching Newegg page 17: https://www.newegg.com/p/pl?d=laptop&page=17
+2025-07-01 18:55:50,407 - INFO - Fetching Newegg page 18: https://www.newegg.com/p/pl?d=laptop&page=18
+2025-07-01 18:55:50,767 - INFO - Fetching Newegg page 19: https://www.newegg.com/p/pl?d=laptop&page=19
+2025-07-01 18:55:51,146 - INFO - Fetching Newegg page 20: https://www.newegg.com/p/pl?d=laptop&page=20
+2025-07-01 18:55:51,257 - INFO - Newegg Selenium: Total inserted = 0
+2025-07-01 18:55:53,539 - INFO - Running Scrapy spider (QuotesToScrape)...
+2025-07-01 18:55:53,612 - INFO - Scrapy 2.13.2 started (bot: scrapybot)
+2025-07-01 18:55:54,324 - INFO - Versions:
+{'lxml': '6.0.0',
+ 'libxml2': '2.11.9',
+ 'cssselect': '1.3.0',
+ 'parsel': '1.10.0',
+ 'w3lib': '2.3.1',
+ 'Twisted': '25.5.0',
+ 'Python': '3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 '
+           '64 bit (AMD64)]',
+ 'pyOpenSSL': '25.1.0 (OpenSSL 3.5.0 8 Apr 2025)',
+ 'cryptography': '45.0.4',
+ 'Platform': 'Windows-11-10.0.22631-SP0'}
+2025-07-01 18:55:54,331 - INFO - Enabled addons:
+[]
+2025-07-01 18:55:54,348 - DEBUG - Using selector: SelectSelector
+2025-07-01 18:55:54,352 - DEBUG - Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+2025-07-01 18:55:54,352 - DEBUG - Using asyncio event loop: asyncio.windows_events._WindowsSelectorEventLoop
+2025-07-01 18:55:54,370 - INFO - Telnet Password: 280ca5948c695ca0
+2025-07-01 18:55:54,489 - INFO - Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2025-07-01 18:55:54,490 - INFO - Overridden settings:
+{'LOG_ENABLED': False}
+2025-07-01 18:55:54,908 - INFO - Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2025-07-01 18:55:54,932 - INFO - Enabled spider middlewares:
+['scrapy.spidermiddlewares.start.StartSpiderMiddleware',
+ 'scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2025-07-01 18:55:54,936 - INFO - Enabled item pipelines:
+[]
+2025-07-01 18:55:54,939 - INFO - Spider opened
+2025-07-01 18:55:54,962 - INFO - Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-07-01 18:55:54,965 - INFO - Telnet console listening on 127.0.0.1:6023
+2025-07-01 18:55:56,162 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com> (referer: None)
+2025-07-01 18:55:56,562 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/2/> (referer: http://quotes.toscrape.com)
+2025-07-01 18:55:56,953 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/3/> (referer: http://quotes.toscrape.com/page/2/)
+2025-07-01 18:55:57,343 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/4/> (referer: http://quotes.toscrape.com/page/3/)
+2025-07-01 18:55:57,735 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/5/> (referer: http://quotes.toscrape.com/page/4/)
+2025-07-01 18:55:58,134 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/6/> (referer: http://quotes.toscrape.com/page/5/)
+2025-07-01 18:55:58,528 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/7/> (referer: http://quotes.toscrape.com/page/6/)
+2025-07-01 18:55:58,907 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/8/> (referer: http://quotes.toscrape.com/page/7/)
+2025-07-01 18:55:59,294 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/9/> (referer: http://quotes.toscrape.com/page/8/)
+2025-07-01 18:55:59,685 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/10/> (referer: http://quotes.toscrape.com/page/9/)
+2025-07-01 18:55:59,902 - INFO - Closing spider (finished)
+2025-07-01 18:55:59,905 - INFO - Stored json feed (0 items) in: data_output/raw/quotes.json
+2025-07-01 18:55:59,907 - INFO - Dumping Scrapy stats:
+{'downloader/request_bytes': 2661,
+ 'downloader/request_count': 10,
+ 'downloader/request_method_count/GET': 10,
+ 'downloader/response_bytes': 109860,
+ 'downloader/response_count': 10,
+ 'downloader/response_status_count/200': 10,
+ 'elapsed_time_seconds': 4.939798,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2025, 7, 1, 14, 55, 59, 902521, tzinfo=datetime.timezone.utc),
+ 'items_per_minute': 0.0,
+ 'log_count/DEBUG': 13,
+ 'log_count/INFO': 11,
+ 'request_depth_max': 9,
+ 'response_received_count': 10,
+ 'responses_per_minute': 150.0,
+ 'scheduler/dequeued': 10,
+ 'scheduler/dequeued/memory': 10,
+ 'scheduler/enqueued': 10,
+ 'scheduler/enqueued/memory': 10,
+ 'start_time': datetime.datetime(2025, 7, 1, 14, 55, 54, 962723, tzinfo=datetime.timezone.utc)}
+2025-07-01 18:55:59,908 - INFO - Spider closed (finished)
+2025-07-01 19:00:31,783 - INFO - Creating database tables...
+2025-07-01 19:00:31,792 - INFO - Running Amazon scraper...
+2025-07-01 19:00:31,792 - INFO - Fetching Amazon URL: https://www.amazon.com/s?k=laptop
+2025-07-01 19:00:34,714 - INFO - Amazon inserted 0 titles
+2025-07-01 19:00:34,715 - INFO - Running eBay scraper...
+2025-07-01 19:00:40,173 - INFO - Fetching eBay page 1: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=1
+2025-07-01 19:00:51,440 - INFO - Fetching eBay page 2: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=2
+2025-07-01 19:01:03,915 - INFO - Fetching eBay page 3: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=3
+2025-07-01 19:01:14,915 - INFO - Fetching eBay page 4: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=4
+2025-07-01 19:01:23,473 - INFO - Fetching eBay page 5: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=5
+2025-07-01 19:01:33,693 - ERROR - Page 5 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6c5ee6f95+76917]
+	GetHandleVerifier [0x0x7ff6c5ee6ff0+77008]
+	(No symbol) [0x0x7ff6c5c99dea]
+	(No symbol) [0x0x7ff6c5cf0256]
+	(No symbol) [0x0x7ff6c5cf050c]
+	(No symbol) [0x0x7ff6c5d43887]
+	(No symbol) [0x0x7ff6c5d184af]
+	(No symbol) [0x0x7ff6c5d4065c]
+	(No symbol) [0x0x7ff6c5d18243]
+	(No symbol) [0x0x7ff6c5ce1431]
+	(No symbol) [0x0x7ff6c5ce21c3]
+	GetHandleVerifier [0x0x7ff6c61bd2cd+3051437]
+	GetHandleVerifier [0x0x7ff6c61b7923+3028483]
+	GetHandleVerifier [0x0x7ff6c61d58bd+3151261]
+	GetHandleVerifier [0x0x7ff6c5f0185e+185662]
+	GetHandleVerifier [0x0x7ff6c5f0971f+218111]
+	GetHandleVerifier [0x0x7ff6c5eefb14+112628]
+	GetHandleVerifier [0x0x7ff6c5eefcc9+113065]
+	GetHandleVerifier [0x0x7ff6c5ed6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 19:01:35,534 - INFO - Fetching eBay page 6: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=6
+2025-07-01 19:01:45,998 - ERROR - Page 6 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6c5ee6f95+76917]
+	GetHandleVerifier [0x0x7ff6c5ee6ff0+77008]
+	(No symbol) [0x0x7ff6c5c99dea]
+	(No symbol) [0x0x7ff6c5cf0256]
+	(No symbol) [0x0x7ff6c5cf050c]
+	(No symbol) [0x0x7ff6c5d43887]
+	(No symbol) [0x0x7ff6c5d184af]
+	(No symbol) [0x0x7ff6c5d4065c]
+	(No symbol) [0x0x7ff6c5d18243]
+	(No symbol) [0x0x7ff6c5ce1431]
+	(No symbol) [0x0x7ff6c5ce21c3]
+	GetHandleVerifier [0x0x7ff6c61bd2cd+3051437]
+	GetHandleVerifier [0x0x7ff6c61b7923+3028483]
+	GetHandleVerifier [0x0x7ff6c61d58bd+3151261]
+	GetHandleVerifier [0x0x7ff6c5f0185e+185662]
+	GetHandleVerifier [0x0x7ff6c5f0971f+218111]
+	GetHandleVerifier [0x0x7ff6c5eefb14+112628]
+	GetHandleVerifier [0x0x7ff6c5eefcc9+113065]
+	GetHandleVerifier [0x0x7ff6c5ed6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 19:01:46,798 - INFO - Fetching eBay page 7: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=7
+2025-07-01 19:01:57,306 - ERROR - Page 7 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6c5ee6f95+76917]
+	GetHandleVerifier [0x0x7ff6c5ee6ff0+77008]
+	(No symbol) [0x0x7ff6c5c99dea]
+	(No symbol) [0x0x7ff6c5cf0256]
+	(No symbol) [0x0x7ff6c5cf050c]
+	(No symbol) [0x0x7ff6c5d43887]
+	(No symbol) [0x0x7ff6c5d184af]
+	(No symbol) [0x0x7ff6c5d4065c]
+	(No symbol) [0x0x7ff6c5d18243]
+	(No symbol) [0x0x7ff6c5ce1431]
+	(No symbol) [0x0x7ff6c5ce21c3]
+	GetHandleVerifier [0x0x7ff6c61bd2cd+3051437]
+	GetHandleVerifier [0x0x7ff6c61b7923+3028483]
+	GetHandleVerifier [0x0x7ff6c61d58bd+3151261]
+	GetHandleVerifier [0x0x7ff6c5f0185e+185662]
+	GetHandleVerifier [0x0x7ff6c5f0971f+218111]
+	GetHandleVerifier [0x0x7ff6c5eefb14+112628]
+	GetHandleVerifier [0x0x7ff6c5eefcc9+113065]
+	GetHandleVerifier [0x0x7ff6c5ed6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 19:01:58,271 - INFO - Fetching eBay page 8: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=8
+2025-07-01 19:02:08,321 - ERROR - Page 8 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6c5ee6f95+76917]
+	GetHandleVerifier [0x0x7ff6c5ee6ff0+77008]
+	(No symbol) [0x0x7ff6c5c99dea]
+	(No symbol) [0x0x7ff6c5cf0256]
+	(No symbol) [0x0x7ff6c5cf050c]
+	(No symbol) [0x0x7ff6c5d43887]
+	(No symbol) [0x0x7ff6c5d184af]
+	(No symbol) [0x0x7ff6c5d4065c]
+	(No symbol) [0x0x7ff6c5d18243]
+	(No symbol) [0x0x7ff6c5ce1431]
+	(No symbol) [0x0x7ff6c5ce21c3]
+	GetHandleVerifier [0x0x7ff6c61bd2cd+3051437]
+	GetHandleVerifier [0x0x7ff6c61b7923+3028483]
+	GetHandleVerifier [0x0x7ff6c61d58bd+3151261]
+	GetHandleVerifier [0x0x7ff6c5f0185e+185662]
+	GetHandleVerifier [0x0x7ff6c5f0971f+218111]
+	GetHandleVerifier [0x0x7ff6c5eefb14+112628]
+	GetHandleVerifier [0x0x7ff6c5eefcc9+113065]
+	GetHandleVerifier [0x0x7ff6c5ed6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 19:02:09,210 - INFO - Fetching eBay page 9: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=9
+2025-07-01 19:02:19,735 - ERROR - Page 9 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6c5ee6f95+76917]
+	GetHandleVerifier [0x0x7ff6c5ee6ff0+77008]
+	(No symbol) [0x0x7ff6c5c99dea]
+	(No symbol) [0x0x7ff6c5cf0256]
+	(No symbol) [0x0x7ff6c5cf050c]
+	(No symbol) [0x0x7ff6c5d43887]
+	(No symbol) [0x0x7ff6c5d184af]
+	(No symbol) [0x0x7ff6c5d4065c]
+	(No symbol) [0x0x7ff6c5d18243]
+	(No symbol) [0x0x7ff6c5ce1431]
+	(No symbol) [0x0x7ff6c5ce21c3]
+	GetHandleVerifier [0x0x7ff6c61bd2cd+3051437]
+	GetHandleVerifier [0x0x7ff6c61b7923+3028483]
+	GetHandleVerifier [0x0x7ff6c61d58bd+3151261]
+	GetHandleVerifier [0x0x7ff6c5f0185e+185662]
+	GetHandleVerifier [0x0x7ff6c5f0971f+218111]
+	GetHandleVerifier [0x0x7ff6c5eefb14+112628]
+	GetHandleVerifier [0x0x7ff6c5eefcc9+113065]
+	GetHandleVerifier [0x0x7ff6c5ed6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 19:02:20,503 - INFO - Fetching eBay page 10: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=10
+2025-07-01 19:02:30,529 - ERROR - Page 10 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6c5ee6f95+76917]
+	GetHandleVerifier [0x0x7ff6c5ee6ff0+77008]
+	(No symbol) [0x0x7ff6c5c99dea]
+	(No symbol) [0x0x7ff6c5cf0256]
+	(No symbol) [0x0x7ff6c5cf050c]
+	(No symbol) [0x0x7ff6c5d43887]
+	(No symbol) [0x0x7ff6c5d184af]
+	(No symbol) [0x0x7ff6c5d4065c]
+	(No symbol) [0x0x7ff6c5d18243]
+	(No symbol) [0x0x7ff6c5ce1431]
+	(No symbol) [0x0x7ff6c5ce21c3]
+	GetHandleVerifier [0x0x7ff6c61bd2cd+3051437]
+	GetHandleVerifier [0x0x7ff6c61b7923+3028483]
+	GetHandleVerifier [0x0x7ff6c61d58bd+3151261]
+	GetHandleVerifier [0x0x7ff6c5f0185e+185662]
+	GetHandleVerifier [0x0x7ff6c5f0971f+218111]
+	GetHandleVerifier [0x0x7ff6c5eefb14+112628]
+	GetHandleVerifier [0x0x7ff6c5eefcc9+113065]
+	GetHandleVerifier [0x0x7ff6c5ed6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 19:02:31,490 - INFO - Fetching eBay page 11: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=11
+2025-07-01 19:02:41,982 - ERROR - Page 11 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6c5ee6f95+76917]
+	GetHandleVerifier [0x0x7ff6c5ee6ff0+77008]
+	(No symbol) [0x0x7ff6c5c99dea]
+	(No symbol) [0x0x7ff6c5cf0256]
+	(No symbol) [0x0x7ff6c5cf050c]
+	(No symbol) [0x0x7ff6c5d43887]
+	(No symbol) [0x0x7ff6c5d184af]
+	(No symbol) [0x0x7ff6c5d4065c]
+	(No symbol) [0x0x7ff6c5d18243]
+	(No symbol) [0x0x7ff6c5ce1431]
+	(No symbol) [0x0x7ff6c5ce21c3]
+	GetHandleVerifier [0x0x7ff6c61bd2cd+3051437]
+	GetHandleVerifier [0x0x7ff6c61b7923+3028483]
+	GetHandleVerifier [0x0x7ff6c61d58bd+3151261]
+	GetHandleVerifier [0x0x7ff6c5f0185e+185662]
+	GetHandleVerifier [0x0x7ff6c5f0971f+218111]
+	GetHandleVerifier [0x0x7ff6c5eefb14+112628]
+	GetHandleVerifier [0x0x7ff6c5eefcc9+113065]
+	GetHandleVerifier [0x0x7ff6c5ed6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 19:02:42,902 - INFO - Fetching eBay page 12: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=12
+2025-07-01 19:02:53,338 - ERROR - Page 12 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6c5ee6f95+76917]
+	GetHandleVerifier [0x0x7ff6c5ee6ff0+77008]
+	(No symbol) [0x0x7ff6c5c99dea]
+	(No symbol) [0x0x7ff6c5cf0256]
+	(No symbol) [0x0x7ff6c5cf050c]
+	(No symbol) [0x0x7ff6c5d43887]
+	(No symbol) [0x0x7ff6c5d184af]
+	(No symbol) [0x0x7ff6c5d4065c]
+	(No symbol) [0x0x7ff6c5d18243]
+	(No symbol) [0x0x7ff6c5ce1431]
+	(No symbol) [0x0x7ff6c5ce21c3]
+	GetHandleVerifier [0x0x7ff6c61bd2cd+3051437]
+	GetHandleVerifier [0x0x7ff6c61b7923+3028483]
+	GetHandleVerifier [0x0x7ff6c61d58bd+3151261]
+	GetHandleVerifier [0x0x7ff6c5f0185e+185662]
+	GetHandleVerifier [0x0x7ff6c5f0971f+218111]
+	GetHandleVerifier [0x0x7ff6c5eefb14+112628]
+	GetHandleVerifier [0x0x7ff6c5eefcc9+113065]
+	GetHandleVerifier [0x0x7ff6c5ed6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 19:02:54,320 - INFO - Fetching eBay page 13: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=13
+2025-07-01 19:03:04,833 - ERROR - Page 13 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6c5ee6f95+76917]
+	GetHandleVerifier [0x0x7ff6c5ee6ff0+77008]
+	(No symbol) [0x0x7ff6c5c99dea]
+	(No symbol) [0x0x7ff6c5cf0256]
+	(No symbol) [0x0x7ff6c5cf050c]
+	(No symbol) [0x0x7ff6c5d43887]
+	(No symbol) [0x0x7ff6c5d184af]
+	(No symbol) [0x0x7ff6c5d4065c]
+	(No symbol) [0x0x7ff6c5d18243]
+	(No symbol) [0x0x7ff6c5ce1431]
+	(No symbol) [0x0x7ff6c5ce21c3]
+	GetHandleVerifier [0x0x7ff6c61bd2cd+3051437]
+	GetHandleVerifier [0x0x7ff6c61b7923+3028483]
+	GetHandleVerifier [0x0x7ff6c61d58bd+3151261]
+	GetHandleVerifier [0x0x7ff6c5f0185e+185662]
+	GetHandleVerifier [0x0x7ff6c5f0971f+218111]
+	GetHandleVerifier [0x0x7ff6c5eefb14+112628]
+	GetHandleVerifier [0x0x7ff6c5eefcc9+113065]
+	GetHandleVerifier [0x0x7ff6c5ed6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 19:03:05,702 - INFO - Fetching eBay page 14: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=14
+2025-07-01 19:03:15,753 - ERROR - Page 14 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6c5ee6f95+76917]
+	GetHandleVerifier [0x0x7ff6c5ee6ff0+77008]
+	(No symbol) [0x0x7ff6c5c99dea]
+	(No symbol) [0x0x7ff6c5cf0256]
+	(No symbol) [0x0x7ff6c5cf050c]
+	(No symbol) [0x0x7ff6c5d43887]
+	(No symbol) [0x0x7ff6c5d184af]
+	(No symbol) [0x0x7ff6c5d4065c]
+	(No symbol) [0x0x7ff6c5d18243]
+	(No symbol) [0x0x7ff6c5ce1431]
+	(No symbol) [0x0x7ff6c5ce21c3]
+	GetHandleVerifier [0x0x7ff6c61bd2cd+3051437]
+	GetHandleVerifier [0x0x7ff6c61b7923+3028483]
+	GetHandleVerifier [0x0x7ff6c61d58bd+3151261]
+	GetHandleVerifier [0x0x7ff6c5f0185e+185662]
+	GetHandleVerifier [0x0x7ff6c5f0971f+218111]
+	GetHandleVerifier [0x0x7ff6c5eefb14+112628]
+	GetHandleVerifier [0x0x7ff6c5eefcc9+113065]
+	GetHandleVerifier [0x0x7ff6c5ed6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 19:03:16,744 - INFO - Fetching eBay page 15: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=15
+2025-07-01 19:03:26,877 - ERROR - Page 15 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6c5ee6f95+76917]
+	GetHandleVerifier [0x0x7ff6c5ee6ff0+77008]
+	(No symbol) [0x0x7ff6c5c99dea]
+	(No symbol) [0x0x7ff6c5cf0256]
+	(No symbol) [0x0x7ff6c5cf050c]
+	(No symbol) [0x0x7ff6c5d43887]
+	(No symbol) [0x0x7ff6c5d184af]
+	(No symbol) [0x0x7ff6c5d4065c]
+	(No symbol) [0x0x7ff6c5d18243]
+	(No symbol) [0x0x7ff6c5ce1431]
+	(No symbol) [0x0x7ff6c5ce21c3]
+	GetHandleVerifier [0x0x7ff6c61bd2cd+3051437]
+	GetHandleVerifier [0x0x7ff6c61b7923+3028483]
+	GetHandleVerifier [0x0x7ff6c61d58bd+3151261]
+	GetHandleVerifier [0x0x7ff6c5f0185e+185662]
+	GetHandleVerifier [0x0x7ff6c5f0971f+218111]
+	GetHandleVerifier [0x0x7ff6c5eefb14+112628]
+	GetHandleVerifier [0x0x7ff6c5eefcc9+113065]
+	GetHandleVerifier [0x0x7ff6c5ed6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 19:03:27,611 - INFO - Fetching eBay page 16: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=16
+2025-07-01 19:03:37,637 - ERROR - Page 16 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6c5ee6f95+76917]
+	GetHandleVerifier [0x0x7ff6c5ee6ff0+77008]
+	(No symbol) [0x0x7ff6c5c99dea]
+	(No symbol) [0x0x7ff6c5cf0256]
+	(No symbol) [0x0x7ff6c5cf050c]
+	(No symbol) [0x0x7ff6c5d43887]
+	(No symbol) [0x0x7ff6c5d184af]
+	(No symbol) [0x0x7ff6c5d4065c]
+	(No symbol) [0x0x7ff6c5d18243]
+	(No symbol) [0x0x7ff6c5ce1431]
+	(No symbol) [0x0x7ff6c5ce21c3]
+	GetHandleVerifier [0x0x7ff6c61bd2cd+3051437]
+	GetHandleVerifier [0x0x7ff6c61b7923+3028483]
+	GetHandleVerifier [0x0x7ff6c61d58bd+3151261]
+	GetHandleVerifier [0x0x7ff6c5f0185e+185662]
+	GetHandleVerifier [0x0x7ff6c5f0971f+218111]
+	GetHandleVerifier [0x0x7ff6c5eefb14+112628]
+	GetHandleVerifier [0x0x7ff6c5eefcc9+113065]
+	GetHandleVerifier [0x0x7ff6c5ed6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 19:03:38,390 - INFO - Fetching eBay page 17: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=17
+2025-07-01 19:03:48,418 - ERROR - Page 17 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6c5ee6f95+76917]
+	GetHandleVerifier [0x0x7ff6c5ee6ff0+77008]
+	(No symbol) [0x0x7ff6c5c99dea]
+	(No symbol) [0x0x7ff6c5cf0256]
+	(No symbol) [0x0x7ff6c5cf050c]
+	(No symbol) [0x0x7ff6c5d43887]
+	(No symbol) [0x0x7ff6c5d184af]
+	(No symbol) [0x0x7ff6c5d4065c]
+	(No symbol) [0x0x7ff6c5d18243]
+	(No symbol) [0x0x7ff6c5ce1431]
+	(No symbol) [0x0x7ff6c5ce21c3]
+	GetHandleVerifier [0x0x7ff6c61bd2cd+3051437]
+	GetHandleVerifier [0x0x7ff6c61b7923+3028483]
+	GetHandleVerifier [0x0x7ff6c61d58bd+3151261]
+	GetHandleVerifier [0x0x7ff6c5f0185e+185662]
+	GetHandleVerifier [0x0x7ff6c5f0971f+218111]
+	GetHandleVerifier [0x0x7ff6c5eefb14+112628]
+	GetHandleVerifier [0x0x7ff6c5eefcc9+113065]
+	GetHandleVerifier [0x0x7ff6c5ed6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 19:03:49,171 - INFO - Fetching eBay page 18: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=18
+2025-07-01 19:03:59,603 - ERROR - Page 18 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6c5ee6f95+76917]
+	GetHandleVerifier [0x0x7ff6c5ee6ff0+77008]
+	(No symbol) [0x0x7ff6c5c99dea]
+	(No symbol) [0x0x7ff6c5cf0256]
+	(No symbol) [0x0x7ff6c5cf050c]
+	(No symbol) [0x0x7ff6c5d43887]
+	(No symbol) [0x0x7ff6c5d184af]
+	(No symbol) [0x0x7ff6c5d4065c]
+	(No symbol) [0x0x7ff6c5d18243]
+	(No symbol) [0x0x7ff6c5ce1431]
+	(No symbol) [0x0x7ff6c5ce21c3]
+	GetHandleVerifier [0x0x7ff6c61bd2cd+3051437]
+	GetHandleVerifier [0x0x7ff6c61b7923+3028483]
+	GetHandleVerifier [0x0x7ff6c61d58bd+3151261]
+	GetHandleVerifier [0x0x7ff6c5f0185e+185662]
+	GetHandleVerifier [0x0x7ff6c5f0971f+218111]
+	GetHandleVerifier [0x0x7ff6c5eefb14+112628]
+	GetHandleVerifier [0x0x7ff6c5eefcc9+113065]
+	GetHandleVerifier [0x0x7ff6c5ed6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 19:04:00,353 - INFO - Fetching eBay page 19: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=19
+2025-07-01 19:04:10,804 - ERROR - Page 19 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6c5ee6f95+76917]
+	GetHandleVerifier [0x0x7ff6c5ee6ff0+77008]
+	(No symbol) [0x0x7ff6c5c99dea]
+	(No symbol) [0x0x7ff6c5cf0256]
+	(No symbol) [0x0x7ff6c5cf050c]
+	(No symbol) [0x0x7ff6c5d43887]
+	(No symbol) [0x0x7ff6c5d184af]
+	(No symbol) [0x0x7ff6c5d4065c]
+	(No symbol) [0x0x7ff6c5d18243]
+	(No symbol) [0x0x7ff6c5ce1431]
+	(No symbol) [0x0x7ff6c5ce21c3]
+	GetHandleVerifier [0x0x7ff6c61bd2cd+3051437]
+	GetHandleVerifier [0x0x7ff6c61b7923+3028483]
+	GetHandleVerifier [0x0x7ff6c61d58bd+3151261]
+	GetHandleVerifier [0x0x7ff6c5f0185e+185662]
+	GetHandleVerifier [0x0x7ff6c5f0971f+218111]
+	GetHandleVerifier [0x0x7ff6c5eefb14+112628]
+	GetHandleVerifier [0x0x7ff6c5eefcc9+113065]
+	GetHandleVerifier [0x0x7ff6c5ed6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 19:04:11,827 - INFO - Fetching eBay page 20: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=20
+2025-07-01 19:04:22,356 - ERROR - Page 20 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6c5ee6f95+76917]
+	GetHandleVerifier [0x0x7ff6c5ee6ff0+77008]
+	(No symbol) [0x0x7ff6c5c99dea]
+	(No symbol) [0x0x7ff6c5cf0256]
+	(No symbol) [0x0x7ff6c5cf050c]
+	(No symbol) [0x0x7ff6c5d43887]
+	(No symbol) [0x0x7ff6c5d184af]
+	(No symbol) [0x0x7ff6c5d4065c]
+	(No symbol) [0x0x7ff6c5d18243]
+	(No symbol) [0x0x7ff6c5ce1431]
+	(No symbol) [0x0x7ff6c5ce21c3]
+	GetHandleVerifier [0x0x7ff6c61bd2cd+3051437]
+	GetHandleVerifier [0x0x7ff6c61b7923+3028483]
+	GetHandleVerifier [0x0x7ff6c61d58bd+3151261]
+	GetHandleVerifier [0x0x7ff6c5f0185e+185662]
+	GetHandleVerifier [0x0x7ff6c5f0971f+218111]
+	GetHandleVerifier [0x0x7ff6c5eefb14+112628]
+	GetHandleVerifier [0x0x7ff6c5eefcc9+113065]
+	GetHandleVerifier [0x0x7ff6c5ed6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 19:04:23,326 - INFO - Fetching eBay page 21: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=21
+2025-07-01 19:04:33,388 - ERROR - Page 21 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6c5ee6f95+76917]
+	GetHandleVerifier [0x0x7ff6c5ee6ff0+77008]
+	(No symbol) [0x0x7ff6c5c99dea]
+	(No symbol) [0x0x7ff6c5cf0256]
+	(No symbol) [0x0x7ff6c5cf050c]
+	(No symbol) [0x0x7ff6c5d43887]
+	(No symbol) [0x0x7ff6c5d184af]
+	(No symbol) [0x0x7ff6c5d4065c]
+	(No symbol) [0x0x7ff6c5d18243]
+	(No symbol) [0x0x7ff6c5ce1431]
+	(No symbol) [0x0x7ff6c5ce21c3]
+	GetHandleVerifier [0x0x7ff6c61bd2cd+3051437]
+	GetHandleVerifier [0x0x7ff6c61b7923+3028483]
+	GetHandleVerifier [0x0x7ff6c61d58bd+3151261]
+	GetHandleVerifier [0x0x7ff6c5f0185e+185662]
+	GetHandleVerifier [0x0x7ff6c5f0971f+218111]
+	GetHandleVerifier [0x0x7ff6c5eefb14+112628]
+	GetHandleVerifier [0x0x7ff6c5eefcc9+113065]
+	GetHandleVerifier [0x0x7ff6c5ed6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 19:04:34,465 - INFO - Fetching eBay page 22: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=22
+2025-07-01 19:04:44,962 - ERROR - Page 22 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6c5ee6f95+76917]
+	GetHandleVerifier [0x0x7ff6c5ee6ff0+77008]
+	(No symbol) [0x0x7ff6c5c99dea]
+	(No symbol) [0x0x7ff6c5cf0256]
+	(No symbol) [0x0x7ff6c5cf050c]
+	(No symbol) [0x0x7ff6c5d43887]
+	(No symbol) [0x0x7ff6c5d184af]
+	(No symbol) [0x0x7ff6c5d4065c]
+	(No symbol) [0x0x7ff6c5d18243]
+	(No symbol) [0x0x7ff6c5ce1431]
+	(No symbol) [0x0x7ff6c5ce21c3]
+	GetHandleVerifier [0x0x7ff6c61bd2cd+3051437]
+	GetHandleVerifier [0x0x7ff6c61b7923+3028483]
+	GetHandleVerifier [0x0x7ff6c61d58bd+3151261]
+	GetHandleVerifier [0x0x7ff6c5f0185e+185662]
+	GetHandleVerifier [0x0x7ff6c5f0971f+218111]
+	GetHandleVerifier [0x0x7ff6c5eefb14+112628]
+	GetHandleVerifier [0x0x7ff6c5eefcc9+113065]
+	GetHandleVerifier [0x0x7ff6c5ed6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 19:04:45,900 - INFO - Fetching eBay page 23: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=23
+2025-07-01 19:04:56,397 - ERROR - Page 23 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6c5ee6f95+76917]
+	GetHandleVerifier [0x0x7ff6c5ee6ff0+77008]
+	(No symbol) [0x0x7ff6c5c99dea]
+	(No symbol) [0x0x7ff6c5cf0256]
+	(No symbol) [0x0x7ff6c5cf050c]
+	(No symbol) [0x0x7ff6c5d43887]
+	(No symbol) [0x0x7ff6c5d184af]
+	(No symbol) [0x0x7ff6c5d4065c]
+	(No symbol) [0x0x7ff6c5d18243]
+	(No symbol) [0x0x7ff6c5ce1431]
+	(No symbol) [0x0x7ff6c5ce21c3]
+	GetHandleVerifier [0x0x7ff6c61bd2cd+3051437]
+	GetHandleVerifier [0x0x7ff6c61b7923+3028483]
+	GetHandleVerifier [0x0x7ff6c61d58bd+3151261]
+	GetHandleVerifier [0x0x7ff6c5f0185e+185662]
+	GetHandleVerifier [0x0x7ff6c5f0971f+218111]
+	GetHandleVerifier [0x0x7ff6c5eefb14+112628]
+	GetHandleVerifier [0x0x7ff6c5eefcc9+113065]
+	GetHandleVerifier [0x0x7ff6c5ed6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 19:04:57,213 - INFO - Fetching eBay page 24: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=24
+2025-07-01 19:05:07,673 - ERROR - Page 24 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6c5ee6f95+76917]
+	GetHandleVerifier [0x0x7ff6c5ee6ff0+77008]
+	(No symbol) [0x0x7ff6c5c99dea]
+	(No symbol) [0x0x7ff6c5cf0256]
+	(No symbol) [0x0x7ff6c5cf050c]
+	(No symbol) [0x0x7ff6c5d43887]
+	(No symbol) [0x0x7ff6c5d184af]
+	(No symbol) [0x0x7ff6c5d4065c]
+	(No symbol) [0x0x7ff6c5d18243]
+	(No symbol) [0x0x7ff6c5ce1431]
+	(No symbol) [0x0x7ff6c5ce21c3]
+	GetHandleVerifier [0x0x7ff6c61bd2cd+3051437]
+	GetHandleVerifier [0x0x7ff6c61b7923+3028483]
+	GetHandleVerifier [0x0x7ff6c61d58bd+3151261]
+	GetHandleVerifier [0x0x7ff6c5f0185e+185662]
+	GetHandleVerifier [0x0x7ff6c5f0971f+218111]
+	GetHandleVerifier [0x0x7ff6c5eefb14+112628]
+	GetHandleVerifier [0x0x7ff6c5eefcc9+113065]
+	GetHandleVerifier [0x0x7ff6c5ed6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 19:05:08,455 - INFO - Fetching eBay page 25: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=25
+2025-07-01 19:05:18,872 - ERROR - Page 25 load failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6c5ee6f95+76917]
+	GetHandleVerifier [0x0x7ff6c5ee6ff0+77008]
+	(No symbol) [0x0x7ff6c5c99dea]
+	(No symbol) [0x0x7ff6c5cf0256]
+	(No symbol) [0x0x7ff6c5cf050c]
+	(No symbol) [0x0x7ff6c5d43887]
+	(No symbol) [0x0x7ff6c5d184af]
+	(No symbol) [0x0x7ff6c5d4065c]
+	(No symbol) [0x0x7ff6c5d18243]
+	(No symbol) [0x0x7ff6c5ce1431]
+	(No symbol) [0x0x7ff6c5ce21c3]
+	GetHandleVerifier [0x0x7ff6c61bd2cd+3051437]
+	GetHandleVerifier [0x0x7ff6c61b7923+3028483]
+	GetHandleVerifier [0x0x7ff6c61d58bd+3151261]
+	GetHandleVerifier [0x0x7ff6c5f0185e+185662]
+	GetHandleVerifier [0x0x7ff6c5f0971f+218111]
+	GetHandleVerifier [0x0x7ff6c5eefb14+112628]
+	GetHandleVerifier [0x0x7ff6c5eefcc9+113065]
+	GetHandleVerifier [0x0x7ff6c5ed6c98+10616]
+	BaseThreadInitThunk [0x0x7ff8ecd2259d+29]
+	RtlUserThreadStart [0x0x7ff8edbeaf58+40]
+
+2025-07-01 19:05:18,872 - INFO - Total eBay items inserted: 240
+2025-07-01 19:05:21,488 - INFO - Running Newegg scraper...
+2025-07-01 19:05:26,558 - INFO - Fetching Newegg page 1: https://www.newegg.com/p/pl?d=laptop&page=1
+2025-07-01 19:05:27,011 - INFO - Fetching Newegg page 2: https://www.newegg.com/p/pl?d=laptop&page=2
+2025-07-01 19:05:27,559 - INFO - Fetching Newegg page 3: https://www.newegg.com/p/pl?d=laptop&page=3
+2025-07-01 19:05:28,077 - INFO - Fetching Newegg page 4: https://www.newegg.com/p/pl?d=laptop&page=4
+2025-07-01 19:05:28,478 - INFO - Fetching Newegg page 5: https://www.newegg.com/p/pl?d=laptop&page=5
+2025-07-01 19:05:28,945 - INFO - Fetching Newegg page 6: https://www.newegg.com/p/pl?d=laptop&page=6
+2025-07-01 19:05:29,350 - INFO - Fetching Newegg page 7: https://www.newegg.com/p/pl?d=laptop&page=7
+2025-07-01 19:05:29,854 - INFO - Fetching Newegg page 8: https://www.newegg.com/p/pl?d=laptop&page=8
+2025-07-01 19:05:30,360 - INFO - Fetching Newegg page 9: https://www.newegg.com/p/pl?d=laptop&page=9
+2025-07-01 19:05:30,750 - INFO - Fetching Newegg page 10: https://www.newegg.com/p/pl?d=laptop&page=10
+2025-07-01 19:05:31,281 - INFO - Fetching Newegg page 11: https://www.newegg.com/p/pl?d=laptop&page=11
+2025-07-01 19:05:31,683 - INFO - Fetching Newegg page 12: https://www.newegg.com/p/pl?d=laptop&page=12
+2025-07-01 19:05:32,164 - INFO - Fetching Newegg page 13: https://www.newegg.com/p/pl?d=laptop&page=13
+2025-07-01 19:05:32,545 - INFO - Fetching Newegg page 14: https://www.newegg.com/p/pl?d=laptop&page=14
+2025-07-01 19:05:32,929 - INFO - Fetching Newegg page 15: https://www.newegg.com/p/pl?d=laptop&page=15
+2025-07-01 19:05:33,309 - INFO - Fetching Newegg page 16: https://www.newegg.com/p/pl?d=laptop&page=16
+2025-07-01 19:05:33,712 - INFO - Fetching Newegg page 17: https://www.newegg.com/p/pl?d=laptop&page=17
+2025-07-01 19:05:34,167 - INFO - Fetching Newegg page 18: https://www.newegg.com/p/pl?d=laptop&page=18
+2025-07-01 19:05:34,522 - INFO - Fetching Newegg page 19: https://www.newegg.com/p/pl?d=laptop&page=19
+2025-07-01 19:05:35,063 - INFO - Fetching Newegg page 20: https://www.newegg.com/p/pl?d=laptop&page=20
+2025-07-01 19:05:35,108 - INFO - Newegg Selenium: Total inserted = 0
+2025-07-01 19:05:37,348 - INFO - Running Scrapy spider (QuotesToScrape)...
+2025-07-01 19:05:37,470 - INFO - Scrapy 2.13.2 started (bot: scrapybot)
+2025-07-01 19:05:37,804 - INFO - Versions:
+{'lxml': '6.0.0',
+ 'libxml2': '2.11.9',
+ 'cssselect': '1.3.0',
+ 'parsel': '1.10.0',
+ 'w3lib': '2.3.1',
+ 'Twisted': '25.5.0',
+ 'Python': '3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 '
+           '64 bit (AMD64)]',
+ 'pyOpenSSL': '25.1.0 (OpenSSL 3.5.0 8 Apr 2025)',
+ 'cryptography': '45.0.4',
+ 'Platform': 'Windows-11-10.0.22631-SP0'}
+2025-07-01 19:05:38,212 - INFO - Enabled addons:
+[]
+2025-07-01 19:05:38,226 - DEBUG - Using selector: SelectSelector
+2025-07-01 19:05:38,229 - DEBUG - Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+2025-07-01 19:05:38,229 - DEBUG - Using asyncio event loop: asyncio.windows_events._WindowsSelectorEventLoop
+2025-07-01 19:05:38,243 - INFO - Telnet Password: 7b7f9f9a7b7c0d2b
+2025-07-01 19:05:38,338 - INFO - Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2025-07-01 19:05:38,339 - INFO - Overridden settings:
+{'LOG_ENABLED': False}
+2025-07-01 19:05:38,648 - INFO - Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2025-07-01 19:05:38,667 - INFO - Enabled spider middlewares:
+['scrapy.spidermiddlewares.start.StartSpiderMiddleware',
+ 'scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2025-07-01 19:05:38,670 - INFO - Enabled item pipelines:
+[]
+2025-07-01 19:05:38,672 - INFO - Spider opened
+2025-07-01 19:05:38,692 - INFO - Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-07-01 19:05:38,694 - INFO - Telnet console listening on 127.0.0.1:6023
+2025-07-01 19:05:39,901 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com> (referer: None)
+2025-07-01 19:05:40,310 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/2/> (referer: http://quotes.toscrape.com)
+2025-07-01 19:05:40,708 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/3/> (referer: http://quotes.toscrape.com/page/2/)
+2025-07-01 19:05:41,096 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/4/> (referer: http://quotes.toscrape.com/page/3/)
+2025-07-01 19:05:41,487 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/5/> (referer: http://quotes.toscrape.com/page/4/)
+2025-07-01 19:05:41,877 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/6/> (referer: http://quotes.toscrape.com/page/5/)
+2025-07-01 19:05:42,268 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/7/> (referer: http://quotes.toscrape.com/page/6/)
+2025-07-01 19:05:42,660 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/8/> (referer: http://quotes.toscrape.com/page/7/)
+2025-07-01 19:05:43,067 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/9/> (referer: http://quotes.toscrape.com/page/8/)
+2025-07-01 19:05:43,457 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/10/> (referer: http://quotes.toscrape.com/page/9/)
+2025-07-01 19:05:43,670 - INFO - Closing spider (finished)
+2025-07-01 19:05:43,673 - INFO - Stored json feed (0 items) in: data_output/raw/quotes.json
+2025-07-01 19:05:43,675 - INFO - Dumping Scrapy stats:
+{'downloader/request_bytes': 2661,
+ 'downloader/request_count': 10,
+ 'downloader/request_method_count/GET': 10,
+ 'downloader/response_bytes': 109860,
+ 'downloader/response_count': 10,
+ 'downloader/response_status_count/200': 10,
+ 'elapsed_time_seconds': 4.978864,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2025, 7, 1, 15, 5, 43, 670807, tzinfo=datetime.timezone.utc),
+ 'items_per_minute': 0.0,
+ 'log_count/DEBUG': 13,
+ 'log_count/INFO': 11,
+ 'request_depth_max': 9,
+ 'response_received_count': 10,
+ 'responses_per_minute': 150.0,
+ 'scheduler/dequeued': 10,
+ 'scheduler/dequeued/memory': 10,
+ 'scheduler/enqueued': 10,
+ 'scheduler/enqueued/memory': 10,
+ 'start_time': datetime.datetime(2025, 7, 1, 15, 5, 38, 691943, tzinfo=datetime.timezone.utc)}
+2025-07-01 19:05:43,676 - INFO - Spider closed (finished)
+2025-07-01 19:11:30,601 - INFO - Creating database tables...
+2025-07-01 19:11:30,612 - INFO - Running Amazon scraper...
+2025-07-01 19:11:30,612 - INFO - Fetching Amazon URL: https://www.amazon.com/s?k=laptop
+2025-07-01 19:11:33,890 - INFO - Amazon inserted 22 titles
+2025-07-01 19:11:33,892 - INFO - Running eBay scraper...
+2025-07-01 19:11:39,544 - INFO - Fetching eBay page 1: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=1
+2025-07-01 19:11:52,093 - INFO - Fetching eBay page 2: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=2
+2025-07-01 19:12:02,353 - INFO - Fetching eBay page 3: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=3
+2025-07-01 19:12:12,697 - INFO - Fetching eBay page 4: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=4
+2025-07-01 19:12:21,163 - INFO - Total eBay items inserted: 240
+2025-07-01 19:12:23,678 - INFO - Running Newegg scraper...
+2025-07-01 19:12:26,925 - INFO - Fetching Newegg page 1: https://www.newegg.com/p/pl?d=laptop&page=1
+2025-07-01 19:12:37,296 - WARNING - Failed to load Newegg page 1: Message: 
+
+2025-07-01 19:12:38,261 - INFO - Fetching Newegg page 2: https://www.newegg.com/p/pl?d=laptop&page=2
+2025-07-01 19:12:48,654 - WARNING - Failed to load Newegg page 2: Message: 
+
+2025-07-01 19:12:49,278 - INFO - Fetching Newegg page 3: https://www.newegg.com/p/pl?d=laptop&page=3
+2025-07-01 19:12:59,748 - WARNING - Failed to load Newegg page 3: Message: 
+
+2025-07-01 19:13:00,437 - INFO - Fetching Newegg page 4: https://www.newegg.com/p/pl?d=laptop&page=4
+2025-07-01 19:13:10,831 - WARNING - Failed to load Newegg page 4: Message: 
+
+2025-07-01 19:13:10,831 - INFO - Newegg Selenium: Total inserted = 0
+2025-07-01 19:13:13,235 - INFO - Running Scrapy spider (QuotesToScrape)...
+2025-07-01 19:13:13,251 - INFO - Scrapy 2.13.2 started (bot: scrapybot)
+2025-07-01 19:13:13,348 - INFO - Versions:
+{'lxml': '6.0.0',
+ 'libxml2': '2.11.9',
+ 'cssselect': '1.3.0',
+ 'parsel': '1.10.0',
+ 'w3lib': '2.3.1',
+ 'Twisted': '25.5.0',
+ 'Python': '3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 '
+           '64 bit (AMD64)]',
+ 'pyOpenSSL': '25.1.0 (OpenSSL 3.5.0 8 Apr 2025)',
+ 'cryptography': '45.0.4',
+ 'Platform': 'Windows-11-10.0.22631-SP0'}
+2025-07-01 19:13:13,353 - INFO - Enabled addons:
+[]
+2025-07-01 19:13:13,366 - DEBUG - Using selector: SelectSelector
+2025-07-01 19:13:13,371 - DEBUG - Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+2025-07-01 19:13:13,372 - DEBUG - Using asyncio event loop: asyncio.windows_events._WindowsSelectorEventLoop
+2025-07-01 19:13:13,385 - INFO - Telnet Password: 5f84b4acbf01788b
+2025-07-01 19:13:13,487 - INFO - Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2025-07-01 19:13:13,487 - INFO - Overridden settings:
+{'LOG_ENABLED': False}
+2025-07-01 19:13:13,790 - INFO - Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2025-07-01 19:13:13,809 - INFO - Enabled spider middlewares:
+['scrapy.spidermiddlewares.start.StartSpiderMiddleware',
+ 'scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2025-07-01 19:13:13,812 - INFO - Enabled item pipelines:
+[]
+2025-07-01 19:13:13,815 - INFO - Spider opened
+2025-07-01 19:13:13,834 - INFO - Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-07-01 19:13:13,836 - INFO - Telnet console listening on 127.0.0.1:6023
+2025-07-01 19:13:14,611 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com> (referer: None)
+2025-07-01 19:13:15,297 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/2/> (referer: http://quotes.toscrape.com)
+2025-07-01 19:13:15,796 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/3/> (referer: http://quotes.toscrape.com/page/2/)
+2025-07-01 19:13:16,284 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/4/> (referer: http://quotes.toscrape.com/page/3/)
+2025-07-01 19:13:17,156 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/5/> (referer: http://quotes.toscrape.com/page/4/)
+2025-07-01 19:13:17,884 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/6/> (referer: http://quotes.toscrape.com/page/5/)
+2025-07-01 19:13:18,435 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/7/> (referer: http://quotes.toscrape.com/page/6/)
+2025-07-01 19:13:18,918 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/8/> (referer: http://quotes.toscrape.com/page/7/)
+2025-07-01 19:13:19,404 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/9/> (referer: http://quotes.toscrape.com/page/8/)
+2025-07-01 19:13:19,905 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/10/> (referer: http://quotes.toscrape.com/page/9/)
+2025-07-01 19:13:20,208 - INFO - Closing spider (finished)
+2025-07-01 19:13:20,211 - INFO - Stored json feed (0 items) in: data_output/raw/quotes.json
+2025-07-01 19:13:20,213 - INFO - Dumping Scrapy stats:
+{'downloader/request_bytes': 2661,
+ 'downloader/request_count': 10,
+ 'downloader/request_method_count/GET': 10,
+ 'downloader/response_bytes': 109860,
+ 'downloader/response_count': 10,
+ 'downloader/response_status_count/200': 10,
+ 'elapsed_time_seconds': 6.373883,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2025, 7, 1, 15, 13, 20, 208448, tzinfo=datetime.timezone.utc),
+ 'items_per_minute': 0.0,
+ 'log_count/DEBUG': 13,
+ 'log_count/INFO': 11,
+ 'request_depth_max': 9,
+ 'response_received_count': 10,
+ 'responses_per_minute': 100.0,
+ 'scheduler/dequeued': 10,
+ 'scheduler/dequeued/memory': 10,
+ 'scheduler/enqueued': 10,
+ 'scheduler/enqueued/memory': 10,
+ 'start_time': datetime.datetime(2025, 7, 1, 15, 13, 13, 834565, tzinfo=datetime.timezone.utc)}
+2025-07-01 19:13:20,213 - INFO - Spider closed (finished)
+2025-07-01 19:19:11,369 - INFO - Creating database tables...
+2025-07-01 19:19:11,381 - INFO - Running Amazon scraper...
+2025-07-01 19:19:11,381 - INFO - Fetching Amazon URL: https://www.amazon.com/s?k=laptop
+2025-07-01 19:19:15,115 - INFO - Amazon inserted 16 titles
+2025-07-01 19:19:15,118 - INFO - Running eBay scraper...
+2025-07-01 19:19:20,880 - INFO - Fetching eBay page 1: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=1
+2025-07-01 19:19:31,613 - INFO - Fetching eBay page 2: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=2
+2025-07-01 19:19:42,887 - INFO - Fetching eBay page 3: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=3
+2025-07-01 19:19:53,258 - INFO - Fetching eBay page 4: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=4
+2025-07-01 19:20:00,037 - INFO - Total eBay items inserted: 240
+2025-07-01 19:20:02,425 - INFO - Running Newegg scraper...
+2025-07-01 19:20:06,209 - INFO - Fetching Newegg page 1: https://www.newegg.com/p/pl?d=laptop&page=1
+2025-07-01 19:20:16,637 - WARNING - Failed to load Newegg page 1: Message: 
+
+2025-07-01 19:20:17,755 - INFO - Fetching Newegg page 2: https://www.newegg.com/p/pl?d=laptop&page=2
+2025-07-01 19:20:28,218 - WARNING - Failed to load Newegg page 2: Message: 
+
+2025-07-01 19:20:28,876 - INFO - Fetching Newegg page 3: https://www.newegg.com/p/pl?d=laptop&page=3
+2025-07-01 19:20:39,301 - WARNING - Failed to load Newegg page 3: Message: 
+
+2025-07-01 19:20:39,858 - INFO - Fetching Newegg page 4: https://www.newegg.com/p/pl?d=laptop&page=4
+2025-07-01 19:20:50,224 - WARNING - Failed to load Newegg page 4: Message: 
+
+2025-07-01 19:20:50,225 - INFO - Newegg Selenium: Total inserted = 0
+2025-07-01 19:20:52,550 - INFO - Running Scrapy spider (QuotesToScrape)...
+2025-07-01 19:20:52,643 - INFO - Scrapy 2.13.2 started (bot: scrapybot)
+2025-07-01 19:20:52,776 - INFO - Versions:
+{'lxml': '6.0.0',
+ 'libxml2': '2.11.9',
+ 'cssselect': '1.3.0',
+ 'parsel': '1.10.0',
+ 'w3lib': '2.3.1',
+ 'Twisted': '25.5.0',
+ 'Python': '3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 '
+           '64 bit (AMD64)]',
+ 'pyOpenSSL': '25.1.0 (OpenSSL 3.5.0 8 Apr 2025)',
+ 'cryptography': '45.0.4',
+ 'Platform': 'Windows-11-10.0.22631-SP0'}
+2025-07-01 19:20:52,800 - INFO - Enabled addons:
+[]
+2025-07-01 19:20:52,838 - DEBUG - Using selector: SelectSelector
+2025-07-01 19:20:52,854 - DEBUG - Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+2025-07-01 19:20:52,855 - DEBUG - Using asyncio event loop: asyncio.windows_events._WindowsSelectorEventLoop
+2025-07-01 19:20:53,189 - INFO - Telnet Password: d7632900c34b9d26
+2025-07-01 19:20:53,292 - INFO - Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2025-07-01 19:20:53,294 - INFO - Overridden settings:
+{'LOG_ENABLED': False}
+2025-07-01 19:20:53,629 - INFO - Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2025-07-01 19:20:53,650 - INFO - Enabled spider middlewares:
+['scrapy.spidermiddlewares.start.StartSpiderMiddleware',
+ 'scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2025-07-01 19:20:53,654 - INFO - Enabled item pipelines:
+[]
+2025-07-01 19:20:53,656 - INFO - Spider opened
+2025-07-01 19:20:53,678 - INFO - Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-07-01 19:20:53,681 - INFO - Telnet console listening on 127.0.0.1:6023
+2025-07-01 19:20:55,045 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com> (referer: None)
+2025-07-01 19:20:55,447 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/2/> (referer: http://quotes.toscrape.com)
+2025-07-01 19:20:55,838 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/3/> (referer: http://quotes.toscrape.com/page/2/)
+2025-07-01 19:20:56,225 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/4/> (referer: http://quotes.toscrape.com/page/3/)
+2025-07-01 19:20:56,619 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/5/> (referer: http://quotes.toscrape.com/page/4/)
+2025-07-01 19:20:57,014 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/6/> (referer: http://quotes.toscrape.com/page/5/)
+2025-07-01 19:20:57,399 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/7/> (referer: http://quotes.toscrape.com/page/6/)
+2025-07-01 19:20:57,779 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/8/> (referer: http://quotes.toscrape.com/page/7/)
+2025-07-01 19:20:58,172 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/9/> (referer: http://quotes.toscrape.com/page/8/)
+2025-07-01 19:20:59,152 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/10/> (referer: http://quotes.toscrape.com/page/9/)
+2025-07-01 19:20:59,375 - INFO - Closing spider (finished)
+2025-07-01 19:20:59,377 - INFO - Stored json feed (0 items) in: data_output/raw/quotes.json
+2025-07-01 19:20:59,379 - INFO - Dumping Scrapy stats:
+{'downloader/request_bytes': 2661,
+ 'downloader/request_count': 10,
+ 'downloader/request_method_count/GET': 10,
+ 'downloader/response_bytes': 109860,
+ 'downloader/response_count': 10,
+ 'downloader/response_status_count/200': 10,
+ 'elapsed_time_seconds': 5.697408,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2025, 7, 1, 15, 20, 59, 375314, tzinfo=datetime.timezone.utc),
+ 'items_per_minute': 0.0,
+ 'log_count/DEBUG': 13,
+ 'log_count/INFO': 11,
+ 'request_depth_max': 9,
+ 'response_received_count': 10,
+ 'responses_per_minute': 120.0,
+ 'scheduler/dequeued': 10,
+ 'scheduler/dequeued/memory': 10,
+ 'scheduler/enqueued': 10,
+ 'scheduler/enqueued/memory': 10,
+ 'start_time': datetime.datetime(2025, 7, 1, 15, 20, 53, 677906, tzinfo=datetime.timezone.utc)}
+2025-07-01 19:20:59,379 - INFO - Spider closed (finished)
+2025-07-01 20:59:51,542 - INFO - Creating database tables...
+2025-07-01 20:59:51,555 - INFO - Running Amazon scraper...
+2025-07-01 20:59:51,555 - INFO - Fetching Amazon URL: https://www.amazon.com/s?k=laptop
+2025-07-01 20:59:54,513 - INFO - Amazon inserted 21 titles
+2025-07-01 20:59:54,514 - INFO - Running eBay scraper...
+2025-07-01 21:00:03,920 - INFO - Fetching eBay page 1: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=1
+2025-07-01 21:00:06,583 - INFO - Fetching eBay page 2: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=2
+2025-07-01 21:00:09,896 - INFO - Fetching eBay page 3: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=3
+2025-07-01 21:00:13,465 - INFO - Fetching eBay page 4: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=4
+2025-07-01 21:00:13,777 - INFO - Total eBay items inserted: 0
+2025-07-01 21:00:15,967 - INFO - Running Newegg scraper...
+2025-07-01 21:00:21,158 - INFO - Fetching Newegg page 1: https://www.newegg.com/p/pl?d=laptop&page=1
+2025-07-01 21:00:31,374 - WARNING - Failed to load Newegg page 1: Message: 
+
+2025-07-01 21:00:32,836 - INFO - Fetching Newegg page 2: https://www.newegg.com/p/pl?d=laptop&page=2
+2025-07-01 21:00:43,084 - WARNING - Failed to load Newegg page 2: Message: 
+
+2025-07-01 21:00:43,796 - INFO - Fetching Newegg page 3: https://www.newegg.com/p/pl?d=laptop&page=3
+2025-07-01 21:00:53,988 - WARNING - Failed to load Newegg page 3: Message: 
+
+2025-07-01 21:00:54,849 - INFO - Fetching Newegg page 4: https://www.newegg.com/p/pl?d=laptop&page=4
+2025-07-01 21:01:05,081 - WARNING - Failed to load Newegg page 4: Message: 
+
+2025-07-01 21:01:05,081 - INFO - Newegg Selenium: Total inserted = 0
+2025-07-01 21:01:07,313 - INFO - Running Scrapy spider (QuotesToScrape)...
+2025-07-01 21:01:07,450 - INFO - Scrapy 2.13.2 started (bot: scrapybot)
+2025-07-01 21:01:07,634 - INFO - Versions:
+{'lxml': '6.0.0',
+ 'libxml2': '2.11.9',
+ 'cssselect': '1.3.0',
+ 'parsel': '1.10.0',
+ 'w3lib': '2.3.1',
+ 'Twisted': '25.5.0',
+ 'Python': '3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 '
+           '64 bit (AMD64)]',
+ 'pyOpenSSL': '25.1.0 (OpenSSL 3.5.0 8 Apr 2025)',
+ 'cryptography': '45.0.4',
+ 'Platform': 'Windows-11-10.0.22631-SP0'}
+2025-07-01 21:01:07,640 - INFO - Enabled addons:
+[]
+2025-07-01 21:01:07,653 - DEBUG - Using selector: SelectSelector
+2025-07-01 21:01:07,659 - DEBUG - Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+2025-07-01 21:01:07,659 - DEBUG - Using asyncio event loop: asyncio.windows_events._WindowsSelectorEventLoop
+2025-07-01 21:01:07,669 - INFO - Telnet Password: 6dabe882533e5b19
+2025-07-01 21:01:07,743 - INFO - Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2025-07-01 21:01:07,744 - INFO - Overridden settings:
+{'LOG_ENABLED': False}
+2025-07-01 21:01:07,972 - INFO - Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2025-07-01 21:01:07,984 - INFO - Enabled spider middlewares:
+['scrapy.spidermiddlewares.start.StartSpiderMiddleware',
+ 'scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2025-07-01 21:01:07,988 - INFO - Enabled item pipelines:
+[]
+2025-07-01 21:01:07,990 - INFO - Spider opened
+2025-07-01 21:01:08,004 - INFO - Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-07-01 21:01:08,006 - INFO - Telnet console listening on 127.0.0.1:6023
+2025-07-01 21:01:09,148 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com> (referer: None)
+2025-07-01 21:01:10,189 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/2/> (referer: http://quotes.toscrape.com)
+2025-07-01 21:01:10,580 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/3/> (referer: http://quotes.toscrape.com/page/2/)
+2025-07-01 21:01:10,923 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/4/> (referer: http://quotes.toscrape.com/page/3/)
+2025-07-01 21:01:12,355 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/5/> (referer: http://quotes.toscrape.com/page/4/)
+2025-07-01 21:01:13,012 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/6/> (referer: http://quotes.toscrape.com/page/5/)
+2025-07-01 21:01:13,779 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/7/> (referer: http://quotes.toscrape.com/page/6/)
+2025-07-01 21:01:14,825 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/8/> (referer: http://quotes.toscrape.com/page/7/)
+2025-07-01 21:01:15,495 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/9/> (referer: http://quotes.toscrape.com/page/8/)
+2025-07-01 21:01:15,949 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/10/> (referer: http://quotes.toscrape.com/page/9/)
+2025-07-01 21:01:16,238 - INFO - Closing spider (finished)
+2025-07-01 21:01:16,240 - INFO - Stored json feed (0 items) in: data_output/raw/quotes.json
+2025-07-01 21:01:16,241 - INFO - Dumping Scrapy stats:
+{'downloader/request_bytes': 2661,
+ 'downloader/request_count': 10,
+ 'downloader/request_method_count/GET': 10,
+ 'downloader/response_bytes': 109860,
+ 'downloader/response_count': 10,
+ 'downloader/response_status_count/200': 10,
+ 'elapsed_time_seconds': 8.234304,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2025, 7, 1, 17, 1, 16, 238381, tzinfo=datetime.timezone.utc),
+ 'items_per_minute': 0.0,
+ 'log_count/DEBUG': 13,
+ 'log_count/INFO': 11,
+ 'request_depth_max': 9,
+ 'response_received_count': 10,
+ 'responses_per_minute': 75.0,
+ 'scheduler/dequeued': 10,
+ 'scheduler/dequeued/memory': 10,
+ 'scheduler/enqueued': 10,
+ 'scheduler/enqueued/memory': 10,
+ 'start_time': datetime.datetime(2025, 7, 1, 17, 1, 8, 4077, tzinfo=datetime.timezone.utc)}
+2025-07-01 21:01:16,241 - INFO - Spider closed (finished)
+2025-07-01 21:05:06,610 - INFO - Creating database tables...
+2025-07-01 21:05:06,617 - INFO - Running Amazon scraper...
+2025-07-01 21:05:06,617 - INFO - Fetching Amazon URL: https://www.amazon.com/s?k=laptop
+2025-07-01 21:05:09,421 - INFO - Amazon inserted 16 titles
+2025-07-01 21:05:09,422 - INFO - Running eBay scraper...
+2025-07-01 21:05:17,068 - INFO - Fetching eBay page 1: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=1
+2025-07-01 21:05:24,850 - INFO - Fetching eBay page 2: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=2
+2025-07-01 21:05:33,590 - INFO - Fetching eBay page 3: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=3
+2025-07-01 21:05:40,602 - INFO - Fetching eBay page 4: https://www.ebay.com/sch/i.html?_nkw=laptop&_pgn=4
+2025-07-01 21:05:44,882 - INFO - Total eBay items inserted: 240
+2025-07-01 21:05:47,173 - INFO - Running Newegg scraper...
+2025-07-01 21:05:50,327 - INFO - Fetching Newegg page 1: https://www.newegg.com/p/pl?d=laptop&page=1
+2025-07-01 21:06:00,548 - WARNING - Failed to load Newegg page 1: Message: 
+
+2025-07-01 21:06:01,536 - INFO - Fetching Newegg page 2: https://www.newegg.com/p/pl?d=laptop&page=2
+2025-07-01 21:06:11,756 - WARNING - Failed to load Newegg page 2: Message: 
+
+2025-07-01 21:06:12,593 - INFO - Fetching Newegg page 3: https://www.newegg.com/p/pl?d=laptop&page=3
+2025-07-01 21:06:22,834 - WARNING - Failed to load Newegg page 3: Message: 
+
+2025-07-01 21:06:23,662 - INFO - Fetching Newegg page 4: https://www.newegg.com/p/pl?d=laptop&page=4
+2025-07-01 21:06:33,877 - WARNING - Failed to load Newegg page 4: Message: 
+
+2025-07-01 21:06:33,877 - INFO - Newegg Selenium: Total inserted = 0
+2025-07-01 21:06:36,041 - INFO - Running Scrapy spider (QuotesToScrape)...
+2025-07-01 21:06:36,060 - INFO - Scrapy 2.13.2 started (bot: scrapybot)
+2025-07-01 21:06:36,139 - INFO - Versions:
+{'lxml': '6.0.0',
+ 'libxml2': '2.11.9',
+ 'cssselect': '1.3.0',
+ 'parsel': '1.10.0',
+ 'w3lib': '2.3.1',
+ 'Twisted': '25.5.0',
+ 'Python': '3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 '
+           '64 bit (AMD64)]',
+ 'pyOpenSSL': '25.1.0 (OpenSSL 3.5.0 8 Apr 2025)',
+ 'cryptography': '45.0.4',
+ 'Platform': 'Windows-11-10.0.22631-SP0'}
+2025-07-01 21:06:36,143 - INFO - Enabled addons:
+[]
+2025-07-01 21:06:36,153 - DEBUG - Using selector: SelectSelector
+2025-07-01 21:06:36,156 - DEBUG - Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+2025-07-01 21:06:36,156 - DEBUG - Using asyncio event loop: asyncio.windows_events._WindowsSelectorEventLoop
+2025-07-01 21:06:36,164 - INFO - Telnet Password: 4765b78bccd2f475
+2025-07-01 21:06:36,223 - INFO - Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2025-07-01 21:06:36,223 - INFO - Overridden settings:
+{'LOG_ENABLED': False}
+2025-07-01 21:06:36,384 - INFO - Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2025-07-01 21:06:36,394 - INFO - Enabled spider middlewares:
+['scrapy.spidermiddlewares.start.StartSpiderMiddleware',
+ 'scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2025-07-01 21:06:36,396 - INFO - Enabled item pipelines:
+[]
+2025-07-01 21:06:36,398 - INFO - Spider opened
+2025-07-01 21:06:36,407 - INFO - Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-07-01 21:06:36,408 - INFO - Telnet console listening on 127.0.0.1:6023
+2025-07-01 21:06:37,066 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com> (referer: None)
+2025-07-01 21:06:37,414 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/2/> (referer: http://quotes.toscrape.com)
+2025-07-01 21:06:37,956 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/3/> (referer: http://quotes.toscrape.com/page/2/)
+2025-07-01 21:06:38,294 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/4/> (referer: http://quotes.toscrape.com/page/3/)
+2025-07-01 21:06:38,637 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/5/> (referer: http://quotes.toscrape.com/page/4/)
+2025-07-01 21:06:38,982 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/6/> (referer: http://quotes.toscrape.com/page/5/)
+2025-07-01 21:06:39,316 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/7/> (referer: http://quotes.toscrape.com/page/6/)
+2025-07-01 21:06:39,666 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/8/> (referer: http://quotes.toscrape.com/page/7/)
+2025-07-01 21:06:40,007 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/9/> (referer: http://quotes.toscrape.com/page/8/)
+2025-07-01 21:06:41,749 - DEBUG - Crawled (200) <GET http://quotes.toscrape.com/page/10/> (referer: http://quotes.toscrape.com/page/9/)
+2025-07-01 21:06:41,914 - INFO - Closing spider (finished)
+2025-07-01 21:06:41,916 - INFO - Stored json feed (0 items) in: data_output/raw/quotes.json
+2025-07-01 21:06:41,916 - INFO - Dumping Scrapy stats:
+{'downloader/request_bytes': 2661,
+ 'downloader/request_count': 10,
+ 'downloader/request_method_count/GET': 10,
+ 'downloader/response_bytes': 109860,
+ 'downloader/response_count': 10,
+ 'downloader/response_status_count/200': 10,
+ 'elapsed_time_seconds': 5.507644,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2025, 7, 1, 17, 6, 41, 915322, tzinfo=datetime.timezone.utc),
+ 'items_per_minute': 0.0,
+ 'log_count/DEBUG': 13,
+ 'log_count/INFO': 11,
+ 'request_depth_max': 9,
+ 'response_received_count': 10,
+ 'responses_per_minute': 120.0,
+ 'scheduler/dequeued': 10,
+ 'scheduler/dequeued/memory': 10,
+ 'scheduler/enqueued': 10,
+ 'scheduler/enqueued/memory': 10,
+ 'start_time': datetime.datetime(2025, 7, 1, 17, 6, 36, 407678, tzinfo=datetime.timezone.utc)}
+2025-07-01 21:06:41,917 - INFO - Spider closed (finished)
+2025-07-01 21:08:53,039 - INFO - Generating final report...
+2025-07-01 21:08:55,382 - INFO - Final cleaned item count: 575
+2025-07-01 21:09:39,652 - INFO - Generating final report...
+2025-07-01 21:09:40,306 - INFO - Final cleaned item count: 575
